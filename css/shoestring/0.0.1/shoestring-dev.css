@@ -1,0 +1,456 @@
+/* ShoeString.css - A css framework for learning CSS frameworks
+ */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/* line 4, ../../../sass/shoestring/normalize/body.sass */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkist-text-size-adjust: 100%; }
+
+/* line 11, ../../../sass/shoestring/normalize/body.sass */
+body {
+  margin: 0; }
+
+/* line 9, /vagrant/project-shoestring-sass/sass/shoestring/normalize/html5.sass */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 29, /vagrant/project-shoestring-sass/sass/shoestring/normalize/html5.sass */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 42, /vagrant/project-shoestring-sass/sass/shoestring/normalize/html5.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 52, /vagrant/project-shoestring-sass/sass/shoestring/normalize/html5.sass */
+[hidden],
+template {
+  display: none; }
+
+/* line 8, /vagrant/project-shoestring-sass/sass/shoestring/normalize/links.sass */
+a {
+  background: transparent; }
+
+/* line 16, /vagrant/project-shoestring-sass/sass/shoestring/normalize/links.sass */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* line 8, /vagrant/project-shoestring-sass/sass/shoestring/normalize/text-semantics.sass */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 16, /vagrant/project-shoestring-sass/sass/shoestring/normalize/text-semantics.sass */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 25, /vagrant/project-shoestring-sass/sass/shoestring/normalize/text-semantics.sass */
+dfn {
+  font-style: italic; }
+
+/* line 34, /vagrant/project-shoestring-sass/sass/shoestring/normalize/text-semantics.sass */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 43, /vagrant/project-shoestring-sass/sass/shoestring/normalize/text-semantics.sass */
+mark {
+  background: yellow;
+  color: black; }
+
+/* line 52, /vagrant/project-shoestring-sass/sass/shoestring/normalize/text-semantics.sass */
+small {
+  font-size: 80%; }
+
+/* line 60, /vagrant/project-shoestring-sass/sass/shoestring/normalize/text-semantics.sass */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 68, /vagrant/project-shoestring-sass/sass/shoestring/normalize/text-semantics.sass */
+sup {
+  top: -0.5em; }
+
+/* line 72, /vagrant/project-shoestring-sass/sass/shoestring/normalize/text-semantics.sass */
+sub {
+  bottom: -0.25em; }
+
+/* line 6, /vagrant/project-shoestring-sass/sass/shoestring/normalize/embedded-content.sass */
+img {
+  border: 0; }
+
+/* line 11, /vagrant/project-shoestring-sass/sass/shoestring/normalize/embedded-content.sass */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 8, /vagrant/project-shoestring-sass/sass/shoestring/normalize/grouping.sass */
+figure {
+  margin: 1em 40px; }
+
+/* line 16, /vagrant/project-shoestring-sass/sass/shoestring/normalize/grouping.sass */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 26, /vagrant/project-shoestring-sass/sass/shoestring/normalize/grouping.sass */
+pre {
+  overflow: auto; }
+
+/* line 34, /vagrant/project-shoestring-sass/sass/shoestring/normalize/grouping.sass */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 13, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 26, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+button {
+  overflow: visible; }
+
+/* line 36, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+button,
+select {
+  text-transform: none; }
+
+/* line 50, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 59, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/* line 67, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 77, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+input {
+  line-height: normal; }
+
+/* line 87, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 98, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 108, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 120, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 128, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 138, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 146, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+textarea {
+  overflow: auto; }
+
+/* line 154, /vagrant/project-shoestring-sass/sass/shoestring/normalize/forms.sass */
+optgroup {
+  font-weight: bold; }
+
+/* line 8, /vagrant/project-shoestring-sass/sass/shoestring/normalize/tables.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 13, /vagrant/project-shoestring-sass/sass/shoestring/normalize/tables.sass */
+td,
+th {
+  padding: 0; }
+
+/* line 10, ../../../sass/shoestring/clearfix.sass */
+.cf:before, .container:before, .full-width-container:before,
+.cf:after,
+.container:after,
+.full-width-container:after {
+  content: " ";
+  display: table; }
+
+/* line 16, ../../../sass/shoestring/clearfix.sass */
+.cf:after, .container:after, .full-width-container:after {
+  clear: both; }
+
+/* line 24, ../../../sass/shoestring/clearfix.sass */
+.cf, .container, .full-width-container {
+  *zoom: 1; }
+
+/* line 5, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+html {
+  font-size: 100%; }
+
+@media (min-width: 40rem) {
+  /* line 10, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  html {
+    font-size: 112%; } }
+@media (min-width: 64rem) {
+  /* line 15, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  html {
+    font-size: 120%; } }
+/* line 18, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 21, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+.container {
+  margin: 0 auto;
+  max-width: 48em;
+  width: 90%; }
+  /* line 25, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .container.demo {
+    margin-bottom: 10px; }
+
+/* line 28, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+.container-full-width {
+  margin: 0 auto;
+  width: 100%; }
+
+/* line 34, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+.column.demo {
+  background: #1abc9c; }
+
+/* line 38, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+.column {
+  float: left;
+  margin-right: 1rem;
+  padding-right: 1rem;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+  /* line 43, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .column.full {
+    width: 100%; }
+  /* line 45, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .column.two-thirds {
+    width: 63.7%; }
+  /* line 47, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .column.half {
+    width: 47.5%; }
+  /* line 49, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .column.third {
+    width: 31.2%; }
+  /* line 51, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .column.fourth {
+    width: 22.5%; }
+  /* line 53, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .column.fourth-padded {
+    width: 23%;
+    margin-right: 2%; }
+  /* line 56, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .column.three-fourths {
+    width: 72.9%; }
+  /* line 58, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .column.flow-opposite {
+    float: right;
+    padding-right: 0;
+    margin-right: 0; }
+  /* line 65, /vagrant/project-shoestring-sass/sass/shoestring/grid.sass */
+  .column img {
+    width: 100%; }
+
+/* line 23, ../../../sass/shoestring/button.sass */
+a.button, a.button:visited, input[type=button].button, input[type=submit].button, button.button {
+  color: white;
+  display: inline-block;
+  border: 0px;
+  background: #9b59b6;
+  text-decoration: none;
+  padding: 5px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ma-user-select: none;
+  user-select: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+  /* line 25, ../../../sass/shoestring/button.sass */
+  a.button:hover, input[type=button].button:hover, input[type=submit].button:hover, button.button:hover {
+    background: #8e44ad; }
+  /* line 27, ../../../sass/shoestring/button.sass */
+  a.button:active, input[type=button].button:active, input[type=submit].button:active, button.button:active {
+    background: #703688; }
+  /* line 32, ../../../sass/shoestring/button.sass */
+  a.button.primary, input.primary[type=button].button, input.primary[type=submit].button, button.primary.button {
+    color: white;
+    background: #428bca;
+    border: 0px; }
+    /* line 36, ../../../sass/shoestring/button.sass */
+    a.button.primary:hover, input.primary[type=button].button:hover, input.primary[type=submit].button:hover, button.primary.button:hover {
+      background: #3071a9;
+      border: 0px; }
+    /* line 39, ../../../sass/shoestring/button.sass */
+    a.button.primary:active, input.primary[type=button].button:active, input.primary[type=submit].button:active, button.primary.button:active {
+      background: #2a6496;
+      border: 0px; }
+  /* line 32, ../../../sass/shoestring/button.sass */
+  a.button.success, input.success[type=button].button, input.success[type=submit].button, button.success.button {
+    color: white;
+    background: #5cb85c;
+    border: 0px; }
+    /* line 36, ../../../sass/shoestring/button.sass */
+    a.button.success:hover, input.success[type=button].button:hover, input.success[type=submit].button:hover, button.success.button:hover {
+      background: #449d44;
+      border: 0px; }
+    /* line 39, ../../../sass/shoestring/button.sass */
+    a.button.success:active, input.success[type=button].button:active, input.success[type=submit].button:active, button.success.button:active {
+      background: #3d8b3d;
+      border: 0px; }
+  /* line 32, ../../../sass/shoestring/button.sass */
+  a.button.info, input.info[type=button].button, input.info[type=submit].button, button.info.button {
+    color: white;
+    background: #5bc0de;
+    border: 0px; }
+    /* line 36, ../../../sass/shoestring/button.sass */
+    a.button.info:hover, input.info[type=button].button:hover, input.info[type=submit].button:hover, button.info.button:hover {
+      background: #31b0d5;
+      border: 0px; }
+    /* line 39, ../../../sass/shoestring/button.sass */
+    a.button.info:active, input.info[type=button].button:active, input.info[type=submit].button:active, button.info.button:active {
+      background: #28a1c5;
+      border: 0px; }
+  /* line 32, ../../../sass/shoestring/button.sass */
+  a.button.warning, input.warning[type=button].button, input.warning[type=submit].button, button.warning.button {
+    color: white;
+    background: #f0ad4e;
+    border: 0px; }
+    /* line 36, ../../../sass/shoestring/button.sass */
+    a.button.warning:hover, input.warning[type=button].button:hover, input.warning[type=submit].button:hover, button.warning.button:hover {
+      background: #ec971f;
+      border: 0px; }
+    /* line 39, ../../../sass/shoestring/button.sass */
+    a.button.warning:active, input.warning[type=button].button:active, input.warning[type=submit].button:active, button.warning.button:active {
+      background: #df8a13;
+      border: 0px; }
+  /* line 32, ../../../sass/shoestring/button.sass */
+  a.button.danger, input.danger[type=button].button, input.danger[type=submit].button, button.danger.button {
+    color: white;
+    background: #d9534f;
+    border: 0px; }
+    /* line 36, ../../../sass/shoestring/button.sass */
+    a.button.danger:hover, input.danger[type=button].button:hover, input.danger[type=submit].button:hover, button.danger.button:hover {
+      background: #c9302c;
+      border: 0px; }
+    /* line 39, ../../../sass/shoestring/button.sass */
+    a.button.danger:active, input.danger[type=button].button:active, input.danger[type=submit].button:active, button.danger.button:active {
+      background: #b52b27;
+      border: 0px; }
+
+/* line 44, ../../../sass/shoestring/button.sass */
+input[type=button].button, input[type=submit].button, button.button {
+  cursor: pointer;
+  outline: none; }
+
+/* line 3, ../../../sass/shoestring/links.sass */
+a {
+  color: #9b59b6;
+  text-decoration: none; }
+  /* line 6, ../../../sass/shoestring/links.sass */
+  a:hover {
+    color: #8e44ad; }
+  /* line 8, ../../../sass/shoestring/links.sass */
+  a:active {
+    color: #703688; }
+
+@font-face {
+  font-family: Satellite;
+  src: url("Library/fonts/Satellite.otf");
+  font-style: oblique; }
+@font-face {
+  font-family: Infinity;
+  src: url("Library/fonts/infinity.ttf"); }
+/* line 9, ../../../sass/shoestring/fonts.sass */
+* {
+  font-family: Satellite; }
+
+/* line 12, ../../../sass/shoestring/fonts.sass */
+h1, h2, h3 {
+  font-family: Satellite;
+  font-style: oblique; }
+
+/* line 29, ../../../sass/shoestring/main.sass */
+body {
+  background: white; }
+  /* line 31, ../../../sass/shoestring/main.sass */
+  body h1 {
+    color: black; }
+  /* line 33, ../../../sass/shoestring/main.sass */
+  body h2 {
+    color: black; }
+  /* line 35, ../../../sass/shoestring/main.sass */
+  body h3 {
+    color: #888a87; }
+  /* line 37, ../../../sass/shoestring/main.sass */
+  body p {
+    color: #888a87; }
+
+/* line 40, ../../../sass/shoestring/main.sass */
+.border-tester {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #8e44ad;
+  width: 50px;
+  height: 50px; }

@@ -1,0 +1,47 @@
+@import vars
+@import mixins
+
+@mixin button
+  color: white
+  display: inline-block
+  border: 0px
+  background: $light-purple
+  text-decoration: none
+  padding: 5px
+  +user-select
+  +border-radius(3px)
+
+@mixin button-hover
+  background: $dark-purple
+
+@mixin button-active
+  background: darken($dark-purple, 10%)
+
+//======================
+// actual element
+
+a.button
+  +button
+  &:hover
+    +button-hover
+  &:active
+    +button-active
+  &:visited
+    @extend a.button
+  @each $key, $value in $color-map
+    &.#{$key}
+      color: white
+      background: $value
+      border: 0px
+      &:hover
+        background: darken($value, 10%)
+        border: 0px
+      &:active
+        background: darken($value, 15%)
+        border: 0px
+
+input[type=button], input[type=submit], button
+  &.button
+    @extend a.button
+    cursor: pointer
+    outline: none
