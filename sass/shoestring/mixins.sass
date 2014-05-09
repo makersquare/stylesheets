@@ -1,0 +1,19 @@
+// can set default value ($value: 0px)
+
+@mixin border-radius($radius)
+  -moz-border-radius: $radius
+  -webkit-border-radius: $radius
+  border-radius: $radius
+
+@mixin box-sizing($value: border-box)
+  -moz-box-sizing: $value
+  -webkit-box-sizing: $value
+  box-sizing: $value
+
+@mixin user-select
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ma-user-select: none
+  user-select: none
