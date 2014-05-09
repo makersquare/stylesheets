@@ -1,0 +1,31 @@
+@import vars
+@import mixins
+
+@mixin button
+  color: black
+  display: inline-block
+  border: 1px solid black
+  background: white
+  text-decoration: none
+  padding: 5px
+  +user-select
+  +border-radius(3px)
+
+@mixin button-hover
+  background: $off-white
+
+@mixin button-active
+  background: darken(#ccc, 10%)
+
+//actual elements  below
+
+a.button
+  +button
+  &:hover
+    +button-hover
+  &:active
+    +button-active
+  &:visited
+    @extend a.button
+
+
