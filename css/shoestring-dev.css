@@ -1,67 +1,243 @@
-/*
-Syntax error: File to import not found or unreadable: tables.
-              Load path: /vagrant/html_projects/project_shoestring_sass (DEPRECATED)
-        on line 11 of sass/shoestring/normalize.sass
-        from line 1 of ./sass/shoestring/main.sass
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/* line 7, ../sass/shoestring/normalize/body.sass */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
 
-6:   h1
-7:     color: red
+/* line 16, ../sass/shoestring/normalize/body.sass */
+body {
+  margin: 0; }
 
-Backtrace:
-sass/shoestring/normalize.sass:11
-./sass/shoestring/main.sass:1
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/import_node.rb:66:in `rescue in import'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/import_node.rb:45:in `import'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/import_node.rb:28:in `imported_file'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/import_node.rb:37:in `css_import?'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:283:in `visit_import'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:297:in `block (2 levels) in visit_import'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:297:in `map'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:297:in `block in visit_import'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/stack.rb:88:in `block in with_import'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/stack.rb:88:in `with_import'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:294:in `visit_import'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `map'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:151:in `visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/root_node.rb:36:in `css_tree'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/tree/root_node.rb:20:in `render'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/engine.rb:274:in `render'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:414:in `update_stylesheet'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `each'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:393:in `on_file_changed'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:248:in `block in watch'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/vendor/listen/lib/listen/listener.rb:252:in `call'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/vagrant/html_projects/project_shoestring_sass/vendor/bundle/gems/sass-3.3.7/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: tables.\A               Load path: /vagrant/html_projects/project_shoestring_sass (DEPRECATED)\A         on line 11 of sass/shoestring/normalize.sass\A         from line 1 of ./sass/shoestring/main.sass\A \A 6:   h1\A 7:     color: red"; }
+/* line 10, ../sass/shoestring/normalize/html5.sass */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 29, ../sass/shoestring/normalize/html5.sass */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 41, ../sass/shoestring/normalize/html5.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 50, ../sass/shoestring/normalize/html5.sass */
+[hidden],
+template {
+  display: none; }
+
+/* line 8, ../sass/shoestring/normalize/links.sass */
+a {
+  background: transparent; }
+
+/* line 15, ../sass/shoestring/normalize/links.sass */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* line 8, ../sass/shoestring/normalize/text-semantics.sass */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 15, ../sass/shoestring/normalize/text-semantics.sass */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 23, ../sass/shoestring/normalize/text-semantics.sass */
+dfn {
+  font-style: italic; }
+
+/* line 31, ../sass/shoestring/normalize/text-semantics.sass */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 39, ../sass/shoestring/normalize/text-semantics.sass */
+mark {
+  background: yellow;
+  color: black; }
+
+/* line 47, ../sass/shoestring/normalize/text-semantics.sass */
+small {
+  font-size: 80%; }
+
+/* line 54, ../sass/shoestring/normalize/text-semantics.sass */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 62, ../sass/shoestring/normalize/text-semantics.sass */
+sup {
+  top: -0.5em; }
+
+/* line 65, ../sass/shoestring/normalize/text-semantics.sass */
+sub {
+  bottom: -0.25em; }
+
+/* line 8, ../sass/shoestring/normalize/embedded-content.sass */
+img {
+  border: 0; }
+
+/* line 15, ../sass/shoestring/normalize/embedded-content.sass */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 8, ../sass/shoestring/normalize/grouping.sass */
+figure {
+  margin: 1em 40px; }
+
+/* line 15, ../sass/shoestring/normalize/grouping.sass */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 24, ../sass/shoestring/normalize/grouping.sass */
+pre {
+  overflow: auto; }
+
+/* line 31, ../sass/shoestring/normalize/grouping.sass */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 16, ../sass/shoestring/normalize/forms.sass */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 29, ../sass/shoestring/normalize/forms.sass */
+button {
+  overflow: visible; }
+
+/* line 39, ../sass/shoestring/normalize/forms.sass */
+button,
+select {
+  text-transform: none; }
+
+/* line 53, ../sass/shoestring/normalize/forms.sass */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 62, ../sass/shoestring/normalize/forms.sass */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/* line 70, ../sass/shoestring/normalize/forms.sass */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 80, ../sass/shoestring/normalize/forms.sass */
+input {
+  line-height: normal; }
+
+/* line 91, ../sass/shoestring/normalize/forms.sass */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 102, ../sass/shoestring/normalize/forms.sass */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 112, ../sass/shoestring/normalize/forms.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 124, ../sass/shoestring/normalize/forms.sass */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 132, ../sass/shoestring/normalize/forms.sass */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 142, ../sass/shoestring/normalize/forms.sass */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 150, ../sass/shoestring/normalize/forms.sass */
+textarea {
+  overflow: auto; }
+
+/* line 158, ../sass/shoestring/normalize/forms.sass */
+optgroup {
+  font-weight: bold; }
+
+/* line 9, /vagrant/html_projects/project_shoestring_sass/sass/shoestring/normalize/tables.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 13, /vagrant/html_projects/project_shoestring_sass/sass/shoestring/normalize/tables.sass */
+td,
+th {
+  padding: 0; }
+
+/* line 1, ../sass/shoestring/links.sass */
+a {
+  text-decoration: none; }
+
+/* clear fix */
+/* line 3, ../sass/shoestring/clearfix.sass */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table-footer-group; }
+
+/* line 8, ../sass/shoestring/clearfix.sass */
+.clearfix:after {
+  clear: both; }
+
+/* line 11, ../sass/shoestring/clearfix.sass */
+.clearfix {
+  *zoom: 1; }
+
+/* line 7, ../sass/shoestring/main.sass */
+body {
+  background: blue; }
+  /* line 9, ../sass/shoestring/main.sass */
+  body h1 {
+    color: red; }
