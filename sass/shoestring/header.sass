@@ -1,0 +1,28 @@
+// this could be a good place to preach about
+// modernizr and what it does with the header tag
+
+
+// could make a regular one with a fixed height
+// body
+//   margin-top: 40px
+header
+  position: fixed //keeps header at the top even with scrolling
+  height: 40px
+  background: black
+  color: white
+  width: 100% // only necessary b/c fixed width only fits the width of the content
+  z-index: 200
+  padding-top: 8px
+  .logo
+    font-weight: bold
+  nav
+    span a, span a:active, span a:visited
+      display: inline-block
+      margin-right: 1.6rem
+      color: white
+      &:hover
+        color: #ccc
+
+// a way to make the top h1 not move up into the header
+.brand
+  margin-top: 40px

@@ -1,0 +1,56 @@
+@import vars
+@import mixins
+
+@mixin button
+  color: black
+  display: inline-block
+  //gives similar elemnt the same type of border
+  border: 1px solid black
+  background: white
+  // for a tags
+  text-decoration: none
+  padding: 5px
+  +user-select
+  +border-radius(3px)
+
+@mixin button-hover
+  background: $off-white
+
+@mixin button-active
+  background: darken(#ccc, 10%)
+
+// _____________________________________
+// actual element
+
+a.button
+  +button
+  &:hover
+    +button-hover
+  &:active
+    +button-active
+  &:visited
+    @extend a.button
+  // each method similar to right ruby that takes key and value pairs
+  @each $key, $value in $color-map
+    // parent element have a.button and class of the key we are using
+    &.#{$key}
+      color: white
+      background: $value
+      border: 1px solid $value
+      &:hover
+        background: darken($value, 10%)
+        border: 1px solid darken($value, 10%)
+      &:active
+        background: darken($value, 15%)
+        border: 1px solid darken($value, 15%)
+
+// all these elements get the same properties as a.button when
+// they have the class of button as well
+input[type=button], input[type=submit], button
+  &.button
+    @extend a.button
+    // so it looks the same as links
+    cursor: pointer
+    // turns of blue outline
+    outline: none
+
