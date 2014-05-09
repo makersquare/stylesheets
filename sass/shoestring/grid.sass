@@ -1,0 +1,69 @@
+@import vars
+@import mixins
+@import clearfix
+
+
+// normalizes font size for all screen sizes
+// mobile screens
+html
+  font-size: 100%
+
+// medium screens (640px)
+@media (min-width: 40rem)
+  html
+    font-size: 112%
+
+// large screens (1024px)
+@media (min-width: 64rem)
+  html
+    font-size: 120%
+
+*, *:before, *:after
+  +box-sizing()
+
+// won't go beyond this width
+.container
+  margin: 0 auto
+  max-width: 48em
+  width: 90%
+  //DEMO for styleguide
+  &.demo
+    margin-bottom: 10px
+
+.full-width-container
+  margin: 0 auto
+  width: 100%
+
+.column
+  &.demo
+    background: #ccc
+
+// column width??
+@media(min-width: 40rem)
+  .column
+    float: left
+    // creates the space between each column
+    padding-right: 1rem
+    margin-right: 1rem
+    // & represents the parent element
+    &.full
+      width: 100%
+      // good for a sidebar
+    &.two-thirds
+      width: 63.7%
+    &.third
+      width: 31%
+    &.half
+      width: 47.5%
+    &.fourth
+      width: 22.5%
+    &.fourth-padded
+      width: 23%
+      margin-right: 2%
+      // placing things on the opposite side
+    &.flow-opposite
+      float: right
+      padding-right: 0
+      margin-right: 0
+
+
