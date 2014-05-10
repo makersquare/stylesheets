@@ -1,6 +1,13 @@
-/* line 1, ../sass/shoestring/links.sass */
+/* line 3, ../sass/shoestring/links.sass */
 a {
+  color: #1c9bf2;
   text-decoration: none; }
+  /* line 6, ../sass/shoestring/links.sass */
+  a:hover {
+    color: #0b71b7; }
+  /* line 8, ../sass/shoestring/links.sass */
+  a:active {
+    color: #0b71b7; }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 7, ../sass/shoestring/normalize/body.sass */
@@ -299,14 +306,11 @@ html {
       width: 23%;
       margin-right: 2%; }
     /* line 53, ../sass/shoestring/grid.sass */
-    .column.three-fourths {
-      width: 72.9%; }
-    /* line 55, ../sass/shoestring/grid.sass */
     .column.flow-opposite {
       float: right;
       padding-right: 0;
       margin-right: 0; }
-    /* line 62, ../sass/shoestring/grid.sass */
+    /* line 60, ../sass/shoestring/grid.sass */
     .column img {
       width: 100%; } }
 /* line 33, ../sass/shoestring/buttons.sass */
@@ -403,17 +407,31 @@ input[type=button].button, input[type=submit].button, button.button {
   cursor: pointer;
   outline: none; }
 
-/* line 13, ../sass/shoestring/main.sass */
-.border-tester {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  background: #4cb0f5;
-  width: 100px;
-  height: 100px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+/* line 58, ../sass/shoestring/buttons.sass */
+a.button.danger, input.danger[type=button].button, input.danger[type=submit].button, button.danger.button {
+  margin-top: 10px; }
+
+/* line 5, ../sass/shoestring/header.sass */
+header {
+  position: fixed;
+  height: 40px;
+  background: black;
+  color: white;
+  width: 100%;
+  z-index: 200;
+  padding-top: 8px; }
+  /* line 13, ../sass/shoestring/header.sass */
+  header .logo {
+    font-weight: bold; }
+  /* line 16, ../sass/shoestring/header.sass */
+  header nav span a, header nav span a:active, header nav span a:visited {
+    display: inline-block;
+    margin-right: 1.6rem;
+    color: white; }
+    /* line 20, ../sass/shoestring/header.sass */
+    header nav span a:hover, header nav span a:active:hover, header nav span a:visited:hover {
+      color: #cccccc; }
+
+/* line 24, ../sass/shoestring/header.sass */
+.brand {
+  margin-top: 40px; }
