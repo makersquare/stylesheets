@@ -15,18 +15,35 @@
           border: 1px solid red;*/
         }
         </style>
+        <!--[if lt IE 9]>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js"></script>
+        <![endif]-->
     </head>
     <body>
       <header>
-        this is a header
+        <div class="container">
+          <div class="column fourth">
+            <span class="logo">Shoestring.CSS</span>
+          </div>
+          <div class="column third flow-opposite">
+            <nav>
+              <span>
+                <a href="#">Home</a>
+              </span>
+              <span>
+                <a href="#">About</a>
+              </span>
+              <span>
+                <a href="#">Contact</a>
+              </span>
+            </nav>
+          </div>
+        </div>
       </header>
-      <div id="spacer"></div>
 
       <div class="container">
         <h1>Shoestring Styleguide</h1>
       </div>
-
-      <div class = "border-tester">Test Border</div>
 
       <hr />
       <div class="container demo">
