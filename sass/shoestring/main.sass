@@ -1,0 +1,19 @@
+// adding normalize to override browser defaults
+@import normalize
+
+// provide clearfix
+@import clearfix
+
+// add variables file
+@import vars
+
+@import mixins
+
+.border-tester
+   +border-radius(5px)
+   background: darken($mks-blue, 30%)
+   width: 100px
+   height: 100px
+   +user-select
+
+
