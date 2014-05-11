@@ -17,6 +17,10 @@
 @mixin button-active
   background: darken(#ccc, 10%)
 
+
+@function get-color($search)
+  @return map-get($color-map, $search)
+
 //actual elements  below
 
 a.button
@@ -28,4 +32,21 @@ a.button
   &:visited
     @extend a.button
 
+  @each $key, $value in $color-map
+    &.#{$key}
+      color: white
+      background: $value
+      border: 2px solid $value
+      &:hover
+        background: darken($value, 10%)
+        border: 2px solid darken($value, 15%)
+      &:active
+        background: darken($value, 15%)
+        border: 2px solid darken($value, 15%)
 
+
+input[type=button], input[type=submit], button
+  &.button
+    @extend a.button
+    cursor: pointer
+    outlinte: none
