@@ -1,0 +1,15 @@
+/* clear fix */
+
+.clearfix:before,
+.clearfix:after
+  content: " "
+  display: table
+
+.clearfix:after
+  clear: both
+
+.clearfix
+  *zoom: 1
+
+.container, .full-width-container
+  @extend .clearfix
