@@ -3,10 +3,13 @@
 .clearfix:before,
 .clearfix:after
   content: " "
-  display: table-footer-group
+  display: table
 
 .clearfix:after
   clear: both
 
 .clearfix
   *zoom: 1
+
+.container, .full-width-container
+  @extend .clearfix

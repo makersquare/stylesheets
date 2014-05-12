@@ -1,0 +1,72 @@
+// adding vars file
+@import vars
+// adding mixins file
+@import mixins
+
+// mobile screens
+html
+  font-size: 100%
+// medium screens (640px)
+@media (min-width: 40rem)
+  html
+    font-size: 112%
+// large screens (1024px)
+@media (min-width: 64rem)
+  html
+    font-size: 120%
+
+*, *:before, *:after
+  +box-sizing
+
+.container
+  margin: 0 auto
+  max-width: 48rem
+  width: 90%
+  &.demo
+    margin-bottom: 10px
+
+.full-width-container
+  margin: 0 auto
+  width: 100%
+
+//to add layout for tablet, create new @media with min-width(40rem)
+//and max-width(64em). then create columns. Create new html on style guide
+
+// styling for demo guide
+.column
+  &.demo
+    background: #ccc
+
+//columns for larger and medium screens
+@media(min-width: 40rem)
+  .column
+    float: left
+    padding-right: 1rem
+    margin-right: 1rem
+    &.full
+      width: 100%
+    &.two-thirds
+      width: 63.7%
+    &.third
+      width: 31.2%
+    &.half
+      width: 47.5%
+    &.fourth
+      width: 22.5%
+    &.fourth-padded
+      width: 23%
+      margin-right: 2%
+    &.three-fourths
+      width: 72.9%
+    &.right
+      float: right
+      padding-left: 0
+      margin-left: 0
+    img
+      width: 95%
+      // margin-right: 0.8rem
+
+
+
+  // .column-small
+  // .column-med
