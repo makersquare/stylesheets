@@ -1,0 +1,710 @@
+body {
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+}
+.main {
+	width: 80%;
+	margin: auto;
+}
+header {
+	height: 70px;
+	background: #fff;
+}
+#logo a {
+	text-decoration: none;
+	color: #005500;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Miltonian Tattoo', cursive;
+	
+}
+#logo a:hover{
+	color: red;
+}
+.fa-ul:hover{
+	color: #005500;
+}
+#menu {
+	position: relative;
+	float: right;
+	width: 450px;
+	margin-top: -30px;
+	display: inline;
+	
+}
+#menu .phone{
+	position: absolute;
+	width: 200px;	
+}
+.phone span {
+	position: absolute;
+	width: 150px;
+	left: 45px;
+	color: red;
+	}
+
+#menu .email{
+	position: absolute;
+	width: 200px;
+	left: 260px;
+	
+}
+
+#menu .email .email1 {
+	position: absolute;
+	width: 150px;
+	right: 110px;
+	
+}
+.email2 span {
+	color: #EAD323;
+}
+.email a {
+	text-decoration: none;
+	color: #005500;
+}
+
+.intro {
+	width: 100%;
+	height: 250px;
+	background: url('../imgs/1-top-bg.jpg')no-repeat;
+	background-size: cover;
+}
+.intro #top {
+	text-align: center;
+	color: #fff;
+	font-size: 1.3em;
+	padding-top: 30px;
+	font-family: 'Playfair Display SC', serif;
+} 
+#top h1 span{
+	color: #EAD323;
+}
+
+/* second */
+.second img {
+	width: 100%;
+	height: 120px;
+}
+.second h2{
+	font-size: 1.5em;
+	color: #005500;
+}
+
+.second .work {
+	width: 49%;
+	height: 220px;
+	float: left;
+	margin-top: 10px;
+}
+.work .our-work{
+	background: url('../imgs/2-np.jpg')no-repeat;
+	background-size: cover;
+	width: 49%;
+	height: 220px;
+	float: left;
+} 
+.work .our-work-2{
+	background: url('../imgs/2-masmaspace.jpg')no-repeat;
+	background-size: cover;
+	width: 49%;
+	height: 220px;
+	float: right;
+}
+.second .quote {
+	width: 49%;
+	height: 220px;
+	float: right;
+	margin-top: 10px;
+}
+.quote .quote1{
+	background: url('../imgs/2-devane.jpg')no-repeat;
+	background-size: cover;
+	width: 49%;
+	height: 220px;
+	float: left;
+} 
+.quote .quote2{
+	background: url('../imgs/2-xstephen.jpg')no-repeat;
+	background-size: cover;
+	width: 49%;
+	height: 220px;
+	float: right;
+}
+/* bottom */
+.bottom{
+	background: #309845;
+	height: 100px;
+	bottom: 0;
+	margin-bottom: -15px;
+}
+.bottom .form{
+	width: 80%;
+	margin: auto;
+}
+.form .bottom-email{
+	width: 80%;
+	height: 30px;
+  margin-top: 20px;
+}
+.form .submit{
+	background: #ED091F;
+	width: 12%;
+	height: 35px;
+	margin-left: -4px;
+}
+
+/*last*/
+.last {
+	width: 100%;
+	background: #005500;
+	height: 230px;
+	border-top: 10px solid #103402;
+}
+.last article {
+	width: 45%;
+	float: left;
+}
+article .get-in-touch{
+	width: 50%;
+	float: left;
+}
+article .get-in-touch ul{
+	float: left;
+	margin-top: 15px;
+}
+.get-in-touch ul li{
+	list-style: none;	
+	padding-top: 10px;
+}
+article .get-in-touch ul li a{
+	text-decoration: none;
+	color: #F0F6EE;
+}
+.get-in-touch ul li a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+article .social-net{
+	width: 50%;
+	float: right;
+}
+article .social-net h3{
+	color: #F0F6EE;
+}
+article .social-net p{
+	color: #F0F6EE;
+	font-size: 0.8em;
+	margin-top: -10px; 
+}
+article .social-net a{
+	color: #F0F6EE;
+}
+article .social-net a:hover{
+	color: red;
+}
+.last aside {
+	width: 55%;
+	float: right;
+
+}
+.last aside .social{
+	width: 45%;
+	float: left;
+}
+aside .social h3{
+	color: #F0F6EE;
+}
+aside .social p{
+	color: #F0F6EE;
+	font-size: 0.8em;
+	margin-top: -10px; 
+}
+.last aside .contact{
+	width: 55%;
+	float: right;
+}
+.last aside form{
+	padding-top: 20px;
+	float: right;
+	
+}
+aside #name{
+	width: 220px;
+	height: 25px;
+	
+}
+aside #email{
+	width: 220px;
+	height: 25px;
+	margin-top: 3px;
+	
+}
+aside #message{
+	width: 220px;
+	height: 60px;
+	margin-top: 3px;
+	
+}
+aside #submit{
+	width: 80px;
+	height: 25px;
+	text-align: center;
+	background: #C1AF05;
+	color: red;
+	float: right;
+	border: 3px solid #E6DB76;
+	border-radius: 10px 14px;
+	font-weight: bolder;
+}
+/* footer */
+footer {
+	height: 70px;
+	background: url('../imgs/1-top-footer.jpg')no-repeat;
+	background-size: cover;
+}
+footer .copy{
+	width: 80%;
+	padding-top: 25px;
+	color: #F0F6EE;
+}
+footer a {
+	color: #F0F6EE;
+	text-decoration: none;
+}
+footer .copy a:hover{
+	text-decoration: underline;
+	color: #EAD323;
+}
+footer .footer-icon {
+	width: 10%;
+	float: right;
+	margin-top: -30px;	
+}
+
+/* Medium ------------ */
+@media screen and (max-width: 868px) {
+	.main {
+	width: 80%;
+	margin: auto;
+}
+header {
+	height: 70px;
+	background: #fff;
+}
+.intro {
+	width: 100%;
+	height: 200px;
+	background: url('../imgs/1-top-bg.jpg')no-repeat;
+	background-size: cover;
+}
+.intro #top {
+	font-size: 1.1em;
+	padding-top: 30px;
+	font-family: 'Playfair Display SC', serif;
+} 
+#logo {
+	width: 20%;
+	margin-top: 20px;
+	
+}
+#logo a {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Miltonian Tattoo', cursive;
+	
+}
+#menu {
+	width: 75%;
+	margin-top: -40px;
+	
+}
+
+.second .work {
+	width: 100%;
+	height: 220px;
+	margin-top: 10px;
+}
+.work .our-work{
+	background: url('../imgs/2-np.jpg')no-repeat;
+	background-size: cover;
+	width: 49%;
+	height: 220px;
+	float: left;
+} 
+.work .our-work-2{
+	background: url('../imgs/2-masmaspace.jpg')no-repeat;
+	width: 49%;
+	height: 220px;
+	float: right;
+}
+.second .quote {
+	width: 100%;
+	height: 220px;
+	margin-top: 10px;
+}
+.quote .quote1{
+	background: url('../imgs/2-devane.jpg')no-repeat;
+	width: 49%;
+	height: 220px;
+	float: left;
+} 
+.quote .quote2{
+	background: url('../imgs/2-xstephen.jpg')no-repeat;
+	width: 49%;
+	height: 220px;
+	float: right;
+}
+/* bottom */
+.bottom .form{
+	width: 100%;
+	margin: auto;
+}
+.form .bottom-email{
+	width: 70%;
+	height: 30px;
+  margin-top: 20px;
+}
+.form .submit{
+	background: #ED091F;
+	width: 20%;
+	height: 35px;
+	margin-left: -4px;
+}
+
+/*last*/
+.last {
+	background: #005500;
+	height: 380px;
+	border-top: 10px solid #103402;
+}
+.last article {
+	width: 100%;
+	
+}
+article .get-in-touch{
+	width: 50%;
+	float: left;
+}
+article .get-in-touch ul{
+	float: left;
+	margin-top: 15px;
+}
+.get-in-touch ul li{
+	list-style: none;	
+	padding-top: 10px;
+}
+article .get-in-touch ul li a{
+	text-decoration: none;
+	color: #F0F6EE;
+}
+.get-in-touch ul li a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+article .social-net{
+	width: 50%;
+	float: right;
+}
+article .social-net h3{
+	color: #F0F6EE;
+}
+article .social-net p{
+	color: #F0F6EE;
+	font-size: 0.8em;
+	margin-top: -10px; 
+}
+article .social-net a{
+	color: #F0F6EE;
+}
+article .social-net a:hover{
+	color: red;
+}
+.last aside {
+	width: 100%;
+
+}
+.last aside .social{
+	width: 45%;
+	float: left;
+}
+aside .social h3{
+	color: #F0F6EE;
+}
+aside .social p{
+	color: #F0F6EE;
+	font-size: 0.8em;
+	margin-top: -10px; 
+}
+.last .contact{
+	width: 55%;
+	float: right;
+}
+.last aside form{
+	padding-top: 20px;
+	float: right;
+	
+}
+aside #name{
+	width: 220px;
+	height: 25px;
+	
+}
+aside #email{
+	width: 220px;
+	height: 25px;
+	margin-top: 3px;
+	
+}
+aside #message{
+	width: 220px;
+	height: 60px;
+	margin-top: 3px;
+	
+}
+aside #submit{
+	width: 80px;
+	height: 25px;
+	text-align: center;
+	background: #C1AF05;
+	color: red;
+	float: right;
+	border: 3px solid #E6DB76;
+	border-radius: 10px 14px;
+	font-weight: bolder;
+}
+/* footer */
+footer {
+	height: 70px;
+	background: url('../imgs/1-top-footer.jpg')no-repeat;
+	background-size: cover;
+}
+footer .copy{
+	width: 90%;
+	padding-top: 25px;
+	color: #F0F6EE;
+}
+footer a {
+	color: #F0F6EE;
+	text-decoration: none;
+}
+footer .copy a:hover{
+	text-decoration: underline;
+	color: #EAD323;
+}
+footer .footer-icon {
+	width: 10%;
+	float: right;
+	margin-top: -30px;	
+}
+
+}
+/* Smaller ----------- */
+@media screen and (max-width : 550px) {
+
+header {
+	height: 70px;
+	background: #fff;
+}
+.intro {
+	width: 100%;
+	height: 200px;
+	background: url('../imgs/1-top-bg.jpg')no-repeat;
+	background-size: cover;
+}
+.intro #top {
+	font-size: 0.8em;
+	padding-top: 30px;
+	font-family: 'Playfair Display SC', serif;
+} 
+#logo {
+	width: 100%;
+	margin-top: 40px;
+}
+#logo a {
+	text-decoration: none;
+	color: #005500;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Miltonian Tattoo', cursive;
+	
+}
+#menu {
+	display: none;
+}
+
+.second .work {
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+}
+.work .our-work{
+	background: url('../imgs/2-np.jpg')no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 220px;
+	
+} 
+.work .our-work-2{
+	background: url('../imgs/2-masmaspace.jpg')no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 220px;
+	
+}
+.second .quote {
+	display: none;
+}
+
+/* bottom */
+.bottom{
+	width: 100%;
+	height: 130px;
+}
+.bottom .form{
+	width: 100%;
+	margin: auto;
+}
+.form .bottom-email{
+	width: 100%;
+	height: 30px;
+  margin-top: 20px;
+}
+.form .submit{
+	background: #ED091F;
+	width: 100%;
+	height: 35px;
+	float: right;
+	
+}
+
+/*last*/
+.last {
+	background: #005500;
+	height: 600px;
+	border-top: 10px solid #103402;
+}
+.last article {
+	width: 100%;
+	
+}
+article .get-in-touch{
+	width: 100%;
+}
+article .get-in-touch ul{
+	margin-top: 15px;
+}
+.get-in-touch ul li{
+	list-style: none;	
+	padding-top: 10px;
+}
+article .get-in-touch ul li a{
+	text-decoration: none;
+	color: #F0F6EE;
+}
+.get-in-touch ul li a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+article .social-net{
+	width: 100%;
+}
+article .social-net h3{
+	color: #F0F6EE;
+}
+article .social-net p{
+	color: #F0F6EE;
+	font-size: 0.7em;
+	margin-top: -10px; 
+}
+article .social-net a{
+	color: #F0F6EE;
+}
+article .social-net a:hover{
+	color: red;
+}
+.last aside {
+	width: 100%;
+
+}
+.last aside .social{
+	width: 100%;
+}
+aside .social h3{
+	color: #F0F6EE;
+}
+aside .social p{
+	color: #F0F6EE;
+	font-size: 0.7em;
+	margin-top: -10px; 
+}
+.last .contact{
+	width: 100%;
+
+}
+.last aside form{
+	padding-top: 20px;
+
+	
+}
+aside #name{
+	width: 220px;
+	height: 25px;
+	
+}
+aside #email{
+	width: 220px;
+	height: 25px;
+	margin-top: 3px;
+	
+}
+aside #message{
+	width: 220px;
+	height: 60px;
+	margin-top: 3px;
+}
+aside #submit{
+	width: 80px;
+	height: 25px;
+	text-align: center;
+	background: #C1AF05;
+	color: red;
+	float: right;
+	border: 3px solid #E6DB76;
+	border-radius: 10px 14px;
+	font-weight: bolder;
+}
+/* footer */
+footer {
+	height: 150px;
+	background: url('../imgs/1-top-footer.jpg')no-repeat;
+	background-size: cover;
+}
+footer .copy{
+	width: 100%;
+	padding-top: 25px;
+	color: #F0F6EE;
+}
+footer a {
+	color: #F0F6EE;
+	text-decoration: none;
+}
+footer .copy a:hover{
+	text-decoration: underline;
+	color: #EAD323;
+}
+footer .footer-icon {
+	width: 70%;
+	margin-top: 25px;
+}
+
+}
+
+
+
+
+
+
+
+
+
