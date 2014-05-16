@@ -1,0 +1,71 @@
+body {
+  background: url(img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.row {
+  background: #020243;
+}
+
+p {
+  color: #fefe51;
+}
+
+#first {
+  background: url(img/draft-story.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0px -51px;
+  height: 14rem;
+}
+
+#second {
+  background: url(img/second-story.jpg) no-repeat;
+  background-size: cover;
+  background-position: -2px -68px;
+  height: 14rem;
+}
+
+#third {
+  background: url(img/fifth-story.jpg) no-repeat;
+  background-size: cover;
+  background-position: 1px -107px;
+  height: 14rem;
+}
+
+#fourth {
+  position: relative;
+  background: url(img/fourth-story.jpg) no-repeat;
+  background-size: cover;
+  background-position: -3px -3px;
+  height: 14rem;
+}
+
+h3 {
+  background-color: rgba(2, 2, 67, 0.5000);
+  color: #fefe51;
+  position: absolute;
+  bottom: 0;
+}
+
+.large-3 {
+  border-right: 1px solid #fefe51;
+}
+
+.large-3:last-child {
+  border-right: none;
+}
+
+h5 {
+  color: #fefe51;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #fefe51;
+}

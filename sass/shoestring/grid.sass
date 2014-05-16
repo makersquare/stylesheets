@@ -1,0 +1,60 @@
+@import vars
+@import mixins
+
+// Small screen (i.e. mobile)
+html
+  font-size: 100%
+
+// Medium screens (i.e. tablets, 640px)
+@media (min-width: 40rem)
+  html
+    font-size: 112%
+
+// Large screens (i.e. desktops, 1024px)
+@media (min-width: 64 rem)
+  html
+    font-size: 120%
+
+
+*, *:before, *:after
+  +box-sizing
+
+.container
+  @extend .clearfix
+  margin: 0 auto
+  max-width: 48rem
+  width: 90%
+  &.demo
+    margin-bottom: 10px
+
+.full-width-container
+  @extend .clearfix
+  margin: 0 auto
+  width: 100%
+
+.column
+  &.demo
+    background: #ccc
+
+@media (min-width: 40rem)
+  .column
+    float: left
+    margin-right: 1rem
+    padding-right: 1rem
+    &.full
+      width: 100%
+    &.two-thirds
+      width: 61.7%
+    &.third
+      width: 31.2%
+    &.half
+      width: 47.5%
+    &.fourth
+      width: 22.5%
+    &.fourth-padded
+      width: 23%
+      margin-right: 2%
+    &.flow-opposite
+      float: right
+      padding-right: 0
+      margin-right: 0
