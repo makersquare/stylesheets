@@ -1,5 +1,5 @@
-# List Links to your prior designs below:
+# Catherine O'Neill's one real prior independent front-end project:
 
-* [Link to design 1](http://example.com/mydesign.html)
-* [Link to design 1](http://example.com/mydesign.html)
-* [Link to design 1](http://example.com/mydesign.html)
+* [Wordly -- Mad Libs knock off](http://projects.catherinegoneill.com/wordly/index.html)
+* [Git hub repo for wordly](https://github.com/cath-oneill/wordly -- including a readme)
+
