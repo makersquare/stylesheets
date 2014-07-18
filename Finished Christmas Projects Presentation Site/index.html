@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Christmas List</title>
+  <!-- <link rel="stylesheet" href="styles/style.css" /> -->
+  <style type="text/css">
+    /****
+    Colors:
+    Navy Blue -                         #3A3D9C
+    Light Blue -                        #BECEFF
+    Red for focused links -             #F50C00
+    ****/
+
+    html {
+      width: 85%;
+      margin: 0 auto;
+      background-image: url(images/snowflake_background1.gif);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /***************************************
+    Styles for the Elements
+    ***************************************/
+    body {
+      width: 800px;
+      font-family: ;
+      background-color: #BECEFF;
+      margin: 15px auto;
+      border: 1px solid black;
+      box-shadow: 4px 4px 10px 5px #808080;
+      background-image: linear-gradient(to bottom, #FFFFFF 50%, #BECEFF);
+      background-image: -webkit-linear-gradient(to bottom, #FFFFFF 50%, #BECEFF);
+      background-image: -moz-linear-gradient(to bottom, #FFFFFF 50%, #BECEFF);
+      background-image: -o-linear-gradient(to bottom, #FFFFFF 50%, #BECEFF);
+      border-radius: 10px;
+
+    }
+
+    a:link {
+      color: #3A3D9C;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #3A3D9C;
+    }
+
+    a:hover, a:focus {
+      color: #F50C00;
+    }
+
+    /***************************************
+    Styles for the Header
+    ***************************************/
+    header {
+      width: 800px;
+      height: 110px;
+      background-color: white;
+      border-bottom: 3px solid black;
+       margin-top: 10px;
+    }
+
+    header img {
+      float: left;
+      clear: left;
+      margin: 5px 0;
+    }
+
+    header h1 {
+      margin-left: 460px;
+      padding-top: 20px;
+    }
+
+    header h2 {
+      margin-left: 470px;
+    }
+
+    /***************************************
+    Styles for the Navigation Bar
+    ***************************************/
+    nav {
+      border-bottom: 3px solid black;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 5px 10px;
+    }
+
+    nav li {
+      display: inline;
+      padding: 0 25px 0 25px;
+      border-right: 3px solid black;
+    }
+
+    nav li:last-child {
+      border-right: none;
+    }
+
+    a.current {
+      text-shadow: 2px 2px 4px #0000FF;
+    }
+
+    /***************************************
+    Styles for the Aside
+    ***************************************/
+    aside {
+      width: 180px;
+      margin: 10px 1em;
+      padding: ;
+      float: right;
+      border-left: 2px solid #3A3D9C;
+    }
+
+    aside h2 {
+      text-align: center;
+    }
+
+    aside article {
+      padding: 10px 5px;
+      margin: 5px 0;
+      line-height: 110%;
+    }
+
+    aside article img {
+      float: right;
+      margin: 0 0 5px 10px;
+      border: 1px solid #3A3D9C;
+    }
+
+    article.dashed {
+      border-bottom: 2px dashed #3A3D9C;
+    }
+
+    article a:link {
+      font-weight: bold;
+    }
+
+    /***************************************
+    Styles for the Section
+    ***************************************/
+    section {
+      margin: 10px auto;
+      text-align: center;
+    }
+
+    section li {
+      list-style: none;
+      line-height: 2em;
+      font-size: 140%;
+    }
+
+    section h2 {
+      text-align: center;
+    }
+
+    /***************************************
+    Styles for the Tables
+    ***************************************/
+    table {
+      margin: 10px auto;
+      font-size: 150%;
+    }
+
+    table td {
+      width: 130px;
+      text-align: center;
+      padding: 3px;
+      border-right: 1px dashed #3A3D9C;
+    }
+
+    table td a:hover, a:focus {
+      position: relative;
+      top: 1px;
+    }
+
+    .right {
+      border-right: none;
+    }
+
+    /***************************************
+    Styles for the Footer
+    ***************************************/
+    footer {
+      width: 800px;
+      background-color: white;
+      border-top: 3px solid black;
+      background-image: linear-gradient(to bottom, #BECEFF 3%, #FFFFFF );
+      clear: both;
+      border-radius: 0 0 10px 10px;
+    }
+
+    footer p {
+      text-align: center;
+      padding: 8px 0;
+      padding: 8px 0;
+    }
+  </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="Home"><img src="images/webtech_wish_list_logo.png" height="80" width="450" alt="Web Tech Wishlist Logo" ></a>
+        <h1>Westwood High School</h1>
+        <h2>#1 in Texas, #5 in the Nation!</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="hot_items.html">Hot Items</a></li>
+            <li><a href="entertainment.html">Entertainment</a></li>
+            <li><a href="places.html">Places</a></li>
+            <li><a href="2014.html">2014 Gift Ideas</a></li>
+        </ul>
+    </nav>
+
+    <section id="2nd">
+        <h2>2nd Block Wish List Pages</h2>
+            <table>
+                <tr>
+                    <td><a href="ali.html" title="Saif Ali">Ali</a></td>
+                    <td><a href="benford.html" title="Saif Ali">Benford</a></td>
+                    <td><a href="davisnatalie.html" title="Saif Ali">Davis, N.</a></td>
+                    <td><a href="davissara.html" title="Saif Ali">Davis, S.</a></td>
+                    <td class="right"><a href="dhuka.html" title="">Dhuka</a></td>
+                </tr>
+                <tr>
+                    <td><a href="feikis.html" title="">Feikis</a></td>
+                    <td><a href="hall.html" title="">Hall</a></td>
+                    <td><a href="kempf.html" title="">Kempf</a></td>
+                    <td><a href="mahesania.html" title="">Mahesania</a></td>
+                    <td class="right"><a href="mahesaniya.html" title="">Mahesaniya</a></td>
+                </tr>
+                <tr>
+                    <td><a href="manasso.html" title="">Manasso</a></td>
+                    <td><a href="martinez.html" title="">Martinez</a></td>
+                    <td><a href="murner.html" title="">Murner</a></td>
+                    <td><a href="patel.html" title="">Patel</a></td>
+                    <td class="right"><a href="sohail.html" title="">Sohail</a></td>
+                </tr>
+                <tr>
+                    <td><a href="taylor.html" title="">Taylor</a></td>
+                    <td><a href="torpey.html" title="">Torpey</a></td>
+                    <td><a href="umatiya_zain.html" title="">Umatiya, Za.</a></td>
+                    <td><a href="umatiya_zubair.html" title="">Umatiya, Zu.</a></td>
+                    <td class="right"><a href="coachdavis.html" title="">Coach Davis</a></td>
+                </tr>
+            </table>
+    </section>
+    <hr/>
+    <section id="3rd">
+        <h2>3rd Block Wish List Pages</h2>
+            <table>
+                <tr>
+                    <td><a href="ali_kamil.html" title="">Ali, K.</a></td>
+                    <td><a href="ali_nabbil.html" title="">Ali, N.</a></td>
+                    <td><a href="baur.html" title="">Baur</a></td>
+                    <td><a href="brookins.html" title="">Brookins</a></td>
+                    <td class="right"><a href="carroll.html" title="">Carroll</a></td>
+                </tr>
+                <tr>
+                    <td><a href="leos.html" title="">Leos</a></td>
+                    <td><a href="luo.html" title="">Luo</a></td>
+                    <td><a href="maredia_shaneaz.html" title="">Maredia</a></td>
+                    <td><a href="marediya_saif.html" title="">Marediya</a></td>
+                    <td class="right"><a href="mawani.html" title="">Mawani</a></td>
+                </tr>
+                <tr>
+                    <td><a href="mohammad.html" title="">Mohammad</a></td>
+                    <td><a href="momin.html" title="">Momin</a></td>
+                    <td><a href="nandipati.html" title="">Nandipati</a></td>
+                    <td><a href="nizar.html" title="">Nizar</a></td>
+                    <td class="right"><a href="plata.html" title="">Plata</a></td>
+                </tr>
+                <tr>
+                    <td><a href="rushefsky.html" title="">Rushefsky</a></td>
+                    <td><a href="szostak.html" title="">Szostak</a></td>
+                    <td><a href="thelen.html" title="">Thelen</a></td>
+                    <td><a href="wiggins.html" title="">Wiggins</a></td>
+                    <td class="right"><a href="williams.html" title="">Williams</a></td>
+                </tr>
+            </table>
+    </section>
+    <footer>
+        <p>&copy; 2013, Web Tech - <a href="http://westwood.roundrockisd.org" target="_blank">Westwood High School</a></p>
+    </footer>
+
+</body>
+
+</html>
