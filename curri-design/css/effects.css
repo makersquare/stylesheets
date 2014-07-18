@@ -1,0 +1,27 @@
+nav li:hover {
+	background-color: white
+}
+
+.circle {
+	background-color: #54b9c8;
+	border-radius: 50%;
+	width: 75px;
+	margin-left: 10px;
+	-moz-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.circle:hover {
+	background-color: #54b9c8;
+}
+
+
+
+.hire {
+	color: white;
+	font-size: 0.75em;
+	font-family: 'Shadows Into Light Two', cursive;
+}
