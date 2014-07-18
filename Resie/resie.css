@@ -1,0 +1,79 @@
+body {
+	margin:	0px;
+}
+
+.logo img {
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+}
+
+.sidebar {
+	float: left;
+	width: 228px;
+	background: #2E2E2E;
+	text-align: center;
+}
+
+.sidenav {
+	height: 79%;
+	margin-left: -40px;
+}
+
+.sidenav li{
+	list-style-type: none;
+	font-family: "Roboto";
+	font-weight: 100;
+	margin: 5px;
+	padding: 0px;
+}
+
+
+.sidenav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+
+.social {
+	clear: both;
+}
+
+.content-wrapper {
+	float: left;
+	width: 50%;
+}
+
+.header {
+	text-transform: uppercase;
+	color: #8A0808;
+	margin: 0px 20px;
+	font-family: "Roboto";
+	font-weight: 100;
+	font-size: 35px;
+}
+
+.tab {
+	margin: 20px;
+}
+
+.tab a {
+	text-decoration: none;
+	color: #8A0808;
+	font-family: "Roboto";
+	display: inline-block;
+	margin: 5px;
+}
+
+.pics {
+	width: 700px;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+
+.pics img {
+	width: 250px;
+	height: 175px;
+	margin: 5px 10px 5px 10px;
+	float: left;
+}
