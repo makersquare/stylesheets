@@ -1,0 +1,91 @@
+/* ,*:before, *:after {
+	border: 1px solid red;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+body {margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #366378;
+}
+
+h2, p {
+	margin-left: 10px;
+}
+
+a:visited, a:link, a:active {
+	color: black;
+	text-decoration: none;
+}
+
+.wrapper {
+	box-sizing: border-box;
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.nav-box {
+	background: white;
+}
+.aboot, .twitter-widget, .p-card {
+	box-shadow: 7px 7px 5px #272822;
+	border-radius: 3%;
+}
+
+.p-card {
+	margin-top: 15px;
+	box-sizing: border-box;
+	width: 18%;
+	float: left;
+	background: white;
+}
+
+.main-content:hover {
+	background-color: #ACACAC;
+} 
+
+.me-photo {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.me {
+	width: 90%;
+	height: auto;
+	border-radius: 100%;
+	text-align: center;
+}
+
+.main-content {
+	text-align: center;
+	margin-top: 15px;
+	width: 100%;
+}
+
+#last-section {
+	margin-bottom: 15px;
+}
+
+.aboot {
+	box-sizing: border-box;
+	background: white;
+	float: left;
+	display: inline-block;
+	width: 50%;
+	height: auto;
+	margin: 15px;
+}
+
+.twitter-widget {
+	margin-top: 15px;
+	box-sizing: border-box;
+	background: white;
+	width: 18%;
+	float: left;
+	display: inline-block;
+}
+#current {
+	background: #366378;
+	color: white;
+}
