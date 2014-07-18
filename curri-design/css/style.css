@@ -1,0 +1,31 @@
+/*colors
+light-grey #f6f7f9
+purple #5d66aa*/
+
+* {
+	border: thin solid red;
+}
+
+/*GENERAL LAYOUT*/
+
+header {
+	background: #f6f7f9
+}
+
+header img {
+	max-width: 300px;
+	width: 20%;
+}
+
+nav {
+	float: right;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+}
+
+nav li a {
+	text-decoration: none;
+}
