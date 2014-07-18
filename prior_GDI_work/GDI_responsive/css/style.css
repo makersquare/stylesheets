@@ -1,0 +1,254 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+
+img {
+    max-width: 100%;
+}
+
+a {
+	/*color: #4680f5;*/
+	
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.logo{
+	width: 80%;
+	margin: 30px auto 0;
+	text-align: center;
+}
+
+header {
+	overflow: auto;
+}
+
+.main-nav li {
+	width: 45%;
+	background: #333635;
+	display: inline;
+	float: left;
+	text-align: center;
+	margin: 2.5%;
+	color: white;
+
+}
+
+.main-nav li a {
+	display: block;
+	padding: .5em 2em;
+	color: white;
+	
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+
+.features h2,
+.calendar h2 {
+	text-align: center;
+	border-bottom: thin solid gray;
+}
+
+h2, h4 {
+	color: #ff404e;
+}
+
+.calendar h4,
+.features img,
+.intro,
+.links,
+.social h4 {
+	display: none;
+}
+
+.features h3 {
+	margin-bottom:0;
+}
+
+.features p {
+	margin-top: 0;
+}
+
+footer {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	background-color: #333635;
+	padding: 1em 0;
+	color: white;
+}
+
+.logo-small {
+	width: 30%;
+	margin: 0 auto;
+}
+
+
+.social {
+	text-align: center;
+}
+
+.connect li {
+	display: inline;
+}
+
+@media only screen and (min-width: 400px) {
+	.features img {
+		display: block;
+		float: left;
+		margin-right: 2em;
+		width: 30%;
+		max-width: 180px;
+	}
+
+	.calendar h4,
+	.links,
+	.intro {
+		display: block;
+	}
+
+	.calendar h2 {
+		display:none;
+	}
+
+	aside {
+		max-width: 960px;
+		margin-bottom: .8em;
+	}
+
+	.calendar {
+		display: inline-block;
+		width: 60%;
+		border-right: thin solid gray;
+	}
+
+	.links {
+		display: inline-block;
+		width: 35%;
+		margin-left: 3%;
+	}
+
+	aside h4 {
+		margin-top: 0;
+	}
+
+	footer, aside {
+		font-size: .9em;
+	}
+
+	.intro {
+		text-align: center;
+		border-top: thin solid gray;
+		border-bottom: thin solid gray;
+		background: #ededed;
+		padding: 0 .5em;
+		
+	}
+
+
+}
+
+
+@media only screen and (min-width : 600px) {
+
+	.main-nav li {
+		width: 20%;
+	}
+
+	.main-nav li a {
+		padding: .5em .5em;		
+	}
+
+	.features {
+		width:58%;
+		float: left;
+	}
+
+	aside {
+		margin-top: 7em;
+		width: 38%;
+		float: right;
+		border: thin solid gray;
+		padding: 0 .5em;
+		background-color: #ededed;
+		text-align: center;
+	}
+
+	aside h4 {
+		padding-top: 1em;
+	}
+
+	.calendar,.links {
+		display: block;
+		width: 100%;
+		font-size: 1em;
+		border: none;
+	}
+
+	.calendar {
+		border-bottom: thin solid gray;
+	}
+
+}
+
+@media only screen and (min-width : 960px) {
+
+	.wrapper {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
+	.logo {
+		width: 58%;
+		float: left;
+	}
+
+	.logo-small {
+		width: 20%;
+	}
+
+	.main-nav {
+		float: right;
+		width: 39%;
+	}
+
+	.main-nav li {
+		width: 45%;
+		background: #333635;
+		display: inline;
+		float: left;
+		text-align: center;
+		margin: 2.5%;
+		color: white;
+
+	}
+
+	.main-nav li a {
+		display: block;
+		padding: .5em 2em;
+		color: white;
+		
+	}
+
+	.intro {
+		clear: both;
+	}
+
+	.meta p {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+
+}

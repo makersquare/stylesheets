@@ -1,0 +1,169 @@
+/* variables */
+/* mixins */
+/* global styles */
+/* line 5, ../styles/global.scss */
+a {
+  text-decoration: none;
+  color: #ce0241; }
+  /* line 8, ../styles/global.scss */
+  a:hover {
+    color: #e1e100; }
+
+/* line 15, ../styles/global.scss */
+header {
+  text-align: center; }
+
+/* line 19, ../styles/global.scss */
+.main-nav ul {
+  margin: 0 auto 3em;
+  border: 1px solid #ccc;
+  overflow: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+  /* line 25, ../styles/global.scss */
+  .main-nav ul li {
+    float: left;
+    display: inline-block;
+    padding: 1em;
+    width: 29%;
+    margin: 2%;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+/* line 36, ../styles/global.scss */
+.portrait {
+  -webkit-border-radius: 500em;
+  -moz-border-radius: 500em;
+  border-radius: 500em;
+  max-width: 80%; }
+
+/* line 41, ../styles/global.scss */
+.work img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+
+/* type styles */
+/* line 1, ../styles/typography.scss */
+body {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  color: #3b3131; }
+
+/* line 8, ../styles/typography.scss */
+blockquote {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 37px;
+  margin-bottom: 25px; }
+
+/* line 16, ../styles/typography.scss */
+h1 {
+  font-size: 3.45em;
+  line-height: 1.1029411764705883em;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 800;
+  font-family: 'Open Sans'; }
+
+/* line 25, ../styles/typography.scss */
+h2 {
+  font-size: 2em;
+  line-height: 1.1904761904761905em;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans'; }
+
+/* line 34, ../styles/typography.scss */
+h3 {
+  font-size: 1.625em;
+  line-height: 1.9230769230769231em;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans'; }
+
+/* line 43, ../styles/typography.scss */
+h4 {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Open Sans';
+  font-size: 1.2em;
+  line-height: 1.6171875em; }
+
+/* line 52, ../styles/typography.scss */
+h5 {
+  margin-bottom: 25px;
+  font-style: uppercase;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  font-size: 0.875em;
+  line-height: 1.8482142857142858em; }
+
+/* line 61, ../styles/typography.scss */
+h6 {
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 25px;
+  font-size: 1em;
+  line-height: 1.6171875em; }
+
+/* line 69, ../styles/typography.scss */
+p {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  font-size: 1.1em;
+  line-height: 1.6171875em; }
+
+/* line 78, ../styles/typography.scss */
+p.intro {
+  font-size: 1.325em;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  line-height: 31.875px; }
+
+/* line 86, ../styles/typography.scss */
+p.job-title {
+  font-weight: 700;
+  font-size: 1.325em;
+  margin: 0;
+  text-transform: uppercase; }
+
+/* line 93, ../styles/typography.scss */
+p.location {
+  font-style: italic; }
+
+/* layout */
+/* line 1, ../styles/layout.scss */
+.wrapper {
+  width: 90%;
+  margin: 2em auto;
+  padding: 5%;
+  max-width: 1000px; }
+
+/* line 8, ../styles/layout.scss */
+ul.work {
+  border: 0px solid #000000;
+  padding: 10px;
+  overflow: auto;
+  margin-bottom: 2em; }
+
+/* line 15, ../styles/layout.scss */
+ul.work li {
+  width: 50%;
+  float: left;
+  margin: 0;
+  padding: 10px;
+  opacity: 0.7; }
+
+/* line 23, ../styles/layout.scss */
+ul.work li:hover {
+  opacity: 1.0; }

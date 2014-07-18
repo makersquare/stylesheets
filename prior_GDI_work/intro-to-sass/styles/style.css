@@ -1,0 +1,146 @@
+/* variables */
+/* mixins */
+/* global styles */
+a {
+  text-decoration: none;
+  color: #ce0241; }
+  a:hover {
+    color: #e1e100; }
+
+header {
+  text-align: center; }
+
+.main-nav ul {
+  margin: 0 auto 3em;
+  border: 1px solid #ccc;
+  overflow: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+  .main-nav ul li {
+    float: left;
+    display: inline-block;
+    padding: 1em;
+    width: 29%;
+    margin: 2%;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+.portrait {
+  -webkit-border-radius: 500em;
+  -moz-border-radius: 500em;
+  border-radius: 500em;
+  max-width: 80%; }
+
+.work img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+
+/* type styles */
+body {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  color: #3b3131; }
+
+blockquote {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 37px;
+  margin-bottom: 25px; }
+
+h1 {
+  font-size: 3.45em;
+  line-height: 1.1029411764705883em;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 800;
+  font-family: 'Open Sans'; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1.1904761904761905em;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans'; }
+
+h3 {
+  font-size: 1.625em;
+  line-height: 1.9230769230769231em;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans'; }
+
+h4 {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Open Sans';
+  font-size: 1.2em;
+  line-height: 1.6171875em; }
+
+h5 {
+  margin-bottom: 25px;
+  font-style: uppercase;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  font-size: 0.875em;
+  line-height: 1.8482142857142858em; }
+
+h6 {
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 25px;
+  font-size: 1em;
+  line-height: 1.6171875em; }
+
+p {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  font-size: 1.1em;
+  line-height: 1.6171875em; }
+
+p.intro {
+  font-size: 1.325em;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  line-height: 31.875px; }
+
+p.job-title {
+  font-weight: 700;
+  font-size: 1.325em;
+  margin: 0;
+  text-transform: uppercase; }
+
+p.location {
+  font-style: italic; }
+
+/* layout */
+.wrapper {
+  width: 90%;
+  margin: 2em auto;
+  padding: 5%;
+  max-width: 1000px; }
+
+ul.work {
+  border: 0px solid #000000;
+  padding: 10px;
+  overflow: auto;
+  margin-bottom: 2em; }
+
+ul.work li {
+  width: 50%;
+  float: left;
+  margin: 0;
+  padding: 10px;
+  opacity: 0.7; }
+
+ul.work li:hover {
+  opacity: 1.0; }

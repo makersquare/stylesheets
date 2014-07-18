@@ -1,0 +1,215 @@
+/* ----------------------------------------------------- */
+/* GLOBAL  --------------------------------------------- */
+/* ----------------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #929292;
+}
+
+body {
+	background: #F7F5F2;
+    color: #222;
+	font-family: "Noto Serif", Georgia, serif;
+	font-size: 100%;
+	margin: 100px auto 0;
+    max-width: 1450px;
+
+}
+
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* CLEAR FIX */
+.wrapper:after {
+    content:"";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+
+/* ----------------------------------------------------- */
+/* TYPOGRAPHY  ----------------------------------------- */
+/* ----------------------------------------------------- */
+
+  h1, h2, h3, h4, h5, nav {
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+  p {
+    line-height: 1.5em;
+  }
+
+/* ----------------------------------------------------- */
+/* LINKS  ---------------------------------------------- */
+/* ----------------------------------------------------- */
+
+a, a:active, a:visited {
+	color: #4d717a;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #9cb89a;
+	text-decoration: none;
+}
+
+
+
+
+
+/* ----------------------------------------------------- */
+/* LAYOUT  --------------------------------------------- */
+/* ----------------------------------------------------- */
+
+
+/*NAV*/
+
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+
+header a {
+    padding-left: 4em;
+}
+
+footer a {
+    padding-right: 4em;
+
+}
+
+footer a, footer a:active, footer a:visited {
+    color: #9cb89a;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:focus {
+    color: #4d717a;
+    text-decoration: none;
+}
+
+
+/*HEADER*/
+
+header {
+    background: #F7F5F2;
+    border-bottom: 5px solid #a8988b;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    max-width: 1450px;
+    width: 100%;
+}
+
+    .logo {
+        float: left;
+        text-indent: -9999em;
+        background: url('images/logo.png') no-repeat center center;
+        width: 150px;
+        height: 100px;
+        background-size: 100%;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+
+
+
+
+/*BANNER*/
+
+.banner {
+    background: url('images/banner_counter.png') no-repeat 0 -200px;
+    background-size: 100%;
+    color: #fff;
+    height: 500px;
+    padding-top: 120px;
+}
+    .tagline {
+        background: url('images/tagline.png') no-repeat 0 0;
+        text-indent: -9999em;
+        height: 122px;
+        width: 715px;
+        background-size: 100%;
+        margin-left: -10px;
+    }
+
+    .banner .address {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+
+
+/*ABOUT*/
+
+
+.about {
+}
+
+	.about h4 {
+        color: #a18c9c;
+        border-bottom: 2px solid #a8988b;
+    }
+
+    .text1, .text2 {
+        width: 48%;
+        float: left;
+    }
+
+    .text2 {
+        margin-left: 4%;
+    }
+
+
+
+/*HOURS & DIRECTIONS*/
+
+.hoursdirections {
+    background: #fff url('images/pattern.png');
+    color: #694160;
+    padding-bottom: 8%;
+}
+
+.map {
+    float: right;
+    height: 250px;
+    margin-bottom: -10%;
+
+}
+
+
+.hoursdirections .address {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-top: 8%;
+    float: left;
+    width: 50%;
+}
+
+.hoursdirections .hours {
+    clear: left;
+    font-size: 1.25em;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background: #222 url('images/subtletexture.png') center center;
+    height: 150px;
+    padding-top: 50px;
+    clear: none;
+}
+
+
+
+
