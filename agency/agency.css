@@ -1,0 +1,82 @@
+html {
+	background-image: url(background.jpg);
+}
+
+#wrapper {
+	display: block;
+	padding: 4em;
+	background: grey;
+	background-image: url(background.jpg);
+}
+
+div#nav {
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+div#logo {
+	float:left;
+	width: 20%;
+	margin-left: 6%;
+	margin-top: 10px;
+}
+
+.navbar {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 50%;
+	float: right;
+}
+
+.navbar li a {
+	background: #ffffff;
+	padding: 8px 10px;
+	float: left;
+	position: relative;
+	color: black;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+h1 {
+	color: white;
+	font-family: arial;
+}
+
+div#portfolio {
+	margin: auto;
+}
+
+#portfolio ul {
+	display: block;
+	list-style-type: none;
+	text-align: center
+}
+
+#portfolio ul li{
+	width: 30%;
+	display: inline-block;
+	height: 200px;
+	margin-left: 20px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
