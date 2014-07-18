@@ -1,0 +1,53 @@
+/* *, *:after, *:before{
+  border: 1px solid red;
+} */
+
+body{
+  background: #eeeeee;
+}
+
+.nav-container{
+  background: #fff;
+  width: 20%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-container img{
+  width: 80%;
+  margin-top: 7px;
+  border-radius: 150px;
+  margin-left: 15px;
+}
+
+.nav{
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.nav, .main-content{
+  font-family: 'Oxygen', sans-serif;
+}
+
+.nav:hover{
+  background: #ededed;
+}
+
+.main-content, .nav-container, .twitter-widget{
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #888888;
+  float: left;
+  margin-left: 15px;
+}
+
+.main-content{
+  width: 50%;
+  padding: 10px;
+}
