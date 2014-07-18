@@ -1,0 +1,176 @@
+body {
+	margin: 0px;
+}
+
+.container {
+	width: 100%;
+}
+
+.banner {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -8px;
+	margin-top: -8px;
+}
+
+.navbar {
+	background-color: #f6f7f9;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#logo {
+	float: left;
+	padding: 15px;
+	padding-right: 220px;
+	margin-left: 120px;
+}
+
+.forhire {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #42b9c7;
+	color: #fff;
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	text-align: center;
+	line-height: 80px;
+	transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg); 
+	font-size: 14px;
+	padding: 0;
+}
+
+ul.navbar {
+	list-style: none;
+	margin: 0 0 10px;
+	padding: 0;	
+	line-height: 100px;
+}
+
+ul.navbar li a {
+	float: left;
+	padding: 0 20px;
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #93919e;
+	text-decoration: none;
+}
+
+li a:hover {
+	background: #fff;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.companies {
+	background-color: #f6f7f9;
+	box-shadow: 0 3px 1px #eeeff3;
+}
+
+.companies img {
+	width: 1000px;
+	padding: 25px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.about {
+	background-color: #5e65a7;
+	width: 100%;
+	height: 300px;
+	padding: 40px 0 40px 0;
+	margin: 0 -10px 0 0;
+	box-shadow: inset 0 4px 1px #3a3b72;
+}
+
+#profile {	
+	margin: 0 20px 0 100px;
+	float: left;
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+}
+
+#profile img {
+	border-radius: 50%;
+	width:250px;
+	height: 250px;
+	background-color: #000;
+	border: 3px solid #7a7fb1 ;
+}
+
+section {
+	width: 90%;
+	line-height: auto; 
+	margin: 20px 50px 30px 30px;
+}
+
+header.name {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 60px;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+}
+
+p {
+	color: #99a0d4;
+	font-size: 16px;
+	font-family: sans-serif;
+	line-height: 18px;
+}
+
+#byline {
+	color: #303676;
+	font-size: 30px;
+	font-family:  sans-serif;
+	line-height: 30px;
+}
+
+#button {
+	height: 20px;
+	display: inline-block;
+	width: 250px;
+	float: left;
+	background-color: #fff;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 18px;
+	padding: 15px 0 15px 0;
+	color: #303063;
+	font-family:  sans-serif;
+	font-weight: 700;
+}
+
+.work {
+	width: 80%;
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2 {
+	padding: 0;
+	margin: 50px 0 0 0;
+}
+
+.work img {
+	width:100%;
+}
