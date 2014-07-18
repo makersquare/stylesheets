@@ -1,0 +1,94 @@
+body{
+	margin:0;
+	background-image: url('background.jpg')
+}
+
+header, #heading, #content{
+	height:150px;
+	width:100%;
+}
+
+header {
+	/*background: blue;*/
+	height:50px;
+	background:#FBFBFB;
+}
+
+#heading {
+	/*background: purple;*/
+}
+
+#content {
+	/*background: green;*/
+}
+
+.content-wrapper {
+	/*background: yellow;*/
+	width:930px;
+	height:40px;
+	margin: 0 auto;
+}
+
+nav, #main-logo{
+	display: inline-block;
+	float:left;
+}
+
+#main-logo{
+		margin-top:10px;
+}
+
+nav {
+	margin-left:390px;
+	font-size:12px;
+	margin-top:20px;
+}
+
+#menu span { 
+	padding:10px;
+	font-family: Courier;
+	font-weight: bold;
+}
+
+#page-title {
+	font-family: Courier;
+	font-weight: bold;
+	font-size:40px;
+	margin-left: 5px;
+	color: white;
+}
+
+#title-graphic {
+	width:3px;
+	height:40px;
+	background: red;
+}
+
+#page-title, #title-graphic {
+	margin-top: 40px;
+	display: inline-block;
+	float:left;
+}
+
+#pics img {
+	width: 275px;
+	height: auto;
+	padding: 12px;
+	padding-bottom:0px;
+}
+
+#pics {
+	display: inline-block;
+}
+
+.project-title {
+	background: white;
+	color:#C6C6C6;
+	width:275px;
+	height: 40px;
+	margin-left: 12px;
+	margin-top: -4px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
