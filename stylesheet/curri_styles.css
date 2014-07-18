@@ -1,0 +1,96 @@
+#logo img {
+	height: 50px;
+}
+
+header {
+	background-color: #f6f7f9;
+	width: 90%;
+}
+
+#main-nav {
+	float: right;
+  	cursor: pointer;
+  	font-size: 20px;
+  	padding: 20px;
+}
+
+#main-nav a {
+	color: grey;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#hero {
+	background-color: #494c98;
+	height: 250px;
+	width: 90%;
+}
+
+#hero img {
+	width: 200px;
+	margin-top: 20px;
+	float: left;
+}
+
+#hero-text {
+	float: right;
+	width: 60%;
+
+}
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+
+}
+
+.wrapper img {
+	border-radius: 100px;
+}
+
+.wrapper #hero-text {
+	margin-top: 20px;
+}
+
+.wrapper .name {
+	font-size: 40px;
+	color: white;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.wrapper .title {
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.wrapper .about {
+	color: white;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#clients {
+	width: 90%;
+}
+
+#clients img {
+	width: 100%;
+}
+
+#work {
+	width: 90%;
+	/*margin: 0 auto;*/
+}
+
+#work h2 {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#work img {
+	display: block;
+	width: 100%;
+	margin:  0 auto;
+}
