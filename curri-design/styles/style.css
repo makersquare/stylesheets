@@ -1,0 +1,95 @@
+
+* {
+	margin: 0px;
+}
+
+.logo img {
+	width: 200px;
+	height: 50px;
+}
+
+.logo, .nav {
+	display: inline-block;
+}
+
+.logo{
+	margin-left: 5%
+}
+
+.nav.first{
+	margin-left: 15%;
+}
+
+.nav {
+	margin: 10px;
+	text-transform: uppercase;
+}
+
+.navbar{
+	margin: 20px;
+}
+
+.hero-wrapper img{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+.hero-wrapper{
+	display: block;
+	clear: both;
+}
+
+.hero-inner{
+	float: left;
+	margin: 20px;
+}
+
+.profilepic {
+	margin-left: 8%;
+}
+
+.description{
+	width: 50%;
+}
+
+.description h1 {
+	color: white;
+	font-family: sans-serif;
+}
+
+.description h3 {
+	font-weight: 100;
+	font-family: sans-serif;
+}
+
+.description p{
+	color: white;
+	font-weight: 100;
+	font-size: .8em;
+	font-family: sans-serif;
+}
+
+.companies-wrapper img{
+	max-width: 100%;
+	height: auto;
+}
+
+.clients img{
+	max-width: 100%;
+	height: auto;
+}
+
+.clients {
+	width: 80%;
+	margin: auto;
+}
+
+.purple{
+	background: #615bae;
+}
+
+.grey {
+	background: #ccc ;
+}
+
+
