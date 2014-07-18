@@ -1,0 +1,216 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
+
+/* ============ MAIN LAYOUT STUFF =============== */
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 10px;
+	color: #939393;
+	font-weight: 400;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+a {
+	text-decoration: none;
+	color: #939393;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+header, section.hero-unit, section.features, footer  {
+	width: 100%;
+	background: blue;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+.content-wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+h3 {
+	font-size: 24px;
+	margin: 0;
+	color: #000;
+	font-weight: 100;
+}
+.bold { font-weight: bold; font-weight: 700; }
+.bolder { font-weight: 800; }
+.orange { color: #d06a53; }
+.center { text-align: center; }
+
+.icon-white {
+	color: #fff;
+}
+
+/* ============ HEADER STUFF =============== */
+header {background: #fff;}
+header div.content-wrapper {background: #fff; padding-bottom: 10px;}
+
+#main-logo {
+	float: left;
+	margin: 20px 290px 0px 15px;
+	cursor: pointer;
+}
+#main-logo img {
+	width: 110px;
+}
+
+nav.top-nav{
+	margin-left: 30px;
+}
+
+nav.top-nav ul {
+	list-style: none;
+	border: 0;
+	padding: 0;
+}
+
+nav.top-nav ul li a {
+	float: left;
+	display: inline-block;
+	padding: 7px 12px;
+	margin-left: 10px;
+	-webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+nav.top-nav ul li a:hover {
+	background: #d06a53;
+	color: #ffffff;
+}
+
+nav.top-nav ul li a:first-child i {
+	margin-right: 3px;
+}
+nav.top-nav ul li a i {
+	margin-left: 5px;
+}
+
+/* ============ HERO UNIT STUFF =============== */
+
+section.hero-unit {background: transparent url(background.jpg) no-repeat;}
+section.hero-unit div.content-wrapper { padding: 70px 0 0 0;}
+
+section.hero-unit div.main-image {
+	float: left;
+	margin: 0 0 0 80px;
+}
+section.hero-unit div.main-image img {
+	width: 420px;
+}
+
+.subscribe-form-wrapper {
+	width: 395px;
+	float: left;
+}
+
+.subscribe-form-wrapper button {
+	background: #d06a53;
+	color: #ffffff;
+	border: 0;
+	padding: 8px 10px;
+	-webkit-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    margin: 0 0 0 -3px;
+    font-size: 14px;
+}
+.subscribe-form-wrapper button:hover {
+	cursor: pointer;
+	background: #eb694c;
+}
+ 
+.subscribe-form-wrapper input[type="text"] {
+	border: 1px solid #ccc;
+	margin: 0;
+	padding: 0 10px;
+	width: 200px;
+	height: 34px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+
+/* ============ FEATURES STUFF =============== */
+
+section.features {
+	background: #fff;
+}
+section.features div.content-wrapper {
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	padding: 40px 0 180px 0; /* there has to be a better way to do this */
+}
+
+section.features section.item {
+	float: left;
+	width: 330px;
+}
+
+section.features section.item .item-image {
+	background: #d06a53;
+	border-radius: 50px;
+	display: inline-block;
+	float: left;
+	margin: 0 10px 0 10px;
+	padding: 10px;
+}
+
+.item-description {
+	float: left;
+	width: 200px;
+}
+
+section.features a.feature-link {
+	color: #9c9d9e;
+	font-weight: bold;
+}
+section.features a.feature-link:before {content: "Learn More";}
+
+
+
+/* ============ Footer STUFF =============== */
+footer {
+	background: #fff;
+	padding-top: 15px;
+}
+footer div.content-wrapper {
+	background: #fff;
+}
+
+/* ============ bottom right orange help box =============== */
+
+#help-box {
+	bottom: 5px;
+	right: 0;
+	width: 50px;
+	height: 40px;
+	background: #d06a53;
+	position: absolute;
+	padding-top: 10px;
+	cursor: pointer;
+}
+#help-box i {
+	margin: 15px 0 0 15px;
+}
+
+
+
+
+

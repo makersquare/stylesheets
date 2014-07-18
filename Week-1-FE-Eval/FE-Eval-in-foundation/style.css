@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+
+.full-width {width: 100%;}
+
+.purple-bkgd {background: #6b6faa;}
+.teal-bkgd {background: #44b2c2;}
+.lgrey-bkgd {background: #f5f6f8;}
+
+h2 {
+	font-size: 3em;
+	margin: 0;
+	text-shadow: 1px 1px 1px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+h3 {color: #878692;}
+h4 {
+	color: #4e5398;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+}
+
+.white-text {color: #ffffff;}
+.skinny-text {
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+	font-size: 2em;
+	color: #878692;
+	margin: 20px 0 0 0;
+}
+.button.secondary {
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.button.secondary.purple-text {
+	color: #4e5398;
+	font-size: 12px; 
+	font-weight: bold;
+}
+.button.secondary.purple-text i {margin-left: 5px;}
+
+/* --- NAVIGATION ----*/
+#logo-img {
+	width: 160px;
+	margin: 15px 0;
+	cursor: pointer;
+}
+
+header {
+	border-bottom: 3px solid #464b70;
+}
+
+header nav ul {
+	list-style: none;
+}
+header nav ul li {
+	display: inline-block;
+	margin: 30px 0px -35px 0px;
+}
+header nav ul li a {
+	padding: 30px 10px;
+	color: #878692;
+}
+
+header nav ul li a:hover {
+	background: #ffffff;
+	cursor: pointer;
+	color: #878692;
+}
+header nav ul li a.hireme {
+	font-family: 'Kaushan Script', serif; 
+	background: #44b0c2;
+	color: #ffffff;
+	-webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 22px 10px;
+	margin-left: 10px;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+header nav ul li a.hireme:hover {
+	-ms-transform: rotate(20deg); /* IE 9 */
+	-webkit-transform: rotate(20deg); /* Safari and Chrome */
+	-moz-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+
+/* --- CALL TO ACTION ----*/
+#call-to-action {
+	padding-top: 20px;
+}
+
+#profile-pic {
+	width: 200px;
+	border: 3px solid #ffffff;
+	-webkit-border-radius: 200px;
+    border-radius: 200px;
+    
+}
+
+p.call-to-action {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+
