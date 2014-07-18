@@ -1,0 +1,94 @@
+body{
+  background-color: #F0F0F0 ;
+}
+
+.container{
+  max-width: 1000px;
+}
+
+#logo {
+  height: 15%;
+  width: 15%;
+  float: left;
+}
+
+#nav-list{
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+#nav-list li {
+  display: inline;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.nav{
+  padding-bottom: 50px;
+}
+
+#profile-pic{
+  display: block;
+  width: 20%;
+  height: 20%;
+  border-radius: 150px;
+  clear: both;
+  float: left;
+}
+
+h1{
+  font-family: 'Helvetica';
+}
+
+p .intro-text{
+  color: #fff;
+}
+
+#name{
+  clear: both;
+  color: #fff;
+  font-size: 50px;
+}
+
+.intro{
+  background: #6666CC;
+}
+
+.intro-text{
+  display: block;
+}
+
+h2 .intro-text{
+  color:
+}
+
+button {
+  padding:10px;
+  background-color: #F5F5FF;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  border-radius: 3px;
+}
+
+#client-text{
+  margin-left: 125px;;
+}
+
+#companies-img{
+  display: block;
+  height: 25%;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#client-img{
+  display: block;
+  height: 25%;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
