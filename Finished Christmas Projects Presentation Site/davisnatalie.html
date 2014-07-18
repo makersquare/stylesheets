@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+html {
+	background-image: url("Images/davis_greenchevron.jpg");
+	background-repeat: repeat;	
+}
+/* Body Style */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid black;
+	
+}
+/* Header Style */
+
+header img {
+	float: left;
+	padding-right: 80px;
+}
+
+header h1 h2 {
+	float: right;
+	font-size: 50%;
+	margin-left: 500px;
+	padding-top: 10px;
+}
+
+.tooltip
+	 {display: inline;
+     position: relative;}
+     
+.tooltip:hover :after {
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+/* Navigation bar */
+nav {
+	margin: 0;
+	background: white;
+    background-image: -moz-linear-gradient(180deg, white 0%, green 25%, white 50%,red 100%);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: .25em 0;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+}
+nav li {
+    display: inline;
+    padding: 0 .9em 0 .5em;
+    border-right: 2px solid black;
+}
+nav a {
+    font-weight: bold;
+    color: black;
+}
+nav a.current { 
+	text-decoration: none;
+}
+nav a:link, nav a:visited { 
+    color: black; 
+}
+nav a:hover, nav a:focus { 
+    color: red;
+	text-decoration: underline;
+}
+/* Section Styles */
+section {
+	
+}
+section ul {
+	list-style: none;
+	text-align: center;
+}
+section li {
+	padding: 1em;
+}
+section img{
+	padding-left: 5em;
+}
+
+/* Aside Styles */
+
+aside {
+	width: 200px;
+	height: 700px;
+	float: right;
+	padding-right: 10px;
+	
+}
+
+.border {
+	border-bottom: 1px dashed red;
+}
+
+article {
+	font-size: 90%;
+}
+
+article img {
+	float: right;
+}
+
+aside a:hover, a:focus { 
+    color: red;
+}
+
+aside a {
+    font-weight: bold;
+    color: black;
+}
+    
+    
+/* the styles for the footer */
+footer p{
+		text-align: center;}
+footer {
+	    border-top: 3px solid green;
+	    padding-top: 1em;
+	    padding-bottom: 1em;
+        background: white;
+        background-image: -moz-linear-gradient(270deg, white 0%, red 100%);
+	    clear: both;
+}
+
+
+ </style>
+	<meta charset="utf-8">
+	<title>Natalie's WishList</title>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+
+<body>
+	<header>
+		 <a href="index.html" title= "Home" class="tooltip" target="_blank"> <img src="Images/davis_webtech_wish_list_logo.jpg"
+         alt="WebTech" height="150"></a>
+         <h1>Westwood High School</h1>
+         <h2>#1 in Texas, #5 in the Nation</h2>
+   </header>
+   <br><br>
+   <nav>
+     	<ul>
+    		<li><a href="index.html">Home</a></li>
+    		<li><a href="2012.html">Last Year</a></li>
+    		<li><a href="2013.html" class="current">This Year</a></li>
+    		<li><a href="2014.html">2014 Gift Ideas</a></li>
+        </ul>
+   </nav>
+   
+   <aside>
+   		<h2> Top 3 Items</h2>
+   		<article class="border">
+   			<img src="Images/davis_kendraearrings.jpg" alt="earrings" height="80">
+   			<p>White mother-of-pearl is a popular, classic color here at Kendra Scott. Our Elle Earrings encompass this stone in an oval, 14K gold plating for a gorgeous and dainty statement.<br><a href="http://www.kendrascott.com/elle-earrings-in-white.html" target="_blank">Read more...</a></p>
+   		</article>
+   		<article class="border">
+   			<img src="Images/davis_eyeshadow2.jpg" alt="eyeshadow" height="80">
+   			<p>The most anticipated sequel of the decade. Naked 2 has 12 pigment-rich eyeshadows. Our palette proves again, neutral is anything but boring. Feast your eyes on our shades ranging from pale to deep, matte to sparkly.<br><a href="http://www.urbandecay.com/urban-decay/eye-makeup/naked2/282.html" target="_blank">Read more...</a></p>
+   		</article>
+   		<article>
+   			<img src="Images/davis_lzrelite.jpg" alt="LZRelite" height="80">
+   			<p>The Fastskin LZR Racer® Elite 2 series has sophisticated low-drag fabrics and world-leading technologies to maximize performance and racing efficiency featuring:<br><a href="http://www.speedousa.com/product/index.jsp?productId=22994376&cp=3124324.11902988.3131432" target="_blank">Read more...</a></p>
+   		</article>
+   </aside>
+   
+   <section>
+   		<img src="Images/davis_banner.jpg" alt="banner img" width="700">
+    	<ul>
+    		<li>Waffle Maker</li>
+    		<li>Kendra Scott Earring</li>
+    		<li>Urban Decay Naked 2 Palette</li>
+    		<li>Speedo LZR Elite</li>
+    		<li>Ylon Snorkel</li>
+    		<li>Monogrammed Sweatshirt</li>
+    		<li>Long Nike Pros</li>
+    		<li>Puppy</li>
+    		<li>Monogrammed Cheetah Travel Mug</li>
+    		<li>Kate Spade Watch</li>
+    	</ul>
+   </section>
+   		
+
+   <footer>
+   	<b><p>&copy;2013, Web Tech- <a href="http://westwood.roundrockisd.org" target="_blank" >Westwood Highschool </a></p></b>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<meta charset="utf-8" />
+	<title>Web Tech Wish List</title>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+
+<body>
+	<header>
+		<a href="index.html" title="Home"><img src="images/rushefsky_logo.png" alt="logo"/> </a>
+		<h1>Westwood High School</h1>
+		
+		<h2>#1 in Texas, #5 in the Nation</h2>
+	</header>
+	
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="2012.html">Last Year</a></li>
+			<li><a href="2013.html" class="current">This Year</a></li>
+			<li><a href="2014.html" class="last">2014 Gift Ideas</a></li>
+		</ul>
+	</nav>
+	
+	
+	<section>
+		<img src="images/rushefsky_banner.png" alt="banner"/>
+		<ul>
+			<li>Concert Tickets</li>
+			<li>Sour Patch Kids</li>
+			<li>College Tuition</li>
+			<li>A Job</li>
+			<li>iPhone</li>
+			<li>Combat Boots</li>
+			<li>Books</li>
+			<li>Candy Cane Chapstick</li>
+			<li>Panic! at the Disco Poster</li>
+			<li>Bumper Stickers</li>
+		</ul>
+	</section>
+	
+	
+	<aside>
+		<h2>Top 3 Items</h2>
+		<article id="iphone">
+			<h2>iPhone</h2>
+			<a href="http://store.apple.com/us/buy-iphone/iphone5c" target="blank"><img src="images/rushefsky_iphone.png"/></a>
+			<p>A6 chip. 8MP iSight camera. 4-inch Retina display. Ultrafast LTE wireless. iPhone 5c has the things that made iPhone 5 an amazing phone... <a href="http://store.apple.com/us/buy-iphone/iphone5c">Read More</a></p>
+		</article>
+		<article id="boots">
+			<h2>Combat Boots</h2>
+			<a href="http://www.sammydress.com/product878477.html" target="blank"><img src="images/rushefsky_boots.jpg"/></a>
+			<p>Preppy Style Women's Black Studded Combat Boots With Round Toe Design... <a href="http://www.sammydress.com/product878477.html">Read More</a></p>
+		</article>
+		<article id="chapstick">
+			<h2>Chapstick</h2>
+			<a href="http://www.amazon.com/Chapstick-Candy-Cane-Peppermint-Ounce/dp/B0062VMZC2" target="blank"><img src="images/rushefsky_chapstick.jpg"/></a>
+			<p>Softens and protects for smooth lips everyday. Softens and seals in moisture with an icy cool feel. Irresistible, exhilarating aroma. Soothes, softens and moisturizes lips... <a href="http://www.amazon.com/Chapstick-Candy-Cane-Peppermint-Ounce/dp/B0062VMZC2">Read More</a></p>
+		</article>
+		
+	</aside>
+	
+	
+	<footer>
+		<p>&copy;2013, Web Tech – <a href="http://westwood.roundrockisd.org/" target="blank">Westwood High School</a></p>
+	</footer>
+	
+	
+	
+	
+<style>
+	
+	article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+html {
+	background: url("images/rushefsky_background.png");
+	background-attachment: fixed;
+}
+
+body {
+	width: 800px;
+	margin: 20px auto;
+	background: white;
+	border: 2px solid black;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 5px #448ccb;
+}
+
+a {
+	color: #448ccb;
+}
+a:hover, a:focus {
+	font-style: italic;
+}
+
+/*styles for the header*/
+
+header {
+	padding: 5px 10px;
+	margin: 5px;
+	background: white;
+	text-align: center;
+}
+header h1 {
+	padding: 15px;
+	color: #005e20;
+}
+header h2 {
+	color: #790000;
+}
+
+header img {
+	float: left;
+	width: 400px;
+	padding: 5px 5px 10px;
+}
+
+
+
+/*styles for the navigation bar*/
+
+nav {
+	text-align: center;
+	clear: both;
+}
+nav ul {
+	list-style: none;
+	
+	padding: 1em 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background: #448ccb;
+}
+nav li{
+	display: inline;
+	
+}
+.last {
+	border: none;
+}
+nav a {
+	padding: 1em 1em;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border-right: 2px solid black;
+}
+nav a:hover, a:focus{
+	text-decoration: underline;
+	font-style:normal;
+}
+
+.current {
+	color: #000080;
+}
+
+
+
+
+/*styles for the main section*/
+
+section {
+	float: left;
+	background-image: -moz-linear-gradient(top, white 0%, #448ccb 100%);
+	background-image: -o-linear-gradient(top, white 0%, #448ccb 100%);
+	background-image: -webkit-linear-gradient(top, white 0%, #448ccb 100%);
+	background-image: linear-gradient(top, white 0%, #448ccb 100%);
+	width: 500px;
+	border-right: 2px solid black;
+	margin: 0;
+	padding: 5px 5px 60px;
+}
+section img {
+	width: 350px;
+	padding-left: 75px;
+}
+section ul {
+	text-align: center;
+	list-style-type: none;
+}
+section li {
+	font-size: 120%;
+	padding: 5px;
+}
+
+
+
+
+/*styles for the aside*/
+
+aside {
+	float: right;
+	width: 250px;
+	padding-top: 10px;
+}
+aside article {
+	border-bottom: 2px dashed black;
+	margin-right: 15px;
+	padding: 10px 0;
+}
+aside article h2 {
+	font-size: 110%;
+}
+aside img {
+	float: right;
+	width: 100px;
+}
+aside article p {
+	
+} 
+
+
+
+/*styles for the footer*/
+
+footer {
+	clear: both;
+	border-top: 2px solid black;
+	text-align: center;
+}
+footer p {
+	padding: 10px;
+	font-weight: bold;
+}
+
+
+
+</style>
+	
+	
+	
+	
+	
+</body>

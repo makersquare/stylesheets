@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+	
+<head>
+	<meta charset="utf-8">
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<style>
+		article, aside, figure, footer, header, nav, section {
+		display: block;
+		}
+		html{
+			background: url("images/williams_background.jpg");	
+		}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-family: sans-serif;
+			width: 900px;
+			background-color: #C0C0C0;
+			margin: 0 auto; 
+			padding: 0;
+			border: 3px solid black;
+		}
+		header{
+			border-bottom: 3px solid black;
+			background: #808080;
+		}
+		header img{
+			float: left;
+			margin-right: 100px;
+		}
+		header h1{
+			padding-top:30px;
+			font-size: 200%;
+		}
+		header h2{
+		
+			font-size: 150%;
+		}
+		nav{
+			background: #808080;
+			margin-top: 2em;
+		}
+		nav ul{
+			text-align: center;
+			margin: 0;
+		    padding: .25em 0;
+			border-top: 2px solid black;
+		}
+		nav li {
+		    display: inline;
+		    padding: 0 .9em 0 .5em;
+		    border-right: 2px solid black;
+		}
+		nav a {
+		    font-weight: bold;
+		    color: black;
+		}
+		nav a.current { 
+			text-decoration: none;
+			text-shadow: 2px 2px 4px black;
+		}
+		nav a:link, nav a:visited { 
+		    color: #800000; 
+		}
+		nav a:hover, nav a:focus { 
+		    color: #008000;
+			text-decoration: underline;
+		}
+		section{
+			width: 560px;
+			float: left;
+			padding-left: 10px;
+			
+		}
+		section ul{
+			text-align: center;
+			list-style-type: none;
+			color:#800000;
+			font-weight: bold;
+		}
+		section li{
+			font-size: 100%;
+			padding: .75em;
+		}
+		section img{
+			padding-left: 75px;
+		}
+		
+		aside{
+			float: right;
+			width: 175px;
+			border: 3px solid black;
+			padding: 5px;
+			font-size: 50%;
+			margin: 20px;
+		}
+		aside a:link, nav a:visited { 
+		    color: #800000; 
+		}
+		aside a:hover, nav a:focus { 
+		    color: #008000;
+			text-decoration: underline;
+		}
+		article{
+			border-bottom: 2px solid black;
+		}
+		footer{
+		clear: both;
+		background: #808080;
+		border-top: 2px solid black;
+		padding: 10px;
+		text-align: center;
+		}
+		footer p{
+			
+			font-size: 90%;
+		}
+
+	</style>
+</head>	
+
+<body>
+	<header>
+		<img src="images/williams_webtech_wish_list_logo-Recovered.jpg" alt="wish list logo" width="400" height="100">
+		<h1>WestWood High School</h1>
+		<h2>#1 in Texas,#5 in the Nation!</h2>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="2012.html">Last Year</a></li>
+				<li><a href="2013.html" class="current">This Year</a></li>
+				<li><a href="2014.html">2014 Gift Ideas</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	
+	<section>
+		<img src="images/williams_banner.jpg" alt="banner">
+		<ul>
+			<li>Inland Optical USB Gaming Mouse</li>
+			<li>AlienWear Desktop</li>
+			<li>Skull Candy SLYR</li>
+			<li>Duel Screen Monitor</li>
+			<li>Skull Seat Covers</li>
+			<li>Skull Lava Lamp</li>
+			<li>Leather Jacket</li>
+			<li>Industrial Bar</li>
+			<li>Bagel Bites</li>
+			<li>Roit Points</li>
+			
+		</ul>
+	</section>
+	
+	<aside>
+		<h1>Top 3 Items</h1>
+		
+		<article><h2>AlienWear Laptop</h2>
+		<a href="http://www.dell.com/us/p/Alienware-14/pd?oc=DKCWG01H&ST=pla&dgc=ST&cid=262076&lid=4742362&acd=1230980731501410"><img src="images/williams_alienwear14.jpg" height="50" width="50"></a>
+		<p>The all-new Alienware 14 is compact, powerful and designed for more intense gaming anywhere you set up.</p> <a href="http://www.dell.com/us/p/Alienware-14/pd?oc=DKCWG01H&ST=pla&dgc=ST&cid=262076&lid=4742362&acd=1230980731501410">Read more.</a>
+		</article>
+		
+		<article><h2>Skull Candy SLYR</h2>
+		<a href="http://www.skullcandy.com/shop/slyr-black-yellow"><img src="images/williams_skullcandy.jpg"height="50" width="50"></a>	
+		<p>Step up your game with the SLYR gaming headset. Designed to deliver Supreme Sound audio for your Xbox 360, PS3, or PC.</p><a href="http://www.skullcandy.com/shop/slyr-black-yellow">Read more.</a>
+		</article>
+		
+		<article><h2>Inland Optical USB Gaming Mouse</h2>
+		<a href="http://www.meritline.com/inland-optical-usb-gaming-mouse-07242---p-89383.aspx"><img src="images/williams_inland.jpg"height="50" width="50"></a>
+		<p>Inland Optical USB Gaming Mouse, 6 Buttons 1 x Wheel with 800 / 1200 / 1600 / 2000 dpi, Black </p><a href="http://www.meritline.com/inland-optical-usb-gaming-mouse-07242---p-89383.aspx">Read more.</a>
+		</article>
+		
+	</aside>
+	<footer>
+		&copy; 2013, Web Tech – <a href= "http://westwood.roundrockisd.org/">Westwood High School</a>
+	</footer>
+</body>
+	
+	
+</html>
