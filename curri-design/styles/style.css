@@ -1,0 +1,146 @@
+body {
+	background-color: #FFFFFF ;
+}
+
+.container {
+	width: 1000px;
+	height: 900px;
+}
+
+.navbar {
+	background: #F6F7F9;
+	height: 8%;
+}
+
+#logo {
+	height: 75%;
+	width: 18%;
+	float: left;
+	margin-left: 50px;
+	margin-top:10px;
+}
+
+#button-block {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	color: #A39FAC;
+	font-family: sans-serif;
+}
+
+#button-block li {
+	display: inline;
+	margin-top: 50px;
+	padding: 15px;
+}
+
+#button-block button {
+    width:50px;
+    height:50px;
+    line-height:50px;
+	background-color: #22BBCA;
+	border-radius: 50%;
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	border-style: none;
+	margin-top: 1px;
+}
+
+.intro {
+	width: 100%;
+	height: 35%;
+	background: #6451AC;
+}
+
+#portrait-block {
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+#portrait {
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #8174B8;
+	border-radius: 100%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+}
+
+h1 {
+	font-family: 'National', sans-serif;
+}
+
+#name {
+	clear: both;
+	color: #FFFFFF;
+	font-size: 50px;
+	margin-bottom: 2px;
+}
+
+#intro-block {
+	display: inline-block;
+	width: 67%;
+	height: 100%;
+}
+
+#intro-teaser {
+	color: #452E89;
+	font-size: 30px;
+	margin: 0px;
+}
+
+#intro-bio {
+	color: #A399D8;
+	margin-top: 8px;
+}
+
+#intro-block button {
+	padding:10px;
+	background-color: #F5F5FF;
+	border: 1px solid #666;
+	color:#000;
+	text-decoration:none;
+	border-radius: 3px;
+}
+
+#companies-block {
+	background-color: #F6F7F9;
+	width: 1000px;
+	height: 12%;
+}
+
+#companies-img {
+	display: block;
+	height: 90%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+
+#projects-title {
+	font-size: 30px;
+	color: #7E7792;
+	margin-left: 125px;
+	margin-bottom: 2px;
+	font-family: sans-serif;
+
+}
+
+#projects {
+	display: block;
+	height: 25%;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
