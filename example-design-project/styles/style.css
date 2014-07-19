@@ -1,0 +1,119 @@
+/*   *, *:before, *:after{
+ border: 1px solid red;
+} */
+
+body{
+  margin: 0;
+  background: #f6f7f9;
+}
+
+#logo, #navbar, #profile-pic, #jumbotron-text{
+  float: left;
+}
+
+#logo{
+  width: 15%;
+  margin:2% 15% 0.5% 10%;
+}
+
+#logo img{
+  width: 100%;
+}
+
+#navbar{
+  width: 50%;
+  height: 50px;
+  margin: 3% 0 0 0;
+}
+
+.navlist{
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 1%;
+  height: 100%;
+  padding: 3%;
+}
+
+.navlist:hover{
+  background: #fff;
+}
+
+.navlist a{
+  text-decoration: none;
+  color: grey;
+  font-size: 0.75em;
+}
+
+.jumbotron{
+  background: #5c65a7;
+  border-top: 2px solid #2E0854;
+}
+
+#profile-pic{
+  width: 20%;
+  margin:2% 3% 4% 10%;
+}
+
+#profile-pic img{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 150px;
+}
+
+#jumbotron-text{
+  width: 55%;
+}
+
+#jumbotron-text h1, #jumbotron-text p {
+  color: #fff;
+}
+
+#jumbotron-text h3{
+  color: #49518e;
+}
+
+#companies img{
+  width: 80%;
+  margin: 2% 0  2% 10%;
+}
+
+#clients{
+  background: #fff;
+  border-top: 1px solid grey;
+}
+
+#clients h2{
+  display: inline-block;
+  margin-left: 10%;
+  margin-bottom: 0;
+}
+
+#clients img{
+  width: 80%;
+  margin-left: 10%;
+}
+
+@media all and (max-width: 861px){
+  #profile-pic img{
+    display: none;
+  }
+
+  #jumbotron-text{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+  }
+
+  #logo{
+    display: none;
+  }
+
+  #navbar{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  #navbar a{
+    font-size: 0.5em;
+  }
+}

@@ -1,0 +1,174 @@
+/* Debug */
+
+/**, *:before, *:after{
+  border: 1px solid red;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}*/
+
+/* Overarching design */
+
+body{
+  background-color: #F0F0F0 ;
+  margin: 0;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.wrapper{
+}
+
+/* Navigation */
+
+.logo, .nav{
+  display: inline-block;
+  float: left
+}
+
+.logo{
+  margin-left: 5%;
+  width: 40%;
+}
+
+.nav-first{
+  margin-left: 30%;
+}
+
+.profile-pic, .profile-info{
+  float: left
+}
+
+.profile-pic{
+  width: 20%;
+  margin-left: 8%;
+}
+
+.profile-info{
+  width: 60%;
+}
+
+.work-port{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.company img, .work-port img, .profile-pic img{
+  width: 100%;
+}
+
+.logo img{
+  width: 30%;
+}
+
+.container.purple{
+  background: #5c65a7;
+}
+
+.container.grey{
+  background: #f6f7f9;
+}
+
+/*#logo {
+  height: 15%;
+  width: 15%;
+  float: left;
+}
+
+#nav-list{
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+#nav-list:hover li{
+  background: #fff;
+}
+
+#nav-list li {
+  display: inline;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.nav{
+  padding-bottom: 50px;
+}
+
+/* Intro Section */
+
+/*#profile-pic{
+  position: relative;
+  top: 35%;
+  left: 35%;
+  height: 40%;
+  width: 40%;
+  border-radius: 250px;
+}
+
+h1{
+  font-family: 'Helvetica';
+}
+
+p .intro-text{
+  color: #fff;
+}
+
+#name{
+  clear: both;
+  color: #fff;
+  font-size: 50px;
+}
+
+.intro{
+  background: #6666CC;
+}
+
+.intro-text{
+  float:right;
+  width: 597px;
+  height: 300px;
+}
+
+.intro-pic{
+  float:left;
+  width: 397px;
+  height: 300px;
+}
+
+h2 .intro-text{
+  color:
+}
+
+button {
+  padding:10px;
+  background-color: #F5F5FF;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  border-radius: 3px;
+}
+
+/* Client Section */
+
+/*#client-text{
+  margin-left: 125px;;
+}
+
+#companies-img{
+  display: block;
+  height: 25%;
+  width: 750px;
+  margin: 0 auto;
+}
+
+#client-img{
+  display: block;
+  height: 25%;
+  width: 750px;
+  margin: 0 auto;
+}*/*/*/
