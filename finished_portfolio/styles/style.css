@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.center {
+  margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+        
+.clearfix:after {
+    clear: both;
+}
+
+#wrapper {
+  background-color: #7cbbff;
+}
+
+a:link, a:visited, a:focus {
+  display: block;
+  text-decoration: none;
+  color: #999;
+  width: 100%;
+}
+
+a:hover {
+  color: white;
+}
+
+/************************
+Navigation
+************************/
+nav#navmenu {
+  width: 20%;
+  box-shadow: 1px 1px 12px 2px #cbcbcb;
+  border: 2px solid #cbcbcb;
+  border-radius: 12px;
+  float: left;
+  margin-top: 70px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+nav div a {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  color: #999;
+  display: block;
+}
+nav div.middle-link {
+  display: inline-block;
+  width: 21%;
+  margin-top: 10px;
+  margin-left: 18px;
+  /*-webkit-box-sizing: border-box;*/
+}
+
+
+nav div.middle-link:hover {
+  background-color: #999;
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar .middle-link a.active {
+  color: #7cbbff;
+  background-color: white;
+}
+nav div:hover {
+  -webkit-transition: background 700ms ease-in-out;
+  -moz-transition: background 700ms ease-in-out;
+  -ms-transition: background 700ms ease-in-out;
+  -o-transition: background 700ms ease-in-out;
+  transition: background 700ms ease-in-out;
+  background-color: #999;
+  color: white;
+}
+
+nav div a:hover {
+  color: white;
+}
+
+nav img {
+  width: 100%;
+  padding: 15px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/************************
+Nav Bar
+************************/
+.middle-wrapper {
+  float: left;
+  width: 50%;
+  color: white;
+}
+
+
+/************************
+Main Section
+************************/
+#main {
+  margin: 10px 15px;
+  padding: 8px;
+  width: 92%;
+  box-shadow: 1px 1px 12px 2px #cbcbcb;
+  border: 2px solid #cbcbcb;
+  border-radius: 12px;
+  /*float: left;*/
+  color: #999;
+  background-color: white;
+}
+
+#main h2 {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+
+/************************
+Sidebar Twitter Widget
+************************/
+.twitter-widget {
+  width: 20%;
+  margin-top: 70px;
+  margin-right: 20px;
+  display: inline-block;
+  float: left;
+  border: 2px solid #cbcbcb;
+  border-radius: 12px;
+  box-shadow: 1px 1px 12px 2px #cbcbcb;
+}
