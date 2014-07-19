@@ -1,96 +1,139 @@
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#content-wrapper {
+/*	max-width: 1000px;*/
+	font-family: "Open Sans";
+}
+
+/* HEADER STYLES */
+
+header {
+	background-color: #F6F7F9;
+}
+
+#logo {
+	float:left;
+	margin-left: 10%;
+}
+
 #logo img {
 	height: 50px;
 }
 
-header {
-	background-color: #f6f7f9;
-	width: 90%;
-}
-
 #main-nav {
-	float: right;
-  	cursor: pointer;
-  	font-size: 20px;
-  	padding: 20px;
+	float:right;
+	padding: 15px;
 }
 
 #main-nav a {
-	color: grey;
 	text-decoration: none;
+	font-size: 20px;
 	padding: 10px;
-}
-
-#hero {
-	background-color: #494c98;
-	height: 250px;
-	width: 90%;
-}
-
-#hero img {
-	width: 200px;
-	margin-top: 20px;
+	color: #797C91;
 	float: left;
 }
 
-#hero-text {
-	float: right;
-	width: 60%;
-
+#main-nav a:hover {
+	background-color: #FFFFFF;
 }
 
-.wrapper {
-	width: 800px;
-	margin: 0 auto;
-
-}
-
-.wrapper img {
+#main-nav a.circle {
+	display: block;
+	background: #53b8c8;
 	border-radius: 100px;
+	font-size: 12px;
+	height: 60px;
+	width: 60px;
+	font-family: "Condiment";
+	color: #FFFFFF;
+	padding-top: 20px;
+	-webkit-transform: rotate(-15deg);	
+	-moz-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
 }
 
-.wrapper #hero-text {
-	margin-top: 20px;
+#main-nav a.circle:hover {
+	opacity: 0.8;
 }
 
-.wrapper .name {
-	font-size: 40px;
-	color: white;
-	margin: 0 auto;
-	padding: 5px;
+
+/*HERO SECTION STYLES*/
+
+#hero {
+	background: #5D66AA;
 }
 
-.wrapper .title {
-	font-size: 20px;
-	margin: 0 auto;
-	padding: 5px;
+#hero img {
+	width: 20%;
+	float:left;
+	/*margin-left: 10%;*/
+	border-radius: 100px;
+	margin: 10px 0 10px 10%;
+	border: 1px solid gray;
 }
 
-.wrapper .about {
-	color: white;
-	margin: 0 auto;
-	padding: 5px;
+#hero-text {
+	float: left;
+	margin-left: 10%;
+	width: 60%;
 }
 
-#clients {
-	width: 90%;
+#hero-text h1 {
+	color: #FFFFFF;
 }
+
+#hero-text h3 {
+	color: #393D50;
+	font-weight: lighter;
+}
+
+#hero-text .about {
+	color: #DDD;
+	font-size: 10px;
+	font-weight: lighter;
+}
+
+button {
+	width: 150px;
+	height: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+button i.fa-angle-down {
+	font-size: 18px;
+}
+
+/*CLIENT SECTION STYLES*/
 
 #clients img {
 	width: 100%;
 }
 
-#work {
+/*WORK SECTION STYLES*/
+
+#work img, #work h2 {
 	width: 90%;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
+	display: block;
+	font-weight: lighter;
+	color: #797C91;
 }
 
-#work h2 {
-	width: 90%;
+#work {
+	width: 100%;
 	margin: 0 auto;
 }
 
-#work img {
-	display: block;
-	width: 100%;
-	margin:  0 auto;
-}
+
+
+
+

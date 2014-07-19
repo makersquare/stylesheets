@@ -6,10 +6,13 @@
         <title>My Title</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet/curri_styles.css">
         <style type="text/css">
             * {
-              border: 1px solid red;
+              /*border: 1px solid red;*/
               -moz-box-sizing: border-box;
               -webkit-box-sizing: border-box;
               box-sizing: border-box;
@@ -18,38 +21,39 @@
     </head>
     <body>
       <!-- body goes here -->
-    <header>
-        <a id="logo" href="#"><img src="img/logo.png"></a> 
-        <nav id="main-nav">
-            <a href="#">About</a>
-            <a href="#">Work</a>
-            <a href="#">Services</a>
-            <a href="#">Experience</a>
-        </nav>
-    </header>
+    <div id="content-wrapper">
 
-    <section id="hero">
-        <div class="wrapper">
+        <header class="clearfix">
+            <a id="logo" href="#"><img src="img/logo.png"></a> 
+            <nav id="main-nav">
+                <a href="#">About</a>
+                <a href="#">Work</a>
+                <a href="#">Services</a>
+                <a href="#">Experience</a>
+                <a class="circle" href="#">Hire Me</a>
+            </nav>
+        </header>
+
+        <section id="hero" class="clearfix">
             <img src="img/profile-pic.png">
             <div id="hero-text">
-                <p class="name">John Doe McFly</p>
-                <p class="title">Front End Developer, coffee lover and part-time photographer</p>
+                <h1>John Doe McFly</h1>
+                <h3>Front End Developer, coffee lover and part-time photographer</h3>
                 <p class="about">Hi there. I'm a front-end developer with over 11 years experience. I have a passion for details and visual quality. Experience on handling ambitious deadlines, organized and a good team-player.</p>
+                <button>Find out more <i class="fa fa-angle-down"></i></button>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <section id="clients">
+            <img src="img/companies.png">
+        </section>
 
-    <section id="clients">
-        <img src="img/companies.png">
-    </section>
+        <section id="work">
+            <h2>Work</h2>
+            <img src="img/clients.png">
+        </section>
 
-    <section id="work">
-        <h2>Work</h2>
-        <img src="img/clients.png">
-    </section>
-
-
+    </div>
 
 
     </body>
