@@ -6,41 +6,40 @@
         <title>Sample Title</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/cf.css">
     </head>
     <body>
-      <div class="container">
-        <div class="nav">
-          <img id="logo" src="images/logo.png"/>
-          <nav>
-              <ul id="nav-list">
-                <li>ABOUT</li>
-                <li>WORK</li>
-                <li>SERVICES</li>
-                <li>EXPERIENCE</li>
-              </ul>
-          </nav>
-        </div>
-        <div class="intro">
-          <div class="intro-pic">
-            <img id="profile-pic" src="images/profile-pic.png"/>
-          </div>
-          <div class="intro-text">
-            <h1 id="name">John Doe Mcfly</h1>
-            <h3>Front-end developer, coffee lover &amp; part-time photographer.</h3>
-            <p>Hi there. I'm a front-end developer with over 11 years of experience.
-            I have a passion for details and visual quality. Experience on handling
-            ambitious deadlines, organized, and a good team-player.</p>
-            <button><strong>FIND OUT MORE</strong></button>
-          </div>
-        </div>
-        <div class="companies">
-          <img id="companies-img" src="images/companies.png"/>
-        </div>
-        <div class="clients">
-          <p id="client-text">Work</p>
-          <img id="client-img" src="images/clients.jpg"/>
+
+      <div class="container cf">
+        <div id="logo"><img src="images/logo.png"></div>
+        <div id="navbar">
+          <div class="navlist"><a href="#">ABOUT</a></div>
+          <div class="navlist"><a href="#">WORK</a></div>
+          <div class="navlist"><a href="#">SERVICES</a></div>
+          <div class="navlist"><a href="#">EXPERIENCE</a></div>
+          <div class="navlist"><a href="#">Hire me</a></div>
         </div>
       </div>
+
+      <div class="jumbotron cf">
+        <div id="profile-pic"><img src="images/profile-pic.png"></div>
+        <div id="jumbotron-text">
+          <h1>John Doe Mcfly</h1>
+          <h3>Front-end developer, coffee lover &amp; part-time photographer.</h3>
+          <p>Hi there, I'm a front-end developer with over 11 years experience.
+          I have a passion for details and visual quality. Experience on handling ambitious
+          deadlines, organized and good team player.</p>
+          <button>FIND OUT MORE</button>
+        </div>
+      </div>
+
+      <div id="companies"><img src="images/companies.png"></div>
+
+      <div id="clients">
+        <h2>Work</h2>
+        <img src="images/clients.jpg">
+      </div>
+
     </body>
 </html>
