@@ -1,0 +1,139 @@
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#content-wrapper {
+/*	max-width: 1000px;*/
+	font-family: "Open Sans";
+}
+
+/* HEADER STYLES */
+
+header {
+	background-color: #F6F7F9;
+}
+
+#logo {
+	float:left;
+	margin-left: 10%;
+}
+
+#logo img {
+	height: 50px;
+}
+
+#main-nav {
+	float:right;
+	padding: 15px;
+}
+
+#main-nav a {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	color: #797C91;
+	float: left;
+}
+
+#main-nav a:hover {
+	background-color: #FFFFFF;
+}
+
+#main-nav a.circle {
+	display: block;
+	background: #53b8c8;
+	border-radius: 100px;
+	font-size: 12px;
+	height: 60px;
+	width: 60px;
+	font-family: "Condiment";
+	color: #FFFFFF;
+	padding-top: 20px;
+	-webkit-transform: rotate(-15deg);	
+	-moz-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+#main-nav a.circle:hover {
+	opacity: 0.8;
+}
+
+
+/*HERO SECTION STYLES*/
+
+#hero {
+	background: #5D66AA;
+}
+
+#hero img {
+	width: 20%;
+	float:left;
+	/*margin-left: 10%;*/
+	border-radius: 100px;
+	margin: 10px 0 10px 10%;
+	border: 1px solid gray;
+}
+
+#hero-text {
+	float: left;
+	margin-left: 10%;
+	width: 60%;
+}
+
+#hero-text h1 {
+	color: #FFFFFF;
+}
+
+#hero-text h3 {
+	color: #393D50;
+	font-weight: lighter;
+}
+
+#hero-text .about {
+	color: #DDD;
+	font-size: 10px;
+	font-weight: lighter;
+}
+
+button {
+	width: 150px;
+	height: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+button i.fa-angle-down {
+	font-size: 18px;
+}
+
+/*CLIENT SECTION STYLES*/
+
+#clients img {
+	width: 100%;
+}
+
+/*WORK SECTION STYLES*/
+
+#work img, #work h2 {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	font-weight: lighter;
+	color: #797C91;
+}
+
+#work {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
