@@ -1,0 +1,58 @@
+/**, *:before, *:after {
+	border: 1px solid red;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+body {
+	margin: 0;
+	background-color: #EEEEEE;
+	font-family: helvetica;
+}
+
+.main-content {
+	box-shadow: 3px 3px 5px #888888;
+	display: block;
+	float: left;
+	background-color: white;
+	margin: 1em;	
+	border-radius: 10px;
+
+}
+
+.sidebar {
+	width: 18%;
+	min-width: 160px;
+}
+
+.center {
+	width: 40%;
+}
+
+.navbar div {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2em;
+}
+
+.navbar div:hover {
+	background-color: #EEEEEE;
+	border-radius: 10px;
+
+}
+
+.profilepic img{
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.about {
+	margin: 1em;
+}
+
+.tweeter {
+	height: 50%;
+	width: 30%
+}
