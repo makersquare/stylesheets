@@ -49,6 +49,7 @@ body {
 	text-align: center;
 }
 
+/* Decided to keep font choices here since it's just one instance */
 .calltoaction {
 	margin: 0.6% 2% 0 auto;
     border-radius: 50%;
