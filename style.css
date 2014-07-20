@@ -1,0 +1,93 @@
+/**, *:before, *:after {
+	border: 1px solid red;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+/* DRY section */
+nav, section, .twitter-wrapper {
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 10px #000000;
+	border-radius: 3px;
+}
+
+nav {
+	margin: 0px;
+	box-shadow: 2px 2px 10px #000000;
+	border-radius: 3px;
+	width: 15%;
+}
+
+.profile-circular {
+	width: 150px; /*use absolute width for resizing media*/
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 8px;
+	top: 10px;
+	background-image: url('231cfd3.jpg');
+	background-size: cover;
+	display: block;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+.link:hover {
+	background-color: #eeeeee;
+}
+
+.link {
+	font-family: 'Open Sans', sans-serif;
+	height: 30px;
+	text-align: center;
+	padding: 12px;
+}
+
+section {
+	margin: 0 15px 0 15px;
+	box-shadow: 2px 2px 10px #000000;
+	border-radius: 3px;
+	font-family: 'Open Sans', sans-serif;
+	width: 45%;
+
+}
+
+h2 {
+	margin: 1em 1em;
+}
+
+h6 {
+	margin: 2em;
+	/*height: 120px;*/
+}
+
+.twitter-wrapper {
+	width: 25%;
+}
+
+
+
+/* Media query allows shrinkage of screen size to preserve
+each of the three sections of ~70em or 900px */
+@media all and (max-width: 70em) {
+	nav, section, .twitter-wrapper {
+		float: none;
+		width: 100%;
+		margin: auto;
+	}
+
+	.profile-circular {
+		position: relative;
+		margin: 0 auto;
+		top: 8px;
+	}
+}
+
+
+
+
+
+
+
