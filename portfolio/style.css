@@ -31,10 +31,16 @@ body {
 
 .navbar div {
 	width: 70%;
-	margin: 1em auto;
+	margin: 0 auto;
 	text-align: center;
+	padding: 2em;
 }
 
+.navbar div:hover {
+	background-color: #EEEEEE;
+	border-radius: 10px;
+
+}
 
 .profilepic img{
 	width: 100%;
@@ -48,4 +54,5 @@ body {
 
 .tweeter {
 	height: 50%;
+	width: 30%
 }
