@@ -7,16 +7,19 @@ h2 {
 h3 {
 	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 2em;
+	color: white;
 }
 
 h4 {
 	font-family: 'News Cycle', sans-serif;
-	font-size: 1em;
+	font-size: 1.5em;
+	color: #484f8e;
 }
 
 h6 {
 	font-family: 'News Cycle', sans-serif;
-	font-size: 0.3em;
+	font-size: 0.8em;
+	color: #9ca5d7;
 }
 
 select {
