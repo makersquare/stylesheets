@@ -1,0 +1,128 @@
+/**, *:before, *:after {
+	border: 1px solid red;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+body {
+	margin: 0;
+	font-family: Helvetica;
+	color: #7E81BD;
+
+}
+
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 960px;
+	color: #fff;
+}
+
+.wrapper span {
+	color: #5C64AC;
+}
+.wrapper .nav:hover {
+	background-color: white;
+	color: #5C64AC;
+}
+
+.nav {
+	display: inline-block;
+	float:left;
+}
+
+.logo {
+	margin: 1em 0em 1em 5%;
+	float: left;
+}
+.logo img {
+	width: 40%;
+}
+
+.nav.first {
+
+}
+.calltoaction {
+	color: white;
+	background-color: #4EBAC9;
+	border-radius: 100%;
+	margin: 1em;
+	border: 1px solid white;
+	transform: rotate(-20deg);
+	-ms-transform:rotate(-20deg); /* IE 9 */
+	-webkit-transform:rotate(-20deg); /* Opera, Chrome, and Safari */
+}
+
+
+.nav {
+	padding: 2.5em 1em 2.5em 1em;
+}
+
+
+.profile-pic, .profile-info {
+	float: left;
+}
+
+.profile-pic {
+	width: 20%;
+	margin-left: 8%;
+}
+.profile-pic img {
+	width: 100%;
+	border-radius: 50%;
+	margin: 1em;
+}
+
+.profile-info {
+	width: 60%;
+	padding: 2em;
+}
+
+.profile-info h3 {
+	color: #303A7C;
+}
+
+.profile-info p {
+	color: #7E81BD;
+}
+
+.profile-info button {
+	padding: 1.5em;
+	bottom: 0;
+
+}
+.work-port {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.work-port img, .company img {
+	width: 100%;
+}
+
+.purple {
+	background: #5C64AC;
+	border-top: 3px solid black;
+}
+.grey {
+	background: #F6F7F9;
+}
+.bottom {
+	border-bottom: 3px solid black;
+}
+
+.bottom h3 {
+	color: #5C64AC;
+}
+
+/*clear fix*/
+.cf:before, .wrapper:before,
+.cf:after, .wrapper:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after, .wrapper:after {
+    clear: both;
+}
