@@ -48,6 +48,18 @@ body {
 	text-align: center;
 }
 
+.calltoaction {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    transform: rotate(-18deg);
+    color: white;
+    line-height: 62px;
+    text-align: center;
+    background: #5ab8c8;
+}
+
 .profile-pic, .profile-info {
 	float: left;
 	display: block;
