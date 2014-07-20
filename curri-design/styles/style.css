@@ -1,0 +1,132 @@
+/**, *:before, *:after {
+	border: 1px solid red;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+body {
+	margin: 0;
+}
+
+.main-content {
+	background: #ffffff;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 960px;
+	color: black;
+}
+
+.logo, .nav {
+	display: inline-block;
+	float: left;
+}
+
+.logo {
+	width: 41%;
+	margin: 0.5% 3% 0 2%;
+}
+
+.logo img {
+	width: 50%;
+}
+
+.nav:hover {
+	background-color: white;
+}
+
+.nav.first {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.nav {
+	width: 10%;
+	/*doesn't work! use line-height instead!.... height: 82px;*/
+	line-height: 82px;
+	text-align: center;
+}
+
+/* Decided to keep font choices here since it's just one instance */
+.calltoaction {
+	margin: 0.6% 2% 0 auto;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    transform: rotate(-18deg);
+    color: white;
+    line-height: 62px;
+    text-align: center;
+    background: #5ab8c8;
+}
+
+.profile-pic, .profile-info {
+	float: left;
+	display: block;
+}
+
+.profile-pic {
+	float: left;
+	clear: both;
+	width: 200px;
+	height: 200px;
+	margin: 3% 2% 4% 2%;
+	background-image: url('https://raw.githubusercontent.com/makersquare/first-full-layout/master/curri/profile-pic.png');
+	background-size: cover;
+	display: block;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-style: solid;
+	border-color: #9ca5d7;
+}
+
+.profile-info {
+	width: 70%;
+	float: left;
+}
+
+.work-port {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.work-port img, .company img {
+	width: 100%;
+}
+
+.purple {
+	height: 80%;
+	background: #5d66aa;
+}
+.grey {
+	background: #f6f7f9;
+}
+
+
+@media all and (max-width: 70em) {
+	.main-content, .profile-info {
+		float: none;
+		width: 100%;
+		margin: auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
