@@ -25,8 +25,8 @@ body {
 }
 
 .logo {
-	width: 39%;
-	margin: 0 3% 0 2%;
+	width: 41%;
+	margin: 0.5% 3% 0 2%;
 }
 
 .logo img {
@@ -44,11 +44,13 @@ body {
 
 .nav {
 	width: 10%;
-	height: 84px;
+	/*doesn't work! use line-height instead!.... height: 82px;*/
+	line-height: 82px;
 	text-align: center;
 }
 
 .calltoaction {
+	margin: 0.6% 2% 0 auto;
     border-radius: 50%;
     width: 70px;
     height: 70px;
