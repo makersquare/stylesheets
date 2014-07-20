@@ -1,0 +1,97 @@
+*, *:before, *:after {
+	border: 1px solid red;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body {
+	color: black;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.top {
+	width: 75%;
+	margin: 0 auto;
+
+}
+.logo {
+	width: 15%;
+	float: left;
+}
+.logo img {
+	width: 100%;
+}
+.wrapper {
+	width: 45%;
+	float: left;
+	margin-left: 38%;
+}
+.herowrapper {
+
+	margin: 0 auto;
+	margin-left:;
+}
+.nav {
+	margin: 1em .7em
+}
+.hero {
+	width: 100%;
+	background-image: url('background.jpg');
+	height: 400px;
+	display: block;
+}
+.wrapperhero {
+	width: 75%;
+	margin: 0 auto;
+}
+.wrapperhero div {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.imac img{
+	width: 100%;
+	margin-top: 5em;
+}
+
+.form {
+	margin-top: 5em;
+
+}
+
+.form div {
+	width:100%;
+	float: left;
+	padding: 1em 0em;
+
+}
+
+.form span {
+	font-size: 2em;
+	color: #EB6A51;
+}
+
+.bar {
+	width: 75%;
+	margin: 0 auto;
+}
+.features {
+	width: 33%;
+	display: inline-block;
+}
+.footer
+{
+	width: 50%;
+	margin: 0 auto;
+}
+.footer div 
+{
+	text-align: center;
+	display: inline-block;
+}
+.heavy  {
+	margin-left: 45%;
+}
