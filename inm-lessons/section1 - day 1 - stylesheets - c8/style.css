@@ -1,0 +1,42 @@
+*, *:before, *:after {
+  border: 1px solid red;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*.cool {
+  display: inline-block;
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 50px;
+}
+
+span {
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 50px;
+}*/
+
+/*p {
+  clear: left;
+}*/
+
+img {
+  float: left;
+}
+
+div {
+  border: 5px dotted hotpink;
+  padding: 5px;
+  margin: 10px;
+/*  float: left;
+  width: 30%;*/
+}
+
+.ib {
+  display: inline-block;
+  border: 5px dotted hotpink;
+  padding: 5px;
+  margin: 10px;
+}
+

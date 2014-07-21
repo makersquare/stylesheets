@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+          .cf:before,
+          .cf:after {
+              content: " "; /* 1 */
+              display: table; /* 2 */
+          }
+          .cf:after { clear: both; }
+          .cf {
+              *zoom: 1;
+          }
+          /*--------------*/
+          body {margin: 0;}
+          .content {
+            float: left;
+          }
+          .left, .right {
+            background: orange;
+            width: 25%;
+          }
+          .middle {
+            background: yellow;
+            width: 50%;
+          }
+        </style>
+    </head>
+    <body>
+      <!-- body goes here -->
+      <div class="cf">
+        <div class="content left">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex enim voluptate qui ipsam, cupiditate rerum architecto officia cumque natus eum dolores illo molestiae facilis aperiam quod laudantium! Modi, fuga reprehenderit!
+        </div>
+        <div class="content middle">middle</div>
+        <div class="content right">right</div>
+      </div>
+    </body>
+</html>
