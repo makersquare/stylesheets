@@ -1,0 +1,218 @@
+/**************************
+Page Styles
+**************************/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;z*/
+}
+
+
+
+/****************
+Needed Colors
+*****************
+
+orange -      #f06856
+grey -        #919191
+light grey -  #dedede
+
+
+******************/
+#wrapper {
+
+}
+
+/*.middle-col {
+  margin: 0 10%;
+}*/
+
+.center {
+  margin: 0 10%;
+}
+
+.grey-text {
+  color: #999;
+  font-size: 0.8em;
+}
+/**************************
+Header Styles
+**************************/
+header {
+  height: 100px;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+#logo {
+  float: left;
+}
+
+
+/**************************
+Navigation
+**************************/
+nav {
+  float: right;
+}
+
+nav div {
+  display: inline-block;
+  padding-right: 30px;
+  width: 107px;
+  height: 42px;
+  box-sizing: border-box;
+  font-size: 71%;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+div .active {
+  background-color: #f06856;
+  color: white;
+  border-radius: 10px;
+}
+
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+
+/**************************
+Megatron Styles
+**************************/
+section {
+  /*padding-top: 70px;
+  height: 520px;*/
+}
+section#primary {
+  padding-top: 70px;
+  height: 520px;
+  background: url("../images/background.jpg")no-repeat;
+  height: 255px;
+  overflow: hidden;
+}
+
+
+
+#imac {
+  float: left;
+  /*height: 400px;*/
+  width: 470px;
+}
+
+#opt {
+  float: right;
+  width: 50%;
+}
+
+#opt h1, p {
+  margin-bottom: 25px;
+}
+
+#opt input {
+  height: 30px;
+  width: 200px;
+  border: 1px solid #dedede;
+  border-radius: 4px 0 0 4px;
+}
+
+#opt button {
+  border: 1px solid #dedede;
+  border-radius: 0 4px 4px 0;
+  border-left-width: 0px;
+  margin-left: -5px; 
+  height: 32px;
+  width: 100px;
+  color: white;
+  background-color: #f06856;
+  font-weight: 600;
+}
+
+
+
+
+/**************************
+Secondary Styles
+**************************/
+#secondary {
+  clear: both;
+}
+ 
+ .features {
+  width: 32%;
+  float: left;
+  margin-top: 60px;
+  margin-bottom: 79px;
+ }
+
+.features .icon-dot {
+  float: left;
+  color: white;
+  background-color: #f06856;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding-top: 6px;
+  padding-left: 10px;
+  font-size: 250%;
+  box-sizing: border-box;
+}
+
+.features .right-feature-sides {
+  margin-left: 35px;
+  width: 67%;
+  display: inline-block;
+}
+
+.right-feature-sides h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.learn-more-link a:link, .learn-more-link a:visited{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.thin {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+/**************************
+Footer Styles
+**************************/
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 1em;
+}
+footer h4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+#up-arrow {
+  height: 60px;
+  width: 60px;
+  float: right;
+  color: white;
+  background-color: #f06856;
+  padding-top: 6px;
+  padding-left: 20px;
+  font-size: 250%;
+  box-sizing: border-box;
+}
+
+#up-arrow i {
+}
+
+
+
+
+
