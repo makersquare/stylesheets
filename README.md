@@ -1,4 +1,4 @@
 stylesheets
 ===========
 
-A repo to submit pull requests to for stylesheet projects
+A repo to submit the portfolio project
