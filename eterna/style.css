@@ -71,6 +71,10 @@ p {
 	float: left;
 	margin-top: 7%;
 }
+
+.optin span {
+	color: #EC6C51;
+}
 .iconbars {
 	width: 80%;
 	margin-left: 10%;
@@ -98,8 +102,10 @@ p {
 	float: left;
 }
 .footer {
-	width: 100%;
+	width: 80%;
 	text-align: center;
+	border-top: 1px solid gray;
+	margin-left: 10%;	
 }
 .feature-dot {
 	margin: 10px;
