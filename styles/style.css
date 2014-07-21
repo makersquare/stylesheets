@@ -8,8 +8,6 @@ Page Styles
   /*font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;z*/
 }
 
-
-
 /****************
 Needed Colors
 *****************
@@ -18,15 +16,10 @@ orange -      #f06856
 grey -        #919191
 light grey -  #dedede
 
-
 ******************/
 #wrapper {
 
 }
-
-/*.middle-col {
-  margin: 0 10%;
-}*/
 
 .center {
   margin: 0 10%;
@@ -48,7 +41,6 @@ header {
 #logo {
   float: left;
 }
-
 
 /**************************
 Navigation
@@ -79,7 +71,6 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-
 /**************************
 Megatron Styles
 **************************/
@@ -94,8 +85,6 @@ section#primary {
   height: 255px;
   overflow: hidden;
 }
-
-
 
 #imac {
   float: left;
@@ -130,9 +119,6 @@ section#primary {
   background-color: #f06856;
   font-weight: 600;
 }
-
-
-
 
 /**************************
 Secondary Styles
@@ -208,11 +194,4 @@ footer h4 {
   font-size: 250%;
   box-sizing: border-box;
 }
-
-#up-arrow i {
-}
-
-
-
-
 
