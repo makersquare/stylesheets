@@ -1,4 +1,43 @@
 * {
-	outline: thin solid red;
+/*	outline: thin solid red;
+*/	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ body {
+	background: #dedede;
+}
+
+.sidebar {
+	max-width: 150px;
+	background: white;
+	-webkit-box-shadow: 2px 2px 2px 2px #9e9e9e;
+	box-shadow: 2px 2px 2px 2px #9e9e9e;
+	padding: 1em 0 0 0;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+nav div {
+	width: 100%;
+	text-align: center;
+	padding: 1em 0 1em 0;
+}
+
+nav {
+	padding: 1em 0;
+}
+
+nav div:hover {
+	background-color: #dfdfdf;
+}
+
+
+.sidebar img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 
