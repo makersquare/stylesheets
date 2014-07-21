@@ -1,0 +1,158 @@
+/********************************************/
+/**           Overall Settings             **/
+/********************************************/
+
+img {
+  width: 60%;
+  height: 60%;
+  border-radius: 180px;
+  margin:0 0 0 30px;
+  border: 1px solid black;
+}
+
+body {
+  margin:0;
+  background: red;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+body:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+
+.cf:before,.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+    color: #FF0000;
+}
+
+.navwrapper, .bodywrapper, .twitter-widget {
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.navwrapper, .twitter-widget {
+  width: 25%;
+}
+.bodywrapper {
+  width: 50%;
+}
+.body {
+  padding: 15px;
+}
+
+/********************************************/
+/**          Navigation Settings           **/
+/********************************************/
+
+.navwrapper {
+  margin:0 auto;
+  float:left;
+  padding: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-content {
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2px solid #C8C8C8;
+  border-radius: 10px;
+  box-shadow: 0px 1px 12px 2px #D9D9D9;
+  overflow: hidden;
+}
+
+.navphoto {
+  padding-top: 5px;
+  margin-left: 18%;
+  
+}
+
+
+.nav {
+  margin:0 auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.nav:hover{
+  background-color: #EDEDED;
+}
+
+/********************************************/
+/**             Body Settings              **/
+/********************************************/
+.bodywrapper {
+  margin:0 auto;
+  padding: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.body{
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2px solid #C8C8C8;
+  border-radius: 10px;
+  box-shadow: 0px 1px 12px 2px #D9D9D9;
+}
+
+
+/********************************************/
+/**             Twitter Settings           **/
+/********************************************/
+
+.twitter-widget {
+  margin:0 auto;
+  padding: 30px;  
+}
+
+.twitterback {
+  text-align: center;
+  border: 2px solid #C8C8C8;
+  border-radius: 10px;
+  box-shadow: 0px 1px 12px 2px #D9D9D9;
+  overflow: hidden;
+}
+.twitterback iframe {
+  width: 100%;
+}
+
+/*mobile design*/
+
+@media all and (max-width: 861px) {
+  .nav {
+    font-size: 20px;
+  }
+
+  .navphoto {
+  padding-top: 5px;
+  margin-left: 20%; 
+  }
+
+  .navwrapper, .bodywrapper, .twitter-widget {
+    float: none;
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+
+
+
+
