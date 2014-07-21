@@ -23,19 +23,21 @@ body {
   width: 100%;
 }
 nav {
- height: 7%;
+ height: 5em;
 }
 .logo {
   display: inline-block;
   float: left;
   margin-top: 1.75em;
   margin-left: 15%;
+  margin-bottom: 1em;
 }
 .nav-button-bar {
   display: inline-block;
   float: left;
   margin-top: 1.75em;
   margin-left: 25%;
+  margin-bottom: 1em;
 }
 .nav-button {
   display: inline-block;
@@ -58,7 +60,7 @@ nav {
 }
 .hero-wrapper {
   background: url('images/background.jpg') no-repeat;
-  height: 40%;
+  height: 26em;
   width: 100%;
   overflow: hidden;
   float: left;
@@ -95,7 +97,7 @@ nav {
 .features {
   clear:both;
   float:left;
-  height: 20%;
+  height: 9em;
   margin-left: 15%;
   margin-top: 3em;
   margin-bottom: 3em;
@@ -138,7 +140,7 @@ nav {
   display: block;
 }
 footer {
-  height: 15%;
+  height: 6em;
   border-top: 1px solid #ddd;
   margin-top: 0;
   padding-top: 0;
