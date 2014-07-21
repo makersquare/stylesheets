@@ -1,12 +1,17 @@
+/*GLOBAL*/
+
 * {
 /*	outline: thin solid red;
 */	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
  body {
 	background: #dedede;
 }
+
+/*SIDEBAR*/
 
 .sidebar {
 	max-width: 150px;
@@ -18,21 +23,6 @@
 	border-radius: 5px;
 }
 
-nav div {
-	width: 100%;
-	text-align: center;
-	padding: 1em 0 1em 0;
-}
-
-nav {
-	padding: 1em 0;
-}
-
-nav div:hover {
-	background-color: #dfdfdf;
-}
-
-
 .sidebar img {
 	width: 80%;
 	display: block;
@@ -40,4 +30,26 @@ nav div:hover {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
+
+nav {
+	padding: 1em 0;
+}
+
+nav div {
+	width: 100%;
+	text-align: center;
+	padding: 1em 0 1em 0;
+}
+
+nav div:hover {
+	background-color: #dedede;
+}
+
+/*FONTS*/
+* {
+	font-family: 'Open Sans', sans-serif; 
+}
+
+
+
 
