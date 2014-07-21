@@ -1,0 +1,168 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	font-family: 'Arimo', sans-serif;
+}
+
+div {
+	padding: 1em;
+	float: left;
+	display: inline-block;
+}
+
+p {
+	color: #908f90;
+	font-size: .8em;
+	padding: .6em;
+}
+
+.header, .features, .footer {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.features {
+	padding: .5em;
+}
+
+.header {
+	padding: .6em;
+}
+.hero {
+	width: 100%;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.hero span {
+	font-weight: bold;
+}
+
+.logo {
+	width: 15%;
+}
+
+.navigation {
+	width: 50%;
+	margin-left: 35%
+}
+
+.nav {
+	padding: .5em;
+	font-size: .75em
+}
+
+.nav.first {
+	background-color: #e96b56;
+	border-radius: 3px;
+	color: white;
+}
+
+.imac {
+	width: 50%;
+	position: relative;
+	bottom: -51px;
+	padding: .5em
+}
+
+.imac img {
+	width: 100%;
+}
+
+.form {
+	width: 50%;
+	position: relative;
+	bottom: -65px;
+}
+
+.form p, .form h2 {
+	padding: .2em;
+}
+
+.formfield {
+	height: 50px;
+	width: 250px;
+	margin-top: .5em;
+}
+
+.button {
+	width: 150px;
+	height: 50px;
+	border-radius: 2px;
+	background-color: #f45d4d;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	border: solid;
+	border-color: #f45d4d;
+	padding: 1em;
+}
+
+.hero h2 span {
+	color: #f45d4d;
+}
+
+.info {
+	width: 33%;
+	font-size: .75em
+}
+
+.symbol {
+	width: 20%;
+	padding: 2em;
+}
+
+.footer h2, .footer p {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.footer h2 {
+	font-weight: normal;
+	padding: .4em;
+}
+
+.footer span {
+	font-weight: bold;
+}
+
+input {
+	font-size: 1.5em
+}
+
+h3 {
+	padding: .2em;
+	margin: 0;
+	font-weight: normal;
+	font-size: 2em
+}
+
+.quality, .rich, .design {
+	width: 80%;
+	padding: 2em;
+}
+
+.features i {
+	font-size: 2em;
+	background-color: #f45d4d;
+	padding: .5em;
+	border-radius: 100%;
+	color: white;
+}
+
+.arrow i {
+	font-size: 1.5em;
+	background-color: #f45d4d;
+	padding: .5em;
+	color: white;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
