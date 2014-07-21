@@ -1,0 +1,15 @@
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+i {
+  color: white;
+}
+.i-wrapper {
+  background: orange;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  padding: 3px 0 0 0;
+  text-align: center;
+}

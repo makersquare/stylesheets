@@ -1,0 +1,92 @@
+.wrapper {
+  width: 64rem;
+  margin: 0 auto;
+}
+
+/*=======================*/
+/* header styles */
+nav, .logo {
+  display: inline-block;
+  float: left;
+}
+.logo {
+  margin-left: 3%;
+}
+nav {
+  margin-left: 50%;
+}
+nav span {
+  display: inline-block;
+}
+
+/*=======================*/
+/*hero styles*/
+.hero-background {
+  background: url('http://i.imgur.com/nr6pXoE.jpg') no-repeat;
+  background-size: cover;
+  height: 280px;
+  overflow-y: hidden;
+}
+
+.wrapper.hero {
+  margin-top: 80px;
+
+}
+.computer, .subscribe-wrap {
+  float: left;
+}
+.computer {
+  width: 35%;
+  margin-left: 8%;
+  /*overflow: hidden;*/
+}
+.computer img {
+  width: 100%;
+}
+.subscribe-wrap {
+  width: 48%;
+  margin-left: 5%;
+}
+
+/*=======================*/
+/*feature styles*/
+.columns {
+  float: left;
+}
+.third.columns {
+  width: 33.3333%;
+}
+
+.feature-symbol, .feature-text {
+  float: left;
+}
+.feature-symbol {
+  width: 20%;
+}
+.feature-text {
+  width: 70%;
+}
+
+/*=======================*/
+/*footer styles*/
+.half.columns {
+  width: 50%;
+}
+
+.half.columns.centered {
+  margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
