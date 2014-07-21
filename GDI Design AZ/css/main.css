@@ -1,0 +1,241 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+div{
+  font-color: #343339;
+}
+/*.header {
+  background-color: #878498;
+  display: block;
+  height: 100%;
+  padding: 0px;
+}*/
+.body {
+  background-color: red;
+}
+.header {
+  margin: 0px;
+  background-image: url(../img/downton-int-sepia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.header h1 {
+  color: #FA87D3;
+  font-family: 'Droid Serif', serif;
+  font-variant: small-caps; 
+  font-size: 2.3em;
+  margin: 0px;
+  padding: 1em;
+}
+.header p {
+  font-style: italic;
+  color: #ffffff;
+  font-family: 'Arimo', sans-serif;
+  margin: 0px;
+  padding-bottom: 1em;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+}
+.nav {
+  margin: 0px;
+  padding: 0px;
+/*  border-top: 3px solid #868E93;
+*/}
+
+/*.nav li :first-child {
+  border-top: none;
+}*/
+.nav li{
+  text-align: center;
+  display: block;
+  border-top: 1px solid white;
+  background-color: #FD9EDB;
+  font-family: 'Arimo', sans-serif;
+  letter-spacing: 2px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5%;
+}
+.nav li a:hover{
+  background-color: #868E93;
+}
+
+.header {
+  text-align: center
+}
+
+.blog {
+  color: #252729;
+  background-color: #BEBEBE;
+  text-align: center;
+  padding: 5%;
+  line-height: 1.4em;
+  border-top: 3px solid #868E93;
+}
+
+.blog h2 {
+  font-family: 'Droid Serif', serif;
+}
+
+.blog h3 {
+  font-family: 'Droid Serif', serif;
+}
+
+.blog p {
+  text-align: left;
+  font-size: 1.1em;
+  font-family: 'Arimo', sans-serif;
+}
+
+.about-us {
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+  border-top: 3px solid #868E93;
+  background-color: white;
+}
+/*portraits*/
+.about-us img {
+  margin: 2%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.contact {
+  background-color: #FA87D3;
+  border-top: 2px solid white;
+  padding: 5%;
+  color: #252729;
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+  border-top: 3px solid #868E93;
+}
+
+.contact p {
+  color: white;
+  font-family: 'Arimo', sans-serif;
+  letter-spacing: 2px
+}
+
+.contact ul {
+  padding: 0;
+}
+
+.contact li {
+  display: inline;
+}
+.phone-tablet {
+  display: none;
+}
+
+/* ==========================================================================
+   Print styles
+   Sample print media query
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+/*Tablet*/
+@media screen and (min-width: 600px){
+  .header {
+    background-image: url(../img/highclare-bw.png);
+  }
+  .nav {
+    background-color: #FD9EDB;
+/*    height: 4em;*/
+  }
+  .nav ul {
+    text-align: center;
+    vertical-align: center;
+  }
+  .nav li {
+    display: inline-block;
+    border: 0px;
+
+  }
+  .nav li a {
+    display: block;
+    padding: 5px;
+    margin: 0 20px 0 20px;
+    padding: 1em 1em;
+  }
+  .about-us img {
+    width: 40%;
+  }
+  .phone {
+    display: none;
+  }
+  .phone-tablet {
+    display: inline;
+  }
+}
+/*Desktop*/
+@media screen and (min-width: 900px){
+  .header {
+    background-image: url(../img/highclare.png);
+  }
+  .header p{
+    font-size: 1.1em;
+    margin: 0;
+    padding-bottom: 3em;
+    color: #ffffff;
+  }
+  .nav{
+/*    border-bottom: 3px solid #868E93;
+*/  }
+  .nav li a {
+    display: block;
+    padding: 5px;
+    margin: 0 20px 0 20px;
+    padding: 2em 2em;
+
+  }
+  .blog {
+    width: 50%;
+    float: left;
+    height: 612px;
+  }
+  .about-us {
+    width: 40%;
+    float: right;
+  }
+  .clearfix{
+    clear:both;
+  }
+  .about-us img {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1694px){
+  .blog {
+    height: 868px;
+  }
+}

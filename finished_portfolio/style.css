@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	background-color: #EAEAEA;
+	font-family: "Open Sans";
+}
+
+.wrapper {
+	float: left;
+}
+
+.card {
+	background: white;
+	border-radius: 1em;
+	-webkit-box-shadow: 1px 1px 12px 5px rgba(181,181,181,1);
+	-moz-box-shadow: 1px 1px 12px 5px rgba(181,181,181,1);
+	box-shadow: 1px 1px 12px 5px rgba(181,181,181,1);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.left {
+	width: 25%;
+	border-radius: 1em;
+}
+.middle {
+	width: 50%;
+	height: 622px;
+}
+.right {
+	width: 20%;
+	margin-left: 10px;
+	height: 622px;
+}
+.photo-and-menu {}
+
+.navpic img {
+	width: 60%;
+	height: 60%;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+	padding: 1em 0;
+}
+
+.buttons{
+	height: 395px;
+}
+
+.nav-button {
+	text-align: center;
+	padding-top: 0.8em;
+	font-size: 20px;
+	width: 100%;
+	height: 45px;
+	cursor:pointer;
+	text-decoration: none;
+}
+.nav-button:hover {
+	background-color: #E8E8E8;
+}
+
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none !important;
+}
+.about-me {
+	/*width: 50%;*/
+	margin-left: 2em;
+	padding: 2em;
+}
+p {
+	font-size: 20/1.618px;
+}
+.twitter-widget {
+	/*width: 25%;*/
+}
+/*Clear fix stuff*/
+.cf:before, .wrapper:before,
+.cf:after, .wrapper:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after, .wrapper:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf, .wrapper {
+    *zoom: 1;
+}
