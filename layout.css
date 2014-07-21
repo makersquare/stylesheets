@@ -5,6 +5,76 @@
 }
 
 .wrapper {
+	max-width: 64em;
 	width: 64em;
 	margin: 0 auto;
 }
+
+/*HEADER*/
+
+nav, .logo {
+	display: inline-block;
+	float: left;
+}
+
+nav {
+	margin-left: 40%;
+}
+
+.logo {
+	margin-left: 5%;
+}
+
+nav span {
+	display: inline-block;
+}
+
+/*BANNER*/
+
+.banner {
+	background: url(images/background.jpg) no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	height: 280px;
+}
+
+.banner {
+	overflow: hidden; /*or might need z-index*/
+}
+
+.computer, .info {
+	float: left;
+}
+
+.computer {
+	width: 40%;
+	margin-left: 5%;
+}
+
+.info {
+	width: 40%;
+	margin-left: 5%;
+}
+
+/*FEATURES*/
+
+.third.columns {
+	width: 33.3333%;
+}
+
+.columns {
+	float: left;
+}
+
+/*FOOTER*/
+
+.half {
+	width: 50%;
+}
+
+.half.columns.centered {
+	margin-left: 25%;
+}
+
+
+
