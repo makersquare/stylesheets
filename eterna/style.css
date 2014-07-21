@@ -1,8 +1,8 @@
-*, *:before, *:after {
-	border: 1px solid red;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
+/*	*, *:before, *:after {
+		border: 1px solid red;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}*/
 
 body {
 	color: black;
@@ -32,7 +32,7 @@ p {
 }*/
 .navbar {
 	margin: 1em;
-	margin-left: 5%;
+	margin-left: 25%;
 	float: left;
 
 }
@@ -41,7 +41,7 @@ p {
 }
 
 .calltoaction {
-	background-color: orange;
+	background-color: #EC6C51;
 	color: white;
 	border-radius: 5px;
 
@@ -57,7 +57,6 @@ p {
 	height: 400px;
 	display: block;	
 }
-
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
@@ -83,9 +82,13 @@ p {
 	display: inline-block;
 	float: left;	
 	border-radius: 50%;
+	background-color: #EC6C51;
+	color: white;
+
+
 }
 .textwrapper {
-	width: 18%;
+	width: 16%;
 	display: inline-block;
 	float: left;	
 }
@@ -97,5 +100,12 @@ p {
 .footer {
 	width: 100%;
 	text-align: center;
+}
+.feature-dot {
+	margin: 10px;
+}
+
+.feature-dot .calltoaction {
+	margin: 0;
 }
 
