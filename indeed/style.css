@@ -1,0 +1,101 @@
+.header{
+	height: 5%;
+	margin: 0 auto;
+	border-bottom: 2px solid #aaaaaa;
+}
+.hero {
+	height: 50%;
+	float: left;
+	margin: 0 auto;
+	width: 100%
+}
+.footer{
+	height: 300px;
+	float: left;
+	margin: 0 auto;
+	width: 100%
+}
+.leftnav{
+	float;left;
+	width: 80%;
+	display: inline-block;
+	margin: 0 auto;
+}
+.leftnav span{
+	padding-right: 10px;
+}
+.rightnav{
+	float: right;
+	width: 19%;
+	display: inline-block;
+	margin: 0 auto;
+
+}
+.rightnav span{
+	padding-right: 10px;
+}
+.main{
+	margin-right: 15%;
+	margin-left: 15%;
+	border-bottom: 2px solid #aaaaaa;
+
+}
+.bottom{
+	text-align: center;
+}
+.what, .where{
+	display: inline-block;
+	width:40%;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #ff6100;
+	float: left;
+	margin: 0 auto;
+}
+.button{
+	width: 15%;
+	display: inline-block;
+	margin-left:5px;
+}
+
+input{
+	width: 100%;
+	height: 30px;
+}
+.maintext{
+	text-align: center;
+	height: 170px;
+}
+.red{
+	color: red;
+	text-decoration: underline;
+}
+.gray{
+	color: #aaaaaa;
+	font-size: 14px;
+}
+button{
+	width:80%;
+	margin: 19% 0 0 0;
+	height: 35px;
+	color: white;
+	background-color: #1b5ffa;
+	font-size: px;
+	float: left;
+}
+input{
+	font-size: 20px;
+}
+.advance{
+	font-size: 12px;
+}
+.footer a{
+	text-decoration: none;
+	color: #7b75d3;
+}
+sup {
+	color: #aaaaaa;
+}
+.jobs {
+	font-weight: bolder;
+}
