@@ -1,4 +1,4 @@
-/*GLOBAL*/
+/*GLOBAL & RESETS*/
 
 * {
 /*	outline: thin solid red;
@@ -7,20 +7,32 @@
 	box-sizing: border-box;
 }
 
- body {
+body {
 	background: #dedede;
+}
+
+/*CONSISTENT CARD LOOK*/
+.sidebar, main {
+	margin: 1em;
+	background: white;
+	-webkit-box-shadow: 2px 2px 2px 2px #9e9e9e;
+	box-shadow: 2px 2px 2px 2px #9e9e9e;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 1.5em;
+}
+
+/*FONTS*/
+* {
+	font-family: 'Open Sans', sans-serif; 
 }
 
 /*SIDEBAR*/
 
 .sidebar {
-	max-width: 150px;
-	background: white;
-	-webkit-box-shadow: 2px 2px 2px 2px #9e9e9e;
-	box-shadow: 2px 2px 2px 2px #9e9e9e;
-	padding: 1em 0 0 0;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	max-width: 250px;
+	width: 25%;
+	float: left;
 }
 
 .sidebar img {
@@ -45,11 +57,10 @@ nav div:hover {
 	background-color: #dedede;
 }
 
-/*FONTS*/
-* {
-	font-family: 'Open Sans', sans-serif; 
+/*MAIN*/
+
+main {
+	width: 50%;
+	float: left;
 }
-
-
-
 
