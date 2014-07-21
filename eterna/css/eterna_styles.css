@@ -1,0 +1,212 @@
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#content-wrapper {
+	font-family: 'Open Sans', sans-serif;
+	color: #403e3c;
+}
+
+/*HEADER STYLES*/
+
+header {
+	width: 80%;
+	margin: 10px auto;
+	padding-bottom: 5px;
+}
+
+#logo {
+	float:left;
+}
+
+#logo img {
+	width: 60%;
+	margin-top: 10px;
+}
+
+#main-nav {
+	float:right;
+	margin-top: 5px;
+}
+
+#main-nav a {
+	text-decoration: none;
+	font-size: 8px;
+	padding: 6px 8px;
+	color: #403e3c;
+}
+
+#main-nav a:hover {
+	background-color: #e86b55;
+	border-radius: 3px;
+	color: #FFF;
+}
+
+/*HERO STYLES*/
+
+#hero-background {
+	background-image: url("../img/hero-background.png");
+	height: 250px;
+	width: 100%;
+}
+
+#hero {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 60px;
+	overflow: hidden;
+}
+
+#hero-text {
+	margin-left: 350px;
+}
+
+#hero-text p {
+	font-size: 8px;
+}
+
+#hero img {
+	max-height: 100%;
+	max-width: 330px;
+	float: left;
+	margin-left: 30px;
+}
+
+.red {
+	color: #e86b55;
+}
+
+form {
+	float: left;
+}
+
+input {
+	height: 30px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	border: 1px solid #dddddd;
+}
+
+button {
+	background-color: #e86b55;
+	color: #FFF;
+	border: none;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	margin: 0.5px 0 0 -3px;
+	height: 30px;
+	width: 80px;
+}
+
+
+/*INFO STYLES*/
+
+#info {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 10px 0 10px;
+}
+
+.info-text {
+	padding-left: 60px;
+}
+
+.info-text a {
+	text-decoration: none;
+	font-family: 'Open Sans';
+	font-size: 8px;
+	font-weight: bold;
+	color: #403e3c;
+}
+
+.body-text {
+	font-size: 8px;
+	width: 70%;
+}
+
+.small-text {
+	font-family: 'Open Sans';
+	font-weight: lighter;
+}
+
+#quality {
+	float: left;
+	width: 33.3%;
+}
+
+#features {
+	float: left;
+	width: 33.4%;
+}
+
+#design {
+	width: 33.3%;
+	float: right;
+}
+
+.icon-circle {
+	background-color: #e86b55;
+	height: 45px;
+	width: 45px;
+	border-radius: 100px;
+	float: left;
+	margin-top: 21px;
+}
+
+.fa-star, .fa-dropbox {
+	color: #FFF;
+	font-size: 26px;
+	padding-left: 10px;
+	padding-top: 10px; 
+	float: left;
+}
+
+.fa-laptop {
+	color: #FFF;
+	font-size: 26px;
+	padding-left: 9px;
+	padding-top: 9px; 
+	float: left;
+}
+
+
+/*FOOTER STYLES*/
+
+#footer {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#footer h3 {
+	text-align: center;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 8px;
+}
+
+#box {
+	background-color: #e86b55;
+	width: 25px;
+	margin-bottom: 10px;
+	position: absolute;
+	bottom: 50px;
+	right: 5px;
+}
+
+.fa-angle-up {
+	color: #FFF;
+	margin-left: 8px;
+}
+
+
+
+
+
+
+
