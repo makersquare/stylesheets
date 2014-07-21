@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #ccc
+}
+
+.wrapper {
+	background-color: #ccc;
+	margin: 0 auto;
+}
+
+div {
+/*	padding: 1em;
+*/	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	box-shadow: 1px 1px 5px .5px #000000;
+	border-radius: 2px;
+	background-color: #ffffff;
+	float: left;
+/*	max-width: 175px;
+*/	height: 18%;
+	width: 95%;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 1%;
+	margin-left: 2%; /*should I be centering using this??*/
+	margin-right: 2%;
+	margin-top: 1%;
+}
+
+.pic {
+	display: inline-block;
+	width: 5%;
+	padding: 1em;
+}
+
+span {
+	display: inline-block;
+/*	width: 10%;*/
+	padding: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.pic img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+div.link:hover {
+	background: #ccc;
+	border-radius: 10%;
+	border: dashed 3px;
+	-moz-transform: scale(1.2) rotate(4deg);
+	-webkit-transform: scale(1.2) rotate(4deg);
+	-o-transform: scale(1.2) rotate(4deg);
+	-ms-transform: scale(1.2) rotate(4deg);
+	transform: scale(1.2) rotate(4deg);
+}
+
+div#about {
+	float: left;
+	width: 67%;
+	height: 66%;
+	box-shadow: 1px 1px 5px .5px #000000;
+	border-radius: 3px;
+	background-color: #ffffff;
+	margin-left: 22px;
+	margin-right: 10px;
+	padding: 1em;
+}
+
+h2 {
+	font-weight: bold
+}
+div.twitter {
+	width: 24%;
+	height: 70%;
+	float: left;
+	margin-right: 15px;
+	box-shadow: 1px 1px 5px .5px #000000;
+	border-radius: 3px;
+	background-color: #ffffff;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
