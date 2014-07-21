@@ -1,0 +1,213 @@
+header{
+	width: 100%;
+	display: inline-block;
+}
+.logo{
+	display:inline-block;
+	width:50%;
+	float:left;
+	/*margin:0 auto;*/
+	height: auto;
+	padding: 10px 0px 10px 0px;
+
+}
+.navbar{
+	display: inline-block;
+	float:left;
+	width:50%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 10px;
+	height: 100%;
+	/*font-size: 8px;*/
+
+}
+.default:hover{
+	background-color: black;
+	color: white;
+}
+.active{
+	background-color: #fe634e;
+	color:white;
+}
+.default, .active{
+	font-size: 12px;
+	margin-left: 15px;
+	padding: 0 5px 0 5px;
+}
+.computer{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	position: relative;   
+    margin-right: 0 auto;
+}
+.computer img{
+	margin-top: 45px;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    padding-right: 18px;
+  	overflow: hidden;    
+}
+
+.optin{
+	display: inline-block;
+	width: 50%;
+	/*float: left;*/
+	padding:0 20px  0 20px;
+	margin: 0 auto;
+
+
+}
+.quality{
+	display: inline-block;
+	width:33%;
+	float: left;
+	/*height: 100%*/;
+}
+.features{
+	display: inline-block;
+	width: 33%;
+	float: left;
+	
+	/*height: 100%;*/
+}
+.design{
+	display: inline-block;
+	width: 34%;
+	float: left;
+	/*height: 100%;*/
+}
+.pricing{
+	display: inline-block;
+	height: 0 auto;
+	width: 100%;
+	margin: 0 auto;
+}
+.hero{
+	background-image: url("background.jpg");
+    /*height: 300px;*/
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+.button {
+
+	
+	background-color:#fe634e;
+	border-radius: 2%;
+	text-indent:0;	
+	display:inline-block;
+	color:white;
+	
+	font-size:16px;
+	
+	
+	height:53px;
+	line-height:53px;
+	width:150px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ce8e28;
+	float: left;
+	margin:0 auto;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eeaf41), color-stop(1, #ffce79) );
+	background:-moz-linear-gradient( center top, #eeaf41 5%, #ffce79 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeaf41', endColorstr='#ffce79');
+	background-color:#eeaf41;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+.input{
+	width: 290px;
+	height: 53px;
+	display: inline-block;
+	float: left;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.info{
+	height: 180px;
+	margin: 0 auto;
+	width: 90%;
+}
+.circle{
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background-color:#fe634e;
+	border-radius: 100%;
+	text-indent:0;	
+	display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:35px;
+	font-weight:bold;
+	font-style:normal;
+	height:60px;	
+	width:60px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ce8e28;
+	float: left;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.qualitytext, .featurestext, .designtext{
+	float: left;
+	margin-left: 10px;
+	max-width: 70%;
+	max-height: 100% !important;
+	vertical-align: center;
+}
+.pricetext{
+	padding: 0 33% 0 33%;
+	text-align: center;
+	float: left;
+	width: 100%;
+	display: inline-block;
+}
+.caret{
+	position: fixed;
+    bottom: 0px;
+    right: 0px; 
+}
+
+body{
+	font-family: 'Open Sans';
+}
+.logo img{
+	margin-left: 20px;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+
+.fixedbutton {
+    position: fixed;
+    bottom: 10px;
+    right: 0px; 
+    font-size: 40px;
+    height:50px;
+   	width:50px;
+    background-color: #f06856;
+}
+/*a:visited{
+	color: black;
+}*/
+strong{
+	font-weight: bolder;
+}
+#orange{
+	color: #fd6552;
+}
+#lighter{
+	font-weight: lighter;
+}
