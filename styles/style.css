@@ -1,0 +1,168 @@
+*, *:before,*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #2E2E2E;
+}
+
+.wrapper{
+	width: 90%;
+	margin:0 auto;
+	max-width:960px;
+}
+
+.main-content.first{
+	background:#FFFFFF;
+}
+
+
+.main-content.second{
+	background: url('../images/hero-background.jpg');
+}
+
+.menu, .hero{
+	display: inline-block;
+	width:100%;
+	height:100%;
+}
+
+.logo, .nav{
+	margin-bottom: .8em;
+}
+
+.price, .logo, .nav, .hero-info, .hero-pic, .subscribe, .subscribe-email, .learn, .company, .title, .foot-text, .icon,.quality div{
+	display:inline-block;
+	float: left;
+}
+
+.nav{
+	padding:.3em 1.2em;
+	margin-bottom: .5em;
+	font-size:.8em;
+}
+.nav.first{
+	margin-left:28%;
+	color:white;
+}
+
+.selected{
+	height:100%;
+	width:auto;
+	border-radius:10%;
+	color:white;
+}
+
+.logo-image, .menu{
+	padding-top:1em;
+}	
+
+.selected, .fa-star-o, .fa-dropbox, .fa-laptop{
+	background:#EA6B52;
+}
+
+.orange, .button{
+	color:#EA6B52;
+}
+
+.hero-pic img{
+	max-height:40%;
+	width:auto;
+}
+
+.hero-pic, .hero-info{
+	margin-top:5em;
+}
+
+.hero-pic{
+	margin-bottom:-1.8em;
+}
+
+.hero{
+	overflow: hidden;
+}
+
+.hero-info{
+	margin-left:4em;
+	width:43%;
+}
+
+.info{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.subscribe, .subscribe-email{
+	height:3em;
+}
+
+.subscribe{
+	margin-left:0;
+	background:#EA6B52;
+	border-radius: .2em;
+	font-weight: bold;
+	color:white;
+	padding:.5em 2em;
+	font-size:84%;
+}
+
+.subscribe-email{
+	width:50%;
+}
+
+.company{
+	width:100%;
+}
+
+.learn{
+	width:33.3%;
+}
+
+.quality div{
+	width:62%;
+}
+
+.icon{
+	padding:.7em 1em 3em 1em;
+	font-size: 2em;
+}
+
+.fa-star-o, .fa-dropbox, .fa-laptop{
+	border-radius: 100%;
+	padding:.25em;
+	color:#FFFFFF;
+}
+
+.title{
+	height:3em;
+	padding-top:1em;
+	font-size: 1.5em;
+}
+
+.emphasis{
+	font-weight:bold;
+}
+
+.grey-text{
+	font-size:1em;
+	color: #939393;
+	padding-bottom: .7em;
+}
+
+.more-info
+{
+	font-size:.9em;
+}
+
+.price{
+	margin-left:45%;
+	font-size:1.5em;
+}
+
+.foot-text{
+	font-size: .8em;
+	margin-left: 30%;
+}
