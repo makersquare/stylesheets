@@ -1,0 +1,141 @@
+*, *:before, *:after {
+/*	border: 1px solid red;
+*/	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body { 
+	margin: 0; /*to overcome browser's preset margin*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper { 
+	width: 90%; 
+	margin: 0 auto; /*centers*/
+	max-width: 960px; /*so that it will be responsive at less than 960px*/
+	color: #b4b4be;
+}
+
+.logo, .nav {
+	display: inline-block;
+	float: left;
+}
+
+.nav.first {
+  margin-left: 27%;
+}
+
+.logo {
+	margin-left: 5%;
+	width: 20%;
+	padding: .5em;
+	margin-top: 0;
+}
+
+.calltoaction {
+	border-radius: 100%;
+	background-color: #54b9c8;
+	color: white;
+	font-family: 'Cantarell', sans-serif;
+	-webkit-transform: rotate(-25deg);
+	width: 80px;
+	font-style: italic;
+}
+
+img {
+	width: 100%;
+}
+
+.profile-pic img {
+	border-radius: 100%;
+	border: thin #747df2 solid;
+}
+
+.top {
+	width: 70%;
+	margin-left: 40%;
+/*	padding: em;*/
+}
+
+span {
+	padding: .6em;
+	margin-top: 16px;
+}
+
+.profile-pic {
+	padding: 0em;
+	width: 20%;
+	margin-top: 56px;
+}
+
+.profile-info {
+	padding: 3em;
+	width: 80%;
+}
+
+h1 {
+	color: #fcfbfd;
+}
+
+h3 {
+	color: #3e4585;
+	font-weight: normal
+}
+
+p {
+	color: #9aa1da;
+}
+
+.profile-pic, .profile-info {
+	float: left;
+}
+
+.company {
+	width: 100%;
+}
+
+.company img, .work-port img {
+	width: 100%
+}
+
+.work-port {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.main--content.purple {
+	background: #5d66aa;
+}
+
+.main--content.grey {
+	background: #f6f7f9;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+button {
+	width: 198px;
+	height: 51px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #5a61a7;
+	border-radius: 2%;
+	background-color: #faf9fe;
+	border: none;
+}
+
+/*=================== clear fix -==============*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
