@@ -423,36 +423,49 @@ body {
   height: 75px;
   background: #fefefe;
   overflow: hidden;
-  position: fixed; }
-  /* line 16, ../sass/shoestring/style.sass */
+  position: fixed;
+  border-bottom: 2px solid #cccccc; }
+  /* line 17, ../sass/shoestring/style.sass */
   .header .logo {
     width: 10%;
     height: 100%;
     float: left;
     padding-top: 1%;
     margin-left: 10%; }
-    /* line 22, ../sass/shoestring/style.sass */
+    /* line 23, ../sass/shoestring/style.sass */
     .header .logo img {
       width: 80%; }
 
-/* line 24, ../sass/shoestring/style.sass */
+/* line 25, ../sass/shoestring/style.sass */
 .spacer {
   height: 75px; }
 
-/* line 27, ../sass/shoestring/style.sass */
+/* line 28, ../sass/shoestring/style.sass */
 nav {
   margin: 0 0 0 50%;
-  padding-top: 25px; }
-  /* line 30, ../sass/shoestring/style.sass */
+  padding-top: 25px;
+  height: 100%; }
+  /* line 32, ../sass/shoestring/style.sass */
   nav span {
-    margin-left: 1%; }
+    margin-left: 1%;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 5px; }
+    /* line 37, ../sass/shoestring/style.sass */
+    nav span:hover {
+      background: #af101b;
+      color: white; }
+  /* line 41, ../sass/shoestring/style.sass */
+  nav .active {
+    background: #af101b;
+    color: white; }
 
-/* line 33, ../sass/shoestring/style.sass */
+/* line 45, ../sass/shoestring/style.sass */
 .jumbotron {
   height: 300px;
   background: url("../images/hero.jpg");
   background-size: 50%; }
-  /* line 35, ../sass/shoestring/style.sass */
+  /* line 47, ../sass/shoestring/style.sass */
   .jumbotron .jumbotron-text {
     width: 45%;
     height: 100%;
@@ -461,34 +474,75 @@ nav {
     padding: 1%;
     border-radius: 1.5rem;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3), inset 0 -3px 3px rgba(0, 0, 0, 0.1); }
-    /* line 44, ../sass/shoestring/style.sass */
+    /* line 55, ../sass/shoestring/style.sass */
+    .jumbotron .jumbotron-text button {
+      background: #43bbef;
+      color: white;
+      border-radius: 5px;
+      border: 0;
+      display: block;
+      padding: 2%;
+      margin: 1% auto; }
+      /* line 63, ../sass/shoestring/style.sass */
+      .jumbotron .jumbotron-text button:hover {
+        background: royalblue; }
+    /* line 65, ../sass/shoestring/style.sass */
     .jumbotron .jumbotron-text h1 {
       color: #43bbef;
       text-align: center; }
-    /* line 47, ../sass/shoestring/style.sass */
+    /* line 68, ../sass/shoestring/style.sass */
     .jumbotron .jumbotron-text p {
       color: white;
       padding-left: 3%; }
 
-/* line 53, ../sass/shoestring/style.sass */
+/* line 75, ../sass/shoestring/style.sass */
+.staff-section h1 {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 2%;
+  text-align: center; }
+
+/* line 82, ../sass/shoestring/style.sass */
 .staff {
   width: 30%;
   height: 500px;
   float: left;
   margin-left: 2.5%;
+  margin-top: 2.5%;
   background-color: white;
   border-radius: 10px;
-  padding-top: 2%;
-  margin-top: 3%; }
-  /* line 62, ../sass/shoestring/style.sass */
+  padding-top: 2%; }
+  /* line 92, ../sass/shoestring/style.sass */
   .staff img {
     width: 150px;
     height: 150px;
     display: block;
     margin: 0 auto;
     border-radius: 100%; }
-  /* line 68, ../sass/shoestring/style.sass */
+  /* line 98, ../sass/shoestring/style.sass */
   .staff .staff-text {
     width: 80%;
     margin: 0 auto;
     text-align: center; }
+
+/* line 103, ../sass/shoestring/style.sass */
+footer {
+  margin-top: 3%;
+  height: 75px;
+  background: #fefefe;
+  margin-bottom: 0; }
+  /* line 108, ../sass/shoestring/style.sass */
+  footer .section {
+    width: 33%;
+    float: left;
+    color: gray;
+    text-align: center; }
+  /* line 113, ../sass/shoestring/style.sass */
+  footer p {
+    display: inline-block;
+    width: 80%; }
+  /* line 116, ../sass/shoestring/style.sass */
+  footer .middle {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc; }
