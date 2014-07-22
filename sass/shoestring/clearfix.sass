@@ -11,12 +11,16 @@
  //
 
 .clearfix:before,
+.wrapper:before,
+.wrapper:after,
 .clearfix:after
   content: " " // 1
   display: table // 2
  
-.clearfix:after
+.clearfix:after,
+.wrapper
   clear: both
+
 
 
 ///
