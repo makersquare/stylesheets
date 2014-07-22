@@ -29,4 +29,15 @@ article h4, article p {
 	padding: 0 1em;
 	@include border-radius(10px);
 
+	h5 {
+		margin: 1em 0;
+	}
+}
+
+
+.button.default {
+	margin-bottom: 1em;
+	background-color: $dark-gray;
+	color: white;
+
 }

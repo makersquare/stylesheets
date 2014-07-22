@@ -360,13 +360,10 @@ nav span:first-child {
 
 .heading {
   opacity: 1;
-  margin-top: 4.5em;
-  margin-left: 1.75em;
-  padding-left: .45em;
-  border: 1px solid #000;
+  margin-top: 1.6em;
+  margin-left: 3.25em;
   border-right: none;
-  font-size: 2.25em;
-  background: #dbdbdb; }
+  font-size: 2.25em; }
 
 .banner:after {
   background: url(../images/mountains.jpg);
@@ -399,6 +396,13 @@ article h4, article p {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px; }
+  .aside h5 {
+    margin: 1em 0; }
+
+.button.default {
+  margin-bottom: 1em;
+  background-color: #393b32;
+  color: white; }
 
 footer {
   margin-top: 0.8em;
