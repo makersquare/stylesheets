@@ -27,4 +27,6 @@ article h4, article p {
 	float:right;
 	width: 40%;
 	padding: 0 1em;
+	@include border-radius(10px);
+
 }

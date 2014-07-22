@@ -341,7 +341,10 @@ nav span {
   background: #ddf0fd;
   text-align: center;
   height: 75px;
-  padding-top: 20px; }
+  padding-top: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
 
 nav span:first-child {
   margin-left: 0; }
@@ -390,7 +393,10 @@ article h4, article p {
   background-color: #dbdbdb;
   float: right;
   width: 40%;
-  padding: 0 1em; }
+  padding: 0 1em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
 
 footer {
   margin-top: 0.8em;
