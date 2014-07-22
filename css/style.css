@@ -344,13 +344,31 @@ nav span:first-child {
 
 .banner {
   height: 15em;
-  background-image: url(../images/mountains.jpg);
-  opacity: 0.35; }
+  display: block;
+  width: 48rem;
+  max-width: 90%;
+  position: relative;
+  border: 1px solid #000; }
 
 .heading {
-  margin-top: -80px;
-  margin-left: 1em;
-  font-size: 2.5em; }
+  opacity: 1;
+  margin-top: 4.5em;
+  margin-left: 1.75em;
+  padding-left: .45em;
+  border: 1px solid #000;
+  font-size: 2.25em;
+  background: #dbdbdb; }
+
+.banner:after {
+  background: url(../images/mountains.jpg);
+  opacity: 0.4;
+  width: 100%;
+  height: 15em;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  content: ""; }
 
 article.info {
   display: inline-block;
