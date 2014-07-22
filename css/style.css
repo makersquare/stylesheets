@@ -237,70 +237,75 @@ th {
 
 /* line 4, ../sass/shoestring/grid.sass */
 html {
-  font-size: 100%; }
+  font-size: 100%;
+  background: url("../images/rainy_depth.jpg") no-repeat;
+  background-size: cover; }
 
 @media (min-width: 40rem) {
-  /* line 9, ../sass/shoestring/grid.sass */
+  /* line 11, ../sass/shoestring/grid.sass */
   html {
     font-size: 112%; } }
 @media (min-width: 64rem) {
-  /* line 14, ../sass/shoestring/grid.sass */
+  /* line 16, ../sass/shoestring/grid.sass */
   html {
     font-size: 120%; } }
-/* line 17, ../sass/shoestring/grid.sass */
+/* line 19, ../sass/shoestring/grid.sass */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 20, ../sass/shoestring/grid.sass */
+/* line 22, ../sass/shoestring/grid.sass */
 .container {
   margin: 0 auto;
   max-width: 48rem;
   width: 90%; }
-  /* line 24, ../sass/shoestring/grid.sass */
+  /* line 26, ../sass/shoestring/grid.sass */
   .container.demo {
     margin-bottom: 10px; }
 
-/* line 27, ../sass/shoestring/grid.sass */
+/* line 29, ../sass/shoestring/grid.sass */
 .container-full-width {
   margin: 0 auto;
   width: 100%; }
 
-/* line 32, ../sass/shoestring/grid.sass */
+/* line 34, ../sass/shoestring/grid.sass */
 .column.demo {
   background: #cccccc; }
 
 @media (min-width: 40rem) {
-  /* line 36, ../sass/shoestring/grid.sass */
+  /* line 38, ../sass/shoestring/grid.sass */
   .column {
     float: left;
     display: inline-block;
     margin-right: 1%; }
-    /* line 40, ../sass/shoestring/grid.sass */
+    /* line 42, ../sass/shoestring/grid.sass */
     .column.full {
       width: 100%; }
-    /* line 42, ../sass/shoestring/grid.sass */
+    /* line 44, ../sass/shoestring/grid.sass */
     .column.two-thirds {
       width: 66%; }
-    /* line 44, ../sass/shoestring/grid.sass */
+    /* line 46, ../sass/shoestring/grid.sass */
     .column.third {
       width: 32%; }
-    /* line 46, ../sass/shoestring/grid.sass */
+    /* line 48, ../sass/shoestring/grid.sass */
     .column.half {
       width: 49%; }
-    /* line 48, ../sass/shoestring/grid.sass */
+    /* line 50, ../sass/shoestring/grid.sass */
     .column.fourth {
       width: 23.5%; }
-    /* line 50, ../sass/shoestring/grid.sass */
+    /* line 52, ../sass/shoestring/grid.sass */
     .column.three-fourths {
       width: 74.5%; }
-    /* line 52, ../sass/shoestring/grid.sass */
+    /* line 54, ../sass/shoestring/grid.sass */
     .column.flow-opposite {
       float: right;
       padding: 0;
       margin: 0; }
-    /* line 56, ../sass/shoestring/grid.sass */
+    /* line 58, ../sass/shoestring/grid.sass */
+    .column.centered {
+      text-align: center; }
+    /* line 60, ../sass/shoestring/grid.sass */
     .column img {
       width: 100%; } }
 /* line 23, ../sass/shoestring/buttons.sass */
@@ -408,12 +413,50 @@ a {
   a:active {
     color: #085387; }
 
-/* line 1, ../sass/shoestring/troubleshoot.sass */
-*, *:before, *:after {
-  border: 1px solid red;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
 /* line 28, ../sass/shoestring/main.sass */
-.navbar {
-  margin-top: 10px; }
+.list {
+  font-size: 0.8em; }
+
+/* line 31, ../sass/shoestring/main.sass */
+.tagline {
+  font-size: 0.8em; }
+
+/* line 34, ../sass/shoestring/main.sass */
+.rates {
+  font-size: 0.8em; }
+
+/* line 37, ../sass/shoestring/main.sass */
+.taxi {
+  background-image: url("../images/cab.png");
+  background-size: cover;
+  height: 250px; }
+
+/* line 42, ../sass/shoestring/main.sass */
+.spacer {
+  height: 2em; }
+
+/* line 45, ../sass/shoestring/main.sass */
+.yellow {
+  font-family: "Oxygen", sans-serif;
+  background-color: #eab609; }
+
+/* line 49, ../sass/shoestring/main.sass */
+.rounded {
+  border-radius: 8px;
+  padding: 10px; }
+
+/* line 53, ../sass/shoestring/main.sass */
+.bottom-margin {
+  margin-bottom: 10px; }
+
+/* line 56, ../sass/shoestring/main.sass */
+.title {
+  color: white; }
+
+/* line 59, ../sass/shoestring/main.sass */
+.padding {
+  padding-bottom: 18px; }
+
+/* line 62, ../sass/shoestring/main.sass */
+.soft {
+  background-color: black; }
