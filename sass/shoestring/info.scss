@@ -1,0 +1,20 @@
+article.info {
+	display: inline-block;
+	width: 49%;
+	float: left;
+	background-color: $light-gray;
+
+}
+
+.info:last-child {
+	margin-left: 2%;
+}
+
+.content {
+	margin: $margin-h auto;
+}
+
+article h4, article p {
+	width: 85%;
+	margin: $margin-h auto;
+}

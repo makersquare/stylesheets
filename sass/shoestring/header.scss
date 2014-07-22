@@ -1,0 +1,23 @@
+// HEADER & NAV
+
+
+nav {
+	width: 100%;
+	display: block;
+	margin: $margin-h 0;
+}
+
+nav span {
+	display: inline-block;
+	width: 23.75%;
+	margin-left: 1%;
+	background: $mks-blue;
+	text-align: center;
+	height:75px;
+	padding-top: 20px;
+}
+
+nav span:first-child {
+	margin-left: 0;
+}
+
