@@ -3,6 +3,8 @@
 
 html
   font-size: 100%
+  background: url('../images/rainy_depth.jpg') no-repeat
+  background-size: cover
 
 // Medium screens (640px)
 @media (min-width: 40rem)
@@ -35,7 +37,8 @@ html
 @media (min-width: 40rem)
   .column
     float: left
-    margin-right: 2%
+    display: inline-block
+    margin-right: 1%
     &.full
       width: 100%
     &.two-thirds
@@ -52,5 +55,7 @@ html
       float: right
       padding: 0
       margin: 0
+    &.centered
+      text-align: center
     img
       width: 100%
