@@ -435,36 +435,44 @@ body {
 /* line 44, ../sass/shoestring/main.sass */
 .contactBox {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   background: #eab609; }
 
 /* line 49, ../sass/shoestring/main.sass */
+.basic-info {
+  padding: 10px; }
+
+/* line 52, ../sass/shoestring/main.sass */
 .phone {
   font-size: 1.9em;
   color: white;
   background: #1b2233; }
 
-/* line 54, ../sass/shoestring/main.sass */
-.phone i {
-  color: #eab609; }
-
 /* line 57, ../sass/shoestring/main.sass */
+.phone p {
+  margin-top: 30px; }
+
+/* line 60, ../sass/shoestring/main.sass */
+.phone i {
+  color: #eab609;
+  margin-top: 30px; }
+
+/* line 64, ../sass/shoestring/main.sass */
 .success {
   background: #1b2233;
   width: 100%;
   margin-right: 0px;
   margin-left: 1%; }
 
-/* line 63, ../sass/shoestring/main.sass */
+/* line 70, ../sass/shoestring/main.sass */
 .questions {
-  background: #1b2233;
   margin-top: 30px; }
 
-/* line 68, ../sass/shoestring/main.sass */
+/* line 75, ../sass/shoestring/main.sass */
 .margin-fix {
   margin-left: 1%; }
 
-/* line 71, ../sass/shoestring/main.sass */
+/* line 78, ../sass/shoestring/main.sass */
 .third-text {
   text-align: center;
   font-size: 0.9em;
@@ -472,13 +480,13 @@ body {
   margin-left: 5px;
   margin-right: 5px; }
 
-/* line 78, ../sass/shoestring/main.sass */
+/* line 85, ../sass/shoestring/main.sass */
 .iconic {
   margin: 0 auto;
   height: 80px;
   bottom: 0; }
 
-/* line 83, ../sass/shoestring/main.sass */
+/* line 90, ../sass/shoestring/main.sass */
 .rounder {
   margin-left: 37%;
   text-align: center;
@@ -489,33 +497,33 @@ body {
   color: #1b2233;
   border: solid #1b2233 2px; }
 
-/* line 93, ../sass/shoestring/main.sass */
+/* line 100, ../sass/shoestring/main.sass */
 .rounder i {
   margin-top: 10px; }
 
-/* line 96, ../sass/shoestring/main.sass */
+/* line 103, ../sass/shoestring/main.sass */
 .foot-text {
   text-align: center;
   font-weight: 900;
   margin-top: 30px; }
 
-/* line 101, ../sass/shoestring/main.sass */
+/* line 108, ../sass/shoestring/main.sass */
 #credit {
   width: 300px;
   height: auto;
   margin: 0 auto;
   display: block; }
 
-/* line 107, ../sass/shoestring/main.sass */
+/* line 114, ../sass/shoestring/main.sass */
 .white {
   background: white;
   height: 60px; }
 
-/* line 111, ../sass/shoestring/main.sass */
+/* line 118, ../sass/shoestring/main.sass */
 hr {
   border: 0;
   padding: 0; }
 
-/* line 115, ../sass/shoestring/main.sass */
+/* line 122, ../sass/shoestring/main.sass */
 .top {
   margin-top: 30px; }
