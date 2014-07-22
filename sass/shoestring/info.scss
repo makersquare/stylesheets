@@ -1,20 +1,30 @@
 article.info {
-	display: inline-block;
-	width: 49%;
-	float: left;
-	background-color: $light-gray;
+	display: block;
+	// width: 49%;
+	// float: left;
 
 }
 
-.info:last-child {
-	margin-left: 2%;
-}
+// .info:last-child {
+// 	margin-left: 2%;
+// }
 
 .content {
 	margin: $margin-h auto;
 }
 
 article h4, article p {
-	width: 85%;
-	margin: $margin-h auto;
+	// width: 85%;
+	margin: $margin-h 0;
+}
+
+.info p {
+	font-size: 0.75em;
+}
+
+.aside {
+	background-color: $light-gray;
+	float:right;
+	width: 40%;
+	padding: 0 1em;
 }

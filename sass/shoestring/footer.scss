@@ -1,6 +1,13 @@
 footer {
-	height: 75px;
+	// height: 100px;
 	margin-top: $margin-h;
-	margin-bottom: $margin-h;
-	background: $mks-blue;
+	background: $dark-gray;
+}
+
+.social {
+	// background:$mks-blue;
+	display: inline-block;
+	font-size: 2.5em;
+	padding: 0.75em 0;
+	color: white;
 }

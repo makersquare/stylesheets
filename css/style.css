@@ -325,6 +325,10 @@ a {
   a:active {
     color: #085387; }
 
+header {
+  background: #393b32;
+  margin-bottom: 0.8em; }
+
 nav {
   width: 100%;
   display: block;
@@ -371,23 +375,29 @@ nav span:first-child {
   content: ""; }
 
 article.info {
-  display: inline-block;
-  width: 49%;
-  float: left;
-  background-color: #dbdbdb; }
-
-.info:last-child {
-  margin-left: 2%; }
+  display: block; }
 
 .content {
   margin: 0.8em auto; }
 
 article h4, article p {
-  width: 85%;
-  margin: 0.8em auto; }
+  margin: 0.8em 0; }
+
+.info p {
+  font-size: 0.75em; }
+
+.aside {
+  background-color: #dbdbdb;
+  float: right;
+  width: 40%;
+  padding: 0 1em; }
 
 footer {
-  height: 75px;
   margin-top: 0.8em;
-  margin-bottom: 0.8em;
-  background: #ddf0fd; }
+  background: #393b32; }
+
+.social {
+  display: inline-block;
+  font-size: 2.5em;
+  padding: 0.75em 0;
+  color: white; }
