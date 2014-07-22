@@ -340,11 +340,12 @@ nav span {
   margin-left: 1%;
   background: #ddf0fd;
   text-align: center;
-  height: 75px;
-  padding-top: 20px;
+  padding: 15px 0;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  font-weight: bold;
+  color: #393b32; }
 
 nav span:first-child {
   margin-left: 0; }
