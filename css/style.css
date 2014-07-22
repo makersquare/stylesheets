@@ -420,129 +420,213 @@ body {
 /* line 10, ../sass/shoestring/style.sass */
 .header {
   width: 100%;
-  height: 75px;
+  height: 100px;
   background: #fefefe;
   overflow: hidden;
   position: fixed;
-  border-bottom: 2px solid #cccccc; }
-  /* line 17, ../sass/shoestring/style.sass */
+  border-bottom: 2px solid #cccccc;
+  z-index: 100; }
+  /* line 18, ../sass/shoestring/style.sass */
   .header .logo {
     width: 10%;
-    height: 100%;
+    height: 80%;
     float: left;
     padding-top: 1%;
     margin-left: 10%; }
-    /* line 23, ../sass/shoestring/style.sass */
+    /* line 24, ../sass/shoestring/style.sass */
     .header .logo img {
       width: 80%; }
 
-/* line 25, ../sass/shoestring/style.sass */
+/* line 26, ../sass/shoestring/style.sass */
 .spacer {
   height: 75px; }
 
-/* line 28, ../sass/shoestring/style.sass */
+/* line 29, ../sass/shoestring/style.sass */
 nav {
   margin: 0 0 0 50%;
   padding-top: 25px;
   height: 100%; }
-  /* line 32, ../sass/shoestring/style.sass */
+  /* line 33, ../sass/shoestring/style.sass */
   nav span {
     margin-left: 1%;
     display: inline-block;
     padding: 1%;
     border-radius: 5px; }
-    /* line 37, ../sass/shoestring/style.sass */
+    /* line 38, ../sass/shoestring/style.sass */
     nav span:hover {
       background: #af101b;
       color: white; }
-  /* line 41, ../sass/shoestring/style.sass */
+  /* line 42, ../sass/shoestring/style.sass */
   nav .active {
     background: #af101b;
     color: white; }
 
-/* line 45, ../sass/shoestring/style.sass */
-.jumbotron {
-  height: 300px;
-  background: url("../images/hero.jpg");
-  background-size: 50%; }
-  /* line 47, ../sass/shoestring/style.sass */
-  .jumbotron .jumbotron-text {
-    width: 45%;
-    height: 100%;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1%;
-    border-radius: 1.5rem;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3), inset 0 -3px 3px rgba(0, 0, 0, 0.1); }
-    /* line 55, ../sass/shoestring/style.sass */
-    .jumbotron .jumbotron-text button {
-      background: #43bbef;
-      color: white;
-      border-radius: 5px;
-      border: 0;
-      display: block;
-      padding: 2%;
-      margin: 1% auto; }
-      /* line 63, ../sass/shoestring/style.sass */
-      .jumbotron .jumbotron-text button:hover {
-        background: royalblue; }
-    /* line 65, ../sass/shoestring/style.sass */
-    .jumbotron .jumbotron-text h1 {
-      color: #43bbef;
-      text-align: center; }
-    /* line 68, ../sass/shoestring/style.sass */
-    .jumbotron .jumbotron-text p {
-      color: white;
-      padding-left: 3%; }
+/* line 47, ../sass/shoestring/style.sass */
+#slide-1 .jumbotron-text {
+  width: 45%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 5%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5%;
+  border-radius: 1.5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3), inset 0 -3px 3px rgba(0, 0, 0, 0.1); }
+/* line 56, ../sass/shoestring/style.sass */
+#slide-1 button {
+  background: #af101b;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  display: block;
+  padding: 2%;
+  margin: 1% auto; }
+  /* line 64, ../sass/shoestring/style.sass */
+  #slide-1 button:hover {
+    background: royalblue; }
+/* line 66, ../sass/shoestring/style.sass */
+#slide-1 h1 {
+  color: #af101b;
+  text-align: center;
+  z-index: 50; }
+/* line 70, ../sass/shoestring/style.sass */
+#slide-1 p {
+  color: white;
+  padding-left: 3%; }
 
-/* line 75, ../sass/shoestring/style.sass */
+/* line 76, ../sass/shoestring/style.sass */
 .staff-section h1 {
   display: block;
-  width: 20%;
+  width: 15%;
   margin: 0 auto;
-  margin-top: 2%;
-  text-align: center; }
+  text-align: center;
+  color: #af101b;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px; }
 
-/* line 82, ../sass/shoestring/style.sass */
+/* line 85, ../sass/shoestring/style.sass */
 .staff {
   width: 30%;
   height: 500px;
   float: left;
   margin-left: 2.5%;
   margin-top: 2.5%;
-  background-color: white;
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   padding-top: 2%; }
-  /* line 92, ../sass/shoestring/style.sass */
+  /* line 95, ../sass/shoestring/style.sass */
   .staff img {
     width: 150px;
     height: 150px;
     display: block;
     margin: 0 auto;
     border-radius: 100%; }
-  /* line 98, ../sass/shoestring/style.sass */
+  /* line 101, ../sass/shoestring/style.sass */
   .staff .staff-text {
     width: 80%;
     margin: 0 auto;
     text-align: center; }
+    /* line 105, ../sass/shoestring/style.sass */
+    .staff .staff-text p {
+      color: white; }
+    /* line 107, ../sass/shoestring/style.sass */
+    .staff .staff-text h3 {
+      color: #af101b; }
 
-/* line 103, ../sass/shoestring/style.sass */
+/* line 110, ../sass/shoestring/style.sass */
 footer {
-  margin-top: 3%;
+  margin-top: 0%;
   height: 75px;
-  background: #fefefe;
+  background: #373f4a;
   margin-bottom: 0; }
-  /* line 108, ../sass/shoestring/style.sass */
+  /* line 115, ../sass/shoestring/style.sass */
   footer .section {
     width: 33%;
     float: left;
-    color: gray;
+    color: white;
     text-align: center; }
-  /* line 113, ../sass/shoestring/style.sass */
+  /* line 120, ../sass/shoestring/style.sass */
   footer p {
     display: inline-block;
     width: 80%; }
-  /* line 116, ../sass/shoestring/style.sass */
+  /* line 123, ../sass/shoestring/style.sass */
   footer .middle {
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc; }
+
+/* line 127, ../sass/shoestring/style.sass */
+#slide-1 {
+  background: url("../images/hero.jpg") 50% 0 repeat fixed;
+  background-size: 100%;
+  min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 2800px;
+  position: relative; }
+  /* line 136, ../sass/shoestring/style.sass */
+  #slide-1 article {
+    height: 458px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100%; }
+
+/* line 143, ../sass/shoestring/style.sass */
+#slide-2 {
+  background: url("../images/Stata_Center.jpg") 50% 0 repeat fixed;
+  background-size: 100%;
+  min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 2800px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8); }
+  /* line 154, ../sass/shoestring/style.sass */
+  #slide-2 article {
+    height: 458px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100%; }
+
+/* line 162, ../sass/shoestring/style.sass */
+#slide-3 {
+  background: url("../images/simmons.jpg") 50% 0 repeat fixed;
+  background-size: 100%;
+  min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 2800px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8); }
+  /* line 173, ../sass/shoestring/style.sass */
+  #slide-3 article {
+    height: 458px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100%; }
+
+/* line 180, ../sass/shoestring/style.sass */
+#slide-4 {
+  background: url("../images/Media Lab.jpg") 50% 0 repeat fixed;
+  background-size: 115%;
+  min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 2800px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8); }
+  /* line 191, ../sass/shoestring/style.sass */
+  #slide-4 article {
+    height: 458px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100%; }

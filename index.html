@@ -8,6 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/shoestring/0.0.1/shoestring.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script>
+      $(document).ready(function(){
+        var $window = $(window); //You forgot this line in the above example
+        $('section[data-type="background"]').each(function(){
+        var $bgobj = $(this); // assigning the object
+          $(window).scroll(function() {
+          var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+          // Put together our final background position
+          var coords = '50% '+ yPos + 'px';
+          // Move the background
+          $bgobj.css({ backgroundPosition: coords });
+          });
+        });
+      });
+    </script>
   </head>
   <body>
   <div class="header">
@@ -25,55 +40,64 @@
     </nav>
   </div>
   <div class="spacer"></div>
-  <div class="jumbotron">
-    <div class="jumbotron-text">
-      <h1>Center for Advanced Visual Studies</h1>
-      <p>The Center for Advanced Visual Studies is a community for contemporary art in the School of Architecture and Planning at the Massachuetts Instituate of Technology.</p>
-      <button>Our Misson</button>
-    </div>
-  </div>
-  <div class="staff-section">
-    <h1>Leaders</h1>
-    <div class="staff"> 
-      <div class="staff-pic">
-        <img src="images/jedi.jpg" alt="">
-      </div>
-      <div class="staff-text">
-        <h3>Krzysztof Wodiczko</h3>
-        <p>Head of the Center for Advanced Visual Studies as well as Professor of Architecture at MIT, Krzysztof Wodiczko has developed a series of public intervention instruments, such as Homeless Vehicle , 1988-89, Dis-armor , 1999-2000 and AEgis , 2000, which was presented as part of the Whitney Biennial 2000.</p>
-      </div>
-    </div>
-    <div class="staff">
-      <div class="staff-pic">
-        <img src="images/meg-rotzel.jpg">
-      </div>
-      <div class="staff-text">
-        <h3>Meg Rotzel</h3>
-        <div class="cover">
-          <p>Program Coordinator at the Center where she manages the affiliate and fellow programs and works with visiting artists during their stay.
-        </p>
+  <main>
+    <section id="slide-1" class="homeSlide" data-type="background" data-speed='5'>
+      <article>
+        <div class="jumbotron-text">
+        <h1>Center for Advanced Visual Studies</h1>
+        <p>The Center for Advanced Visual Studies is a community for contemporary art in the School of Architecture and Planning at the   Massachuetts Instituate of Technology.</p>
+        <button>Our Misson</button>
         </div>
-      </div>
-    </div>
-    <div class="staff">
-      <div class="staff-pic">
-        <img src="images/Phaidon.jpg">
-      </div>
-      <div class="staff-text">
-        <h3>Joe Zane</h3>
-        <p>He oversees the physical property of the Center and works closely with resident and visiting artists, coordinating and installing their presentations and exhibitions as well as managing the production of new artwork.</p>
-      </div>
-    </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+      </article>
+    </section>
+    
+    <section id="slide-2" class="homeSlide" data-type="background" data-speed='5'>
+      <article>
+        <div class="staff-section">
+        <h1>Leaders</h1>
+          <div class="staff"> 
+            <div class="staff-pic">
+              <img src="images/jedi.jpg" alt="">
+            </div>
+            <div class="staff-text">
+            <h3>Krzysztof Wodiczko</h3>
+            <p>Head of the Center for Advanced Visual Studies as well as Professor of Architecture at MIT, Krzysztof Wodiczko has developed a series of public intervention instruments, such as Homeless Vehicle , 1988-89, Dis-armor , 1999-2000 and AEgis , 2000, which  was presented as part of the Whitney Biennial 2000.</p>
+            </div>
+          </div>
+          <div class="staff">
+            <div class="staff-pic">
+              <img src="images/meg-rotzel.jpg">
+            </div>
+            <div class="staff-text">
+              <h3>Meg Rotzel</h3>
+              <div class="cover">
+              <p>Program Coordinator at the Center where she manages the affiliate and fellow programs and works with visiting artists during their stay.</p>
+              </div>
+            </div>
+          </div>
+          <div class="staff">
+            <div class="staff-pic">
+              <img src="images/Phaidon.jpg">
+            </div>
+            <div class="staff-text">
+              <h3>Joe Zane</h3>
+              <p>He oversees the physical property of the Center and works closely with resident and visiting artists, coordinating and installing their presentations and exhibitions as well as managing the production of new artwork.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+    </section>
 
+    <section id="slide-3" class="homeSlide" data-type="background" data-speed='5'>
+      <article></article>
+    </section>
+
+    <section id="slide-4" class="homeSlide" data-type="background" data-speed='5'>
+      <article></article>
+    </section>
+  </main>
+ 
   <footer>
     <div class="section">
     <p>Center for Advanced Visual Studies School of Architecture and Planning</p>
