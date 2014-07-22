@@ -1,4 +1,4 @@
-/vender/bundle/
-/.bundle
-
-/.sass-cache
+/vendor
+.bundle
+.sass-cache
+Gemfile.lock
