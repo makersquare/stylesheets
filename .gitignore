@@ -1,4 +1,6 @@
 /vendor/bundle/
 /.bundle
-
+/config.codekit
+/Gemfile
+/Gemfile.lock
 /.sass-cache
