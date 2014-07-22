@@ -1,3 +1,29 @@
 * {
 	font-family: Arial, sans-serif;
 }
+
+h2, h3 {
+	font-weight: normal;
+}
+
+h2 em, h3 em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1 em {
+	font-style: normal;
+	color: #e05444;
+}
+
+p, span {
+	font-size: 0.8em;
+}
+
+.focus {
+	font-weight: bold;
+}
+
+nav, p {
+	color: gray;
+}

@@ -5,11 +5,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Eterna</title>
+        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="global.css">
         <link rel="stylesheet" href="clearfix.css">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="layout.css">        
         <link rel="stylesheet" href="fonts.css">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
         <link rel="author" href="humans.txt">
     </head>
     <body>
@@ -19,11 +22,11 @@
 					<img src="images/eterna.png" alt="">
 				</div>
 				<nav>
-					<span>Home</span>
-					<span>Features</span>
-					<span>Pages</span>
-					<span>Portfolio</span>
-					<span>Blog</span>
+					<span class="home highlight"><i class="fa fa-home"></i> Home <i class="fa fa-angle-down"></i></span>
+					<span>Features <i class="fa fa-angle-down"></i></span>
+					<span>Pages <i class="fa fa-angle-down"></i></span>
+					<span>Portfolio <i class="fa fa-angle-down"></i></span>
+					<span>Blog <i class="fa fa-angle-down"></i></span>
 					<span>Contact</span>
 				</nav>
 			</div>
@@ -34,10 +37,12 @@
 					<img src="images/computer.png" alt="">
 				</div>
 				<div class="info">
-					<h1>Put your <span>Opt in form</span></h1>
+					<h1>Put your <em>Opt in form</em></h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque libero nisi similique autem saepe labore, dolore sequi placeat dignissimos quia officiis, excepturi nobis provident sit tempore reiciendis est! Ducimus, laborum.</p>
-					<input type="text">
-					<input type="button" value="subscribe">
+					<div class="subscribe">
+						<input type="left text">
+						<input class = "right highlight" type="button" value="subscribe">
+					</div>
  				</div>
 
 			</div>
@@ -46,20 +51,44 @@
 		<section class="features">
 			<div class="wrapper">
 				<div class="third columns">
-					<div class="feature-symbol">
-						<img src="" alt="">
-
+					<div class="symbol highlight">
+						<i class="fa fa-star"></i>
 					</div>
-					High Quality
+					<div class = "content">
+						<h3>High <em>Quality</em></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						<p class="focus">Learn More</p>
+					</div>
 				</div>
-				<div class="third columns">Rich of Features</div>
-				<div class="third columns">Modern Design</div>
+				<div class="third">
+					<div class="symbol highlight">
+						<i class="fa fa-dropbox"></i>
+					</div>
+					<div class = "content">
+						<h3>Rich of <em>Features</em></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						<p class="focus">Learn More</p>
+					</div>
+				</div>
+				<div class="third">
+					<div class="symbol highlight">
+						<i class="fa fa-dropbox"></i>
+					</div>					
+					<div class = "content">
+						<h3>Modern <em>Design</em></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						<p class="focus">Learn More</p>
+					</div>
+				</div>
 			</div>
 
 		</section>   
 		<footer>
 			<div class="wrapper">
-				<div class="half columns centered">Yay!</div>
+				<div class="centered">
+					<h2>Our <em>Pricing</em></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nobis libero voluptate dolorum molestiae.</p>
+				</div>
 			</div>
 
 		</footer>   

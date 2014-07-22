@@ -1,0 +1,43 @@
+
+
+/*ORANGE BACKGROUND*/
+
+.highlight {
+	background-color: #e05444;
+	color: white;
+}
+
+/*ROUNDED CORNERS*/
+.home, .subscribe {
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+input {
+	border: none;
+	height: 2em;
+}
+
+.subscribe .left{
+	-webkit-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+}
+
+.subscribe .right{
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+
+.symbol {
+	font-size:2em;
+	text-align: center;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	padding-top: 3px;
+}
+
+.centered {
+	border-top: thin solid #ccc;
+}
+
+

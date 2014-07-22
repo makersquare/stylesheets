@@ -1,6 +1,6 @@
 *, *:before, *:after {
-	border:thin solid red;
-	-webkit-box-sizing: border-box;
+/*	border:thin solid red;
+*/	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -12,13 +12,17 @@
 
 /*HEADER*/
 
+header {
+	padding: 1em 0;
+}
+
 nav, .logo {
 	display: inline-block;
 	float: left;
 }
 
 nav {
-	margin-left: 40%;
+	margin-left: 10%;
 }
 
 .logo {
@@ -27,7 +31,13 @@ nav {
 
 nav span {
 	display: inline-block;
+	width: 6em;
+	margin-left: 1em;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
+
 
 /*BANNER*/
 
@@ -56,24 +66,44 @@ nav span {
 	margin-left: 5%;
 }
 
-/*FEATURES*/
-
-.third.columns {
-	width: 33.3333%;
+.subscribe {
+	float: left;
 }
 
-.columns {
+.subscribe .highlight {
+	margin: -2%;
+}
+
+/*FEATURES*/
+
+.third {
+	width: 32.5%;
+	float: left;
+}
+
+.third:nth-child(2) {
+	margin: 0 1.25%;
+}
+
+
+.symbol {
+	width: 40px;
+	height: 40px;
+	margin: 0.5em 5%;
+	float: left;
+}
+
+.content {
+	width: 69%;
 	float: left;
 }
 
 /*FOOTER*/
 
-.half {
-	width: 50%;
-}
-
-.half.columns.centered {
-	margin-left: 25%;
+.centered {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center
 }
 
 
