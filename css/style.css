@@ -237,72 +237,75 @@ th {
 
 /* line 4, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
 html {
-  font-size: 100%; }
+  font-size: 100%;
+  background-image: url("../images/background2.jpg");
+  background-size: cover;
+  z-index: -1; }
 
 @media (min-width: 40rem) {
-  /* line 9, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+  /* line 13, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
   html {
     font-size: 112%; } }
 @media (min-width: 64rem) {
-  /* line 14, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+  /* line 18, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
   html {
     font-size: 120%; } }
-/* line 17, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+/* line 21, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 20, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+/* line 24, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
 .container {
   margin: 0 auto;
   max-width: 52rem;
   width: 90%; }
-  /* line 24, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+  /* line 28, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
   .container.demo {
     margin-bottom: 10px; }
 
-/* line 27, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+/* line 31, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
 .container-full-width {
   margin: 0 auto;
   width: 100%; }
 
-/* line 32, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+/* line 36, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
 .column.demo {
   background: #cccccc; }
 
 @media (min-width: 40rem) {
-  /* line 36, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+  /* line 40, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
   .column {
     float: left;
     display: inline-block;
     margin-right: 1%; }
-    /* line 40, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+    /* line 44, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
     .column.full {
       width: 100%; }
-    /* line 42, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+    /* line 46, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
     .column.two-thirds {
       width: 66%; }
-    /* line 44, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+    /* line 48, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
     .column.third {
       width: 32%;
       height: 200px;
       border: solid #1b2233 4px;
       background: white; }
-    /* line 49, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+    /* line 53, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
     .column.half {
       width: 49%; }
-    /* line 51, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+    /* line 55, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
     .column.fourth {
       width: 23.5%; }
-    /* line 53, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+    /* line 57, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
     .column.three-fourths {
       width: 74.5%; }
-    /* line 55, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+    /* line 59, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
     .column.flow-opposite {
       float: right;
       padding: 0; }
-    /* line 59, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
+    /* line 63, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/grid.sass */
     .column img {
       width: 100%; } }
 /* line 23, ../sass/shoestring/buttons.sass */
@@ -399,69 +402,69 @@ input[type=button].button, input[type=submit].button, button.button {
   cursor: pointer;
   outline: none; }
 
-/* line 3, ../sass/shoestring/links.sass */
+/* line 3, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/links.sass */
 a {
-  color: #1c9bf2;
+  color: black;
   text-decoration: none; }
-  /* line 6, ../sass/shoestring/links.sass */
+  /* line 6, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/links.sass */
   a:hover {
-    color: #0b71b7; }
-  /* line 8, ../sass/shoestring/links.sass */
+    color: #eab609; }
+  /* line 8, /home/digitaljedi/code/mks/frontend/stylesheets/shoestring/sass/shoestring/links.sass */
   a:active {
-    color: #085387; }
+    color: black; }
 
 /* line 1, ../sass/shoestring/fonts.sass */
 body {
   font-family: "Lato", sans-serif; }
 
-/* line 30, ../sass/shoestring/main.sass */
+/* line 32, ../sass/shoestring/main.sass */
 .navbar {
-  margin-top: 15px;
-  margin-top: 10px; }
+  margin-top: 9px; }
 
-/* line 34, ../sass/shoestring/main.sass */
+/* line 35, ../sass/shoestring/main.sass */
 .padded-links {
   padding: 5px 10px;
   margin-left: 15px; }
 
-/* line 38, ../sass/shoestring/main.sass */
+/* line 39, ../sass/shoestring/main.sass */
 .padded-links:first-child {
   background: #1b2233;
   border-radius: 5px;
   color: white; }
 
-/* line 43, ../sass/shoestring/main.sass */
+/* line 44, ../sass/shoestring/main.sass */
 .contactBox {
   text-align: center;
   margin-top: 50px;
   background: #eab609; }
 
-/* line 48, ../sass/shoestring/main.sass */
+/* line 49, ../sass/shoestring/main.sass */
 .phone {
   font-size: 1.9em;
   color: white;
   background: #1b2233; }
 
-/* line 53, ../sass/shoestring/main.sass */
+/* line 54, ../sass/shoestring/main.sass */
 .phone i {
   color: #eab609; }
 
-/* line 56, ../sass/shoestring/main.sass */
+/* line 57, ../sass/shoestring/main.sass */
 .success {
   background: #1b2233;
   width: 100%;
   margin-right: 0px;
   margin-left: 1%; }
 
-/* line 62, ../sass/shoestring/main.sass */
+/* line 63, ../sass/shoestring/main.sass */
 .questions {
-  background: #1b2233; }
+  background: #1b2233;
+  margin-top: 30px; }
 
-/* line 66, ../sass/shoestring/main.sass */
+/* line 68, ../sass/shoestring/main.sass */
 .margin-fix {
   margin-left: 1%; }
 
-/* line 69, ../sass/shoestring/main.sass */
+/* line 71, ../sass/shoestring/main.sass */
 .third-text {
   text-align: center;
   font-size: 0.9em;
@@ -469,13 +472,13 @@ body {
   margin-left: 5px;
   margin-right: 5px; }
 
-/* line 76, ../sass/shoestring/main.sass */
+/* line 78, ../sass/shoestring/main.sass */
 .iconic {
   margin: 0 auto;
   height: 80px;
   bottom: 0; }
 
-/* line 81, ../sass/shoestring/main.sass */
+/* line 83, ../sass/shoestring/main.sass */
 .rounder {
   margin-left: 37%;
   text-align: center;
@@ -486,18 +489,33 @@ body {
   color: #1b2233;
   border: solid #1b2233 2px; }
 
-/* line 91, ../sass/shoestring/main.sass */
+/* line 93, ../sass/shoestring/main.sass */
 .rounder i {
   margin-top: 10px; }
 
-/* line 94, ../sass/shoestring/main.sass */
+/* line 96, ../sass/shoestring/main.sass */
 .foot-text {
   text-align: center;
-  font-weight: 900; }
+  font-weight: 900;
+  margin-top: 30px; }
 
-/* line 98, ../sass/shoestring/main.sass */
+/* line 101, ../sass/shoestring/main.sass */
 #credit {
   width: 300px;
   height: auto;
   margin: 0 auto;
   display: block; }
+
+/* line 107, ../sass/shoestring/main.sass */
+.white {
+  background: white;
+  height: 60px; }
+
+/* line 111, ../sass/shoestring/main.sass */
+hr {
+  border: 0;
+  padding: 0; }
+
+/* line 115, ../sass/shoestring/main.sass */
+.top {
+  margin-top: 30px; }
