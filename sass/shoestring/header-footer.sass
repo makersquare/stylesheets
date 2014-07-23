@@ -1,0 +1,28 @@
+// http://stackoverflow.com/questions/4069734/cross-browser-fixed-header-footer-and-scrollable-content
+
+$header-height: 75px
+$footer-height: 40px
+
+.container-full-width
+	&.header
+		position: fixed
+		top: 0 
+		left: 0
+		height: $header-height
+		width: 100%
+
+
+.hero 
+	margin-top: $header-height
+	margin-bottom: $footer-height
+	min-height: 100em
+
+
+.container-full-width
+	&.footer
+		position: fixed
+		bottom: 0 
+		left: 0
+		height: $footer-height
+		width: 100%
+		
