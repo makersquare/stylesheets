@@ -19,8 +19,14 @@ html
 
 .container
   margin: 0 auto
-  max-width: 48rem
+  // max-width: 48rem
   width: 90%
+  &.small
+    width: 30%
+  &.media
+    width: 60%
+  &.large
+    width: 100%
   &.demo
     margin-bottom: 10px // DEMO
 
@@ -38,12 +44,14 @@ html
     margin-right: 2%
     &.full
       width: 100%
+    &.small
+      width: 10%
     &.two-thirds
       width: 66%
     &.third
       width: 32%
     &.half
-      width: 49%
+      width: 48%
     &.fourth
       width: 23.5%
     &.three-fourths
@@ -52,5 +60,12 @@ html
       float: right
       padding: 0
       margin: 0
+    &.last
+      margin-right: 0
+      margin-left: 2%
+    &.last-right
+      margin-right: 0
+      margin-left: 0 
     img
       width: 100%
+
