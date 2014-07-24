@@ -20,12 +20,15 @@ $magellan-padding: 10px !default;
       z-index: 50;
       min-width: 100%;
       padding: $magellan-padding;
+      margin-bottom: 1em;
+      // font-size: 2em;
 
       .sub-nav {
         margin-bottom: 0;
         dd { margin-bottom: 0; }
         a {
           line-height: 1.8em;
+          font-size: 1.5em;
         }
       }
     }

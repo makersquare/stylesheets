@@ -43,7 +43,8 @@
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Lintel-Regular";
+// $ "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -669,7 +670,7 @@
 
 // $include-html-magellan-classes: $include-html-classes;
 
-// $magellan-bg: #fff;
+$magellan-bg: #ccc;
 // $magellan-padding: 10px;
 
 // Off-canvas
@@ -1295,3 +1296,6 @@
 // $range-slider-handle-round: $global-rounded;
 // $range-slider-handle-bg-hover-color: scale-color($primary-color, $lightness: -12%);
 // $range-slider-handle-cursor: pointer;
+header {
+	margin-bottom: 1em;
+}
