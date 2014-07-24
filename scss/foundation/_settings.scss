@@ -41,9 +41,9 @@
 // Global
 
 // We use these to control various global styles
-// $body-bg: #fff;
+$body-bg: #2c3e50;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family:'Droid Sans',"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -818,9 +818,10 @@
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-// $panel-bg: scale-color(#fff, $lightness: -5%);
+$panel-bg: scale-color(#bdc3c7, $lightness: -0%);
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
+// $panel-border-radius: 5px;
 
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: -11%;
@@ -831,7 +832,7 @@
 // $panel-padding: rem-calc(20);
 
 // We use these to set default font colors
-// $panel-font-color: #333;
+$panel-font-color: #34495e;
 // $panel-font-color-alt: #fff;
 
 // $panel-header-adjust: true;
@@ -922,7 +923,7 @@
 // $reveal-overlay-bg-old: #000;
 
 // We use these to control the style of the modal itself.
-// $reveal-modal-bg: #fff;
+$reveal-modal-bg: #bdc3c7;
 // $reveal-position-top: rem-calc(100);
 // $reveal-default-width: 80%;
 // $reveal-modal-padding: rem-calc(20);
@@ -1121,7 +1122,7 @@
 // $include-html-tabs-classes: $include-html-classes;
 
 // $tabs-navigation-padding: rem-calc(16);
-// $tabs-navigation-bg-color: #efefef  ;
+$tabs-navigation-bg-color: #efefef  ;
 // $tabs-navigation-active-bg-color: #fff;
 // $tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
 // $tabs-navigation-font-color: #222;

@@ -3,22 +3,217 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Foundation Starter | CHANGE ME CHANGE ME CHANGE ME</title>
+        <title>Aaron Case</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/custom.css">
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     </head>
     <body>
+     <nav class="top-bar" data-topbar>
+       <ul class="title-area">
+         <li class="name">
+           <h1><a href="#" data-reveal-id="TweetModal">@RubySammich</a></h1>
+         </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+       </ul>
+
+       <section class="top-bar-section">
+         <!-- Right Nav Section -->
+         <ul class="right">
+           <li class=" custbutton"><a href="#" data-reveal-id="myModal">call me!</a></li>
+           <li class="has-dropdown">
+             <a href="#">profiles</a>
+             <ul class="dropdown">
+               <li><a href="#"><i class="fa fa-linkedin-square"></i>  LinkedIn </a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i>  Instagram </a></li>
+               <li><a href="#"><i class="fa fa-facebook-square"></i>  Facebook </a></li>
+               <li><a href="#" data-reveal-id="TweetModal"><i class="fa fa-twitter-square"></i>  @RubySammich</a></li>
+             </ul>
+           </li>
+           <li class="has-dropdown">
+             <a href="#">github</a>
+             <ul class="dropdown">
+               <li><a href="https://github.com/aacase"><i class="fa fa-git-square"></i> aacase</a></li>
+               <li><a href="https://github.com/aacase"><i class="fa fa-git-square"></i> Other Repository</a></li>
+               <li><a href="https://github.com/aacase"><i class="fa fa-git-square"></i> Yet Another</a></li>
+             </ul>
+           </li>
+         </ul>
+
+         <!-- Left Nav Section -->
+   <!--       <ul class="left">
+           <li class="has-dropdown"><a href="#">The Good Stuff</a>
+            <ul class="dropdown">
+              <li><a href="#">Home</a></li>
+              <li><a href="#" data-reveal-id="PortModal">Portfolio</a></li>
+              <li><a href="#panel2a">Blog</a></li>
+              <li><a href="#">Podcast</a></li>
+              <li><a href="#">Get at me</a></li>
+            </ul></li>
+           
+         </ul> -->
+       </section>
+
+     </nav>
+     
 
       <!-- PUT YOUR HTML HERE -->
+
       <header class="row">
-        <div class="large-12 columns panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quidem, porro veniam facere cupiditate molestiae.</div>
-      </header>
+       
+    <div class="large-12 columns panel">
+      <ul class="tabs vertical" data-tab>
+        <li class="tab-title active"><a href="#panel1a">Home</a></li>
+        <li class="tab-title"><a href="#panel2a">Blog</a></li>
+        <li class="tab-title"><a href="#panel3a">Podcast</a></li>
+        <li class="tab-title"><a href="#panel4a">Bio</a></li>
+        <li class="tab-title"><a href="#panel5a">Portfolio</a></li>
+      </ul>
+    <div class="tabs-content vertical">
+      <div class="content active" id="panel1a">
+        <h1> Holy Crap! Filler Text!</h1>
+        <ul class="example-orbit" data-orbit>
+          <li>
+            <img src="http://placekitten.com/g/1366/768" alt="slide 1" />
+            <div class="orbit-caption">
+              Caption One.
+            </div>
+          </li>
+          <li class="active">
+            <img src="http://placekitten.com/g/1366/768" alt="slide 2" />
+            <div class="orbit-caption">
+              Caption Two.
+            </div>
+          </li>
+          <li>
+            <img src="http://placekitten.com/g/1366/768" alt="slide 3" />
+            <div class="orbit-caption">
+              Caption Three.
+            </div>
+          </li>
+        </ul>
+    </div>
+
+
+    <div class="content" id="panel2a">
+    <div class="row">
+ 
+     
+    <div class="large-12 columns" role="content">
+ 
+      <article>
+ 
+        <h3><a href="#">Blog Post Title</a></h3>
+        <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+ 
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
+            <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+          </div>
+          <div class="large-6 columns">
+            <img src="http://placehold.it/400x240&text=[img]"/>
+          </div>
+        </div>
+ 
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+ 
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+ 
+      </article>
+ 
+      <hr/>
+ 
+      <article>
+ 
+        <h3><a href="#">Week 2 @MakerSquare</a></h3>
+        <h6>Written by <a href="#">Aaron Case</a> on July 23, 2014.</h6>
+ 
+        <div class="row">
+          <div class="large-6 columns">
+            <p>So here we are at week 2, and what a week it's been. Compared to last week's feeling of being completely overwhelemed, I feel totally fantastic. My code is still close to awful, but I had a major breakthrough last night!</p>
+            <p>Because I was stuck at home without an internet connection(...more on this later), I had to finish up my homework without the aid of the googles. I was able to get my program to run and do exactly what I wanted it to do(although it was a complete f%$king mess on retrospect.)!. And while I know that this seems like a small victory, for me it was absolutely huge.</p>
+          </div>
+          <div class="large-6 columns">
+            <img src="http://placehold.it/400x240&text=array=[FuckYeah!]"/>
+          </div>
+        </div>
+ 
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+ 
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+ 
+      </article>
+ 
+    </div>
+ 
+     
+ 
+ 
+     
+ 
+
+ </div>
+  </div>
+  <div class="content" id="panel3a">
+    
+  </div>
+  <div class="content" id="panel4a">
+    <h2>Who is Aaron Case?</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, numquam quasi dolor quibusdam soluta corporis, molestiae voluptas distinctio minima amet illum temporibus ipsa fugiat, expedita dignissimos neque reiciendis quisquam accusamus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dignissimos eligendi error, labore quidem, ipsa et corporis, nihil eius adipisci provident, cupiditate culpa fugit in optio similique quas repellat vero!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio corporis nihil vero distinctio est et. Asperiores dolorem perferendis temporibus facere aliquid odi</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam officiis tenetur ex, dolore fugit nobis dignissimos dolorem iure iste, rem aspernatur similique alias consequatur necessitatibus nulla cum architecto quibusdam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, obcaecati, fuga doloremque praesentium voluptatibus aspernatur ducimus, natus possimus vitae repellendus ipsa. Excepturi esse, libero? Iusto ratione numquam reprehenderit tenetur quia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aliquid saepe quos dolores rerum quia, magnam, mollitia? Provident repellendus culpa nobis ipsa doloribus, dolorum, labore ducimus quaerat consequatur, porro est.</p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos cupiditate, quibusdam. Libero totam officiis nobis ratione aliquid culpa, debitis cum nostrum reiciendis dolores minus nemo consequuntur repudiandae sapiente laboriosam nulla?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum magni maiores, quidem aut vitae incidunt, vero corrupti iusto inventore non corporis eos quos officia sunt harum ducimus ex impedit fugiat?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, incidunt! Omnis ratione, consequatur architecto dignissimos distinctio fugit quos sint sit nam numquam neque corrupti accusamus nostrum sapiente suscipit voluptates pariatur.</p>
+    
+  </div>
+  <div class="content" id="panel5a">
+    <h2>When I actually make something, it'll go here <sup>...if it's good</sup></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, numquam quasi dolor quibusdam soluta corporis, molestiae voluptas distinctio minima amet illum temporibus ipsa fugiat, expedita dignissimos neque reiciendis quisquam accusamus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dignissimos eligendi error, labore quidem, ipsa et corporis, nihil eius adipisci provident, cupiditate culpa fugit in optio similique quas repellat vero!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio corporis nihil vero distinctio est et. Asperiores dolorem perferendis temporibus facere aliquid odi</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam officiis tenetur ex, dolore fugit nobis dignissimos dolorem iure iste, rem aspernatur similique alias consequatur necessitatibus nulla cum architecto quibusdam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, obcaecati, fuga doloremque praesentium voluptatibus aspernatur ducimus, natus possimus vitae repellendus ipsa. Excepturi esse, libero? Iusto ratione numquam reprehenderit tenetur quia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aliquid saepe quos dolores rerum quia, magnam, mollitia? Provident repellendus culpa nobis ipsa doloribus, dolorum, labore ducimus quaerat consequatur, porro est.</p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos cupiditate, quibusdam. Libero totam officiis nobis ratione aliquid culpa, debitis cum nostrum reiciendis dolores minus nemo consequuntur repudiandae sapiente laboriosam nulla?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum magni maiores, quidem aut vitae incidunt, vero corrupti iusto inventore non corporis eos quos officia sunt harum ducimus ex impedit fugiat?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, incidunt! Omnis ratione, consequatur architecto dignissimos distinctio fugit quos sint sit nam numquam neque corrupti accusamus nostrum sapiente suscipit voluptates pariatur.</p>
+    
+    </div>
+    </div>
+    </header>
+    <!-- Bottom Columns -->
+    <div class="row">
+      <!-- <div class="large-4 column panel"></div> -->
+      <div class="large-4 large-centered column panel"><span class='mkstext large-12'>Design Skills Currently Being Acquired @:</span><img src='http://socialdistillery.com/wp-content/uploads/2014/04/thumbnail_mks2.png' class='mks'></div>
+      <!-- <div class="large-4 column panel"></div> -->
+    </div>
+      
+
+      <!-- <div class="row"> -->
+        
+      <!-- </div -->>
+
+      <!-- <div class="row">
+        
+      </div> -->
+      
+
+      <!-- Modal Stuffs -->
+      <div id="myModal" class="reveal-modal " data-reveal>
+        <h2>Aaron Case</h2>
+        <p class="lead">512-906-5862</p>
+        <p>Call, Text, Whatevs. Just be aware that if it's after 8 pm I'm probably drunk.</p>
+        <a class="close-reveal-modal">&#215;</a>
+</div>
+      <div id="TweetModal" class="reveal-modal small" data-reveal>
+        <a class="twitter-timeline tweet" href="https://twitter.com/RubySammich" data-widget-id="492065545894637569">Tweets by @RubySammich</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+      </div>
 
       <!-- body goes here -->
       <script type="text/javascript" src="./js/jquery.min.js"></script>
       <script type="text/javascript" src="./js/foundation.min.js"></script>
       <script type="text/javascript">$(document).foundation();</script>
+      
     </body>
 </html>
