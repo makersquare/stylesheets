@@ -6690,3 +6690,7 @@ th.hide-for-touch {
   float: right;
   margin-left: 1em;
   margin-bottom: 0.5rem; }
+
+/* line 24, ../scss/my_style.scss */
+body {
+  background: url("../images/concrete-wall.png"); }

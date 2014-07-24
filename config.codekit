@@ -53,6 +53,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/concrete-wall.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49186,
+		"inputAbbreviatedPath": "\/images\/concrete-wall.png",
+		"outputAbbreviatedPath": "\/images\/concrete-wall.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/we_stand.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
