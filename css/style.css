@@ -6692,16 +6692,16 @@ th.hide-for-touch {
   font-size: 50px;
   font-weight: 300; }
 
-/* line 19, ../scss/header.sass */
+/* line 20, ../scss/header.sass */
 .social-media {
   text-align: center; }
 
-/* line 22, ../scss/header.sass */
+/* line 23, ../scss/header.sass */
 .about-text {
   text-align: center;
   font-size: 20px; }
 
-/* line 26, ../scss/header.sass */
+/* line 27, ../scss/header.sass */
 .description {
   text-align: center;
   color: #ecf0f1;
@@ -6709,14 +6709,10 @@ th.hide-for-touch {
   font-weight: 300;
   margin-bottom: 100px; }
 
-/* line 33, ../scss/header.sass */
+/* line 34, ../scss/header.sass */
 h1.titles {
   margin-top: 75px;
   font-size: 80px; }
-
-/* line 37, ../scss/header.sass */
-dl#nav-items dd a {
-  padding-top: 80px; }
 
 /* line 1, /home/vagrant/code/mks/frontend/stylesheets/foundation-design/scss/hero.sass */
 .cats li img {
