@@ -4865,7 +4865,7 @@ p {
 /* line 247, ../scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -6671,3 +6671,22 @@ th.hide-for-touch {
   /* line 404, ../scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
+/* line 1, ../scss/my_style.scss */
+.sponsors {
+  text-align: center;
+  background: #333333 h4;
+    background-font-size: 1.5em; }
+  /* line 8, ../scss/my_style.scss */
+  .sponsors p {
+    font-size: 0.8em;
+    margin-bottom: 0.25rem; }
+
+/* line 14, ../scss/my_style.scss */
+.page {
+  margin-top: 1rem; }
+
+/* line 18, ../scss/my_style.scss */
+.history img {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 0.5rem; }
