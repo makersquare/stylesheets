@@ -1,3 +1,11 @@
+#whitetext {
+  color: #d5ded9;
+}
+
+/* line 1299, ../scss/foundation/_settings.scss */
+header {
+  margin-bottom: 1em; }
+
 /* line 324, ../scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.2.3/"; }
@@ -50,11 +58,11 @@ body {
 
 /* line 373, ../scss/foundation/components/_global.scss */
 body {
-  background: white;
+  background: #3e606f;
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lintel-Regular";
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1342,7 +1350,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Lintel-Regular";
       font-size: 1rem; }
       /* line 39, ../scss/foundation/components/_accordion.scss */
       .accordion dd > a:hover {
@@ -1900,7 +1908,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lintel-Regular";
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2070,7 +2078,8 @@ button, .button {
 @media only screen and (min-width: 40.063em) {
   /* line 216, ../scss/foundation/components/_buttons.scss */
   button, .button {
-    display: inline-block; } }
+    display: inline-block;
+    width: 100%; } }
 /* line 91, ../scss/foundation/components/_button-groups.scss */
 .button-group {
   list-style: none;
@@ -2913,7 +2922,7 @@ select::-ms-expand {
 span.prefix, label.prefix {
   background: #f2f2f2;
   border-right: none;
-  color: #333333;
+  color: #df4848;
   border-color: #cccccc; }
   /* line 367, ../scss/foundation/components/_forms.scss */
   span.prefix.radius, label.prefix.radius {
@@ -2925,7 +2934,7 @@ span.prefix, label.prefix {
 span.postfix, label.postfix {
   background: #f2f2f2;
   border-left: none;
-  color: #333333;
+  color: #df4848;
   border-color: #cccccc; }
   /* line 370, ../scss/foundation/components/_forms.scss */
   span.postfix.radius, label.postfix.radius {
@@ -3399,7 +3408,7 @@ kbd {
 /* line 91, ../scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lintel-Regular";
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3432,19 +3441,21 @@ kbd {
 
 /* line 18, ../scss/foundation/components/_magellan.scss */
 [data-magellan-expedition], [data-magellan-expedition-clone] {
-  background: white;
+  background: #cccccc;
   z-index: 50;
   min-width: 100%;
-  padding: 10px; }
-  /* line 24, ../scss/foundation/components/_magellan.scss */
+  padding: 10px;
+  margin-bottom: 1em; }
+  /* line 26, ../scss/foundation/components/_magellan.scss */
   [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
     margin-bottom: 0; }
-    /* line 26, ../scss/foundation/components/_magellan.scss */
+    /* line 28, ../scss/foundation/components/_magellan.scss */
     [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
       margin-bottom: 0; }
-    /* line 27, ../scss/foundation/components/_magellan.scss */
+    /* line 29, ../scss/foundation/components/_magellan.scss */
     [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
-      line-height: 1.8em; }
+      line-height: 1.8em;
+      font-size: 1.5em; }
 
 @keyframes rotate {
   /* line 78, ../scss/foundation/components/_orbit.scss */
@@ -3927,7 +3938,7 @@ ul.pagination {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Lintel-Regular"; }
   /* line 143, ../scss/foundation/components/_pricing-tables.scss */
   .pricing-table .price {
     background-color: #f6f6f6;
@@ -3936,7 +3947,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Lintel-Regular"; }
   /* line 144, ../scss/foundation/components/_pricing-tables.scss */
   .pricing-table .description {
     background-color: white;
@@ -4216,7 +4227,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "Lintel-Regular"; }
   /* line 70, ../scss/foundation/components/_side-nav.scss */
   .side-nav li {
     margin: 0 0 0.4375rem 0;
@@ -4235,7 +4246,7 @@ dialog[open] {
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
       font-weight: normal;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: "Lintel-Regular"; }
     /* line 92, ../scss/foundation/components/_side-nav.scss */
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4373,7 +4384,7 @@ dialog[open] {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Lintel-Regular";
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -4864,10 +4875,10 @@ p {
 /* Default header styles */
 /* line 247, ../scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lintel-Regular";
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #fcfff5;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -4875,7 +4886,7 @@ h1, h2, h3, h4, h5, h6 {
   /* line 257, ../scss/foundation/components/_type.scss */
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #6f6f6f;
+    color: #fdfff9;
     line-height: 0; }
 
 /* line 264, ../scss/foundation/components/_type.scss */
@@ -4905,7 +4916,7 @@ h6 {
 /* line 271, ../scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #fdfff9;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -5034,20 +5045,20 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: #fdfff7; }
     /* line 396, ../scss/foundation/components/_type.scss */
     blockquote cite:before {
       content: "\2014 \0020"; }
     /* line 400, ../scss/foundation/components/_type.scss */
     blockquote cite a,
     blockquote cite a:visited {
-      color: #555555; }
+      color: #fdfff7; }
 
 /* line 406, ../scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: #fdfff9; }
 
 /* Microformats */
 /* line 413, ../scss/foundation/components/_type.scss */
@@ -5214,7 +5225,7 @@ blockquote p {
       background: #efefef;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Lintel-Regular";
       font-size: 1rem; }
       /* line 47, ../scss/foundation/components/_tabs.scss */
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
@@ -5402,10 +5413,10 @@ meta.foundation-mq-topbar {
 /* line 109, ../scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background: #158cba; }
   /* line 113, ../scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    margin-bottom: 0; }
+    margin-bottom: 2%; }
 
 /* line 117, ../scss/foundation/components/_top-bar.scss */
 .fixed {
@@ -5436,8 +5447,8 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #333333;
-  margin-bottom: 0; }
+  background: #158cba;
+  margin-bottom: 2%; }
   /* line 152, ../scss/foundation/components/_top-bar.scss */
   .top-bar ul {
     margin-bottom: 0;
@@ -5531,7 +5542,7 @@ meta.foundation-mq-topbar {
     background: transparent; }
     /* line 258, ../scss/foundation/components/_top-bar.scss */
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #158cba; }
     /* line 261, ../scss/foundation/components/_top-bar.scss */
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
@@ -5556,7 +5567,7 @@ meta.foundation-mq-topbar {
   /* line 292, ../scss/foundation/components/_top-bar.scss */
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #1a1a1a;
+    border-top: solid 1px #0b465d;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -5570,7 +5581,7 @@ meta.foundation-mq-topbar {
       color: white;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Lintel-Regular";
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -5771,7 +5782,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 435, ../scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #333333;
+    background: #158cba;
     overflow: visible; }
     /* line 176, ../scss/foundation/components/_global.scss */
     .top-bar:before, .top-bar:after {
@@ -5798,13 +5809,13 @@ meta.foundation-mq-topbar {
       top: 7px; }
     /* line 453, ../scss/foundation/components/_top-bar.scss */
     .top-bar.expanded {
-      background: #333333; }
+      background: #158cba; }
 
   /* line 456, ../scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
     max-width: 62.5rem;
     margin: 0 auto;
-    margin-bottom: 0; }
+    margin-bottom: 2%; }
 
   /* line 462, ../scss/foundation/components/_top-bar.scss */
   .top-bar-section {
@@ -5829,7 +5840,7 @@ meta.foundation-mq-topbar {
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #333333; }
+      background: #158cba; }
       /* line 489, ../scss/foundation/components/_top-bar.scss */
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background: #272727; }
@@ -5917,13 +5928,13 @@ meta.foundation-mq-topbar {
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #4e4e4e;
+      border-right: solid 1px #19a7dd;
       clear: none;
       height: 45px;
       width: 0; }
     /* line 592, ../scss/foundation/components/_top-bar.scss */
     .top-bar-section .has-form {
-      background: #333333;
+      background: #158cba;
       padding: 0 15px;
       height: 45px; }
     /* line 600, ../scss/foundation/components/_top-bar.scss */
@@ -6671,3 +6682,6 @@ th.hide-for-touch {
   /* line 404, ../scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
+/* line 1, ../scss/foundation/components/_magfix.scss */
+header {
+  margin-bottom: 1em; }

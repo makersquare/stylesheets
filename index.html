@@ -3,19 +3,124 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Foundation Starter | CHANGE ME CHANGE ME CHANGE ME</title>
+        <title>Profiling Design</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/style.css">
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./MyFontsWebfontsKit/MyFontsWebfontsKit.css">
+        <link rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css">
+        <link rel=" stylesheet" type="text/css" href="jquery.joyride-2.0.css">
+        <script src="jquery-1.8.2.min.js"></script>
+        <script src="jquery.joyride-2.0.js"></script>
+
     </head>
     <body>
 
       <!-- PUT YOUR HTML HERE -->
       <header class="row">
-        <div class="large-12 columns panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quidem, porro veniam facere cupiditate molestiae.</div>
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#">Profiling Quin Adney</a></h1>
+            </li>
+             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="active"><a id="active" href="#"></a><a href="mailto:quinlan.adney@gmail.com"><i class="fa fa-envelope"></i> Email Me</a></li>
+              <li class="has-dropdown">
+                <a href="#">Links</a>
+                <ul class="dropdown">
+                  <li><a href="http://www.facebook.com/quinlanroyce"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                  <li><a href="http://www.twitter.com/quinlanroyce"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                  <li><a href="http://www.linkedin.com/in/quinlanadney"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+                  <li><a href="http://www.github.com/forwardinnovations"><i class="fa fa-github"></i> Github</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- Left Nav Section -->
+<!--             <ul class="left">
+              <li><a href="#">Left Nav Button</a></li>
+            </ul> -->
+          </section>
+        </nav>
       </header>
 
+      <div class="row">
+        <div class="small-4 medium-4 large-4 columns">
+          <ul class="small-block-grid-1 medium-block-grid-3">
+            <li><img src="pic1.png"></li>
+            <li><img src="pic2.png"></li>
+            <li><img src="pic3.png"></li>
+            <li><img src="pic4.png"></li>
+            <li><img src="pic5.png"></li>
+            <li><img src="pic6.png"></li>
+            <li><img src="pic7.png"></li>
+            <li><img src="pic8.png"></li>
+            <li><img src="pic9.png"></li>
+          </ul>
+        </div>
+        <div class="small-8 medium-4 large-4 columns">
+          <h2>Want to work with me?</h2>
+          <form data-abide>
+            <div class="name-field">
+              <label id="whitetext">Your name <small id="whitetext">required</small>
+                <input type="text" required pattern="[a-zA-Z]+">
+              </label>
+              <small class="error">Name is required.</small>
+            </div>
+            <div class="email-field">
+              <label id="whitetext">Email <small id="whitetext">required</small>
+                <input type="email" required>
+              </label>
+              <small class="error">An email address is required.</small>
+            </div>
+            <div class="custom">
+              <label id="whitetext">Phone Number <small id="whitetext">required</small>
+                <input type="text" pattern="user_phone" required>
+              </label>
+              <small class="error">Please format your number as XXX-XXX-XXXX.</small>
+            <button type="submit">Submit</button>
+          </form> 
+        </div>
+      </div>
+        <div class="small-8 medium-4 large-4 columns">
+          <h4>Javascript</h4>
+          <div class="progress [small-# large-#] success round">
+            <span class="meter" style="width: 70%"></span>
+          </div>
+          <h4>CSS</h4>
+          <div class="progress [small-# large-#] regular round">
+            <span class="meter" style="width: 40%"></span>
+          </div>
+          <h4>Ruby</h4>
+          <div class="progress [small-# large-#] alert round">
+            <span class="meter" style="width: 85%"></span>
+          </div>
+        </div>
+
+      <ol class="joyride-list" data-joyride>
+        <li data-id="active" data-text="Next" data-options="tip_location: top; prev_button: false">
+          <p>Hello and welcome to the Joyride documentation page.</p>
+        </li>
+        <li data-id="numero1" data-class="custom so-awesome" data-text="Next" data-prev-text="Prev">
+          <h4>Stop #1</h4>
+          <p>You can control all the details for you tour stop. Any valid HTML will work inside of Joyride.</p>
+        </li>
+        <li data-id="numero2" data-button="Next" data-prev-text="Prev" data-options="tip_location:top;tip_animation:fade">
+          <h4>Stop #2</h4>
+          <p>Get the details right by styling Joyride with a custom stylesheet!</p>
+        </li>
+        <li data-button="End" data-prev-text="Prev">
+          <h4>Stop #3</h4>
+          <p>It works as a modal too!</p>
+        </li>
+      </ol>
       <!-- body goes here -->
       <script type="text/javascript" src="./js/jquery.min.js"></script>
       <script type="text/javascript" src="./js/foundation.min.js"></script>
