@@ -36,17 +36,24 @@
                   <li><a href="#">Top</a></li>
                   <li><a href="#tickets">Tickets</a></li>
                   <li><a href="#info">Event Details</a></li>
-                  <li><a href="#history">Club History</a></li>
-                  <li><a href="#people">Supporters</a></li>
+                  <li class="hide-for-small"><a href="#history">Club History</a></li>
+                  <li class="hide-for-small"><a href="#people">Supporters</a></li>
                 </ul>
 
               </li>
             </ul>
-                                     <ul class="right">
-          <li><a href="http://www.facebook.com/CAPDTexas"><i class="fa fa-facebook fa-2x"></i></a></li>
-          <li><a href="https://twitter.com/capd_atx"><i class="fa fa-twitter fa-2x"></i></a></li>
-          <li><a href="mailto:capdemocrats@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
-        </ul> 
+            <ul class="right show-for-large-up">
+              <li><a href="http://www.facebook.com/CAPDTexas"><i class="fa fa-facebook fa-2x"></i></a></li>
+              <li><a href="https://twitter.com/capd_atx"><i class="fa fa-twitter fa-2x"></i></a></li>
+              <li><a href="mailto:capdemocrats@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
+            </ul> 
+            <ul class="right hide-for-large-up">
+              <li class="has-dropdown"><a href="#">Contact</a><ul class="dropdown">
+              <li><a href="http://www.facebook.com/CAPDTexas"><i class="fa fa-facebook fa-2x"></i></a></li>
+              <li><a href="https://twitter.com/capd_atx"><i class="fa fa-twitter fa-2x"></i></a></li>
+              <li><a href="mailto:capdemocrats@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
+            </ul></li>
+            </ul>             
 
             <!-- Left Nav Section -->
 <!--             <ul class="left">
@@ -75,7 +82,7 @@
             </div>
           </div>
 
-          <div class = "row hide-for-large-up">
+          <div class = "row hide-for-large-up show-for-medium hide-for-small">
             <div class="small-12 columns">
               <img src="images/Capitol.jpg" alt="slide 1" />
             </div>
@@ -83,7 +90,7 @@
         
         <div class="row event-info"> <!-- EVENT INFO -->
           <div class="small-12 column info">
-          <a name="#info"></a>
+          <a name="info"></a>
           <h1 class="blue">20th Anniversary Celebration</h1>
           <h3 class="blue">Capital Area Progressive Democrats</h3>
           <div class="row">
@@ -106,9 +113,9 @@
           </div>          
         </div> 
         
-        <div class="row sponsors">
+        <div class="row sponsors hide-for-small">
           <div class = "small-12 panel columns">
-            <a name="#people"></a>
+            <a name="people"></a>
           <div class="medium-6 columns">
                 <h4>Club Officers</h4>
                 <p>Ken Craig - Chair</p>
@@ -146,9 +153,9 @@
 
 
 
-        <div class="row history"> <!-- INFO ABOUT THE CLUB -->
+        <div class="row history hide-for-small"> <!-- INFO ABOUT THE CLUB -->
           <div class="small-12 column">
-            <a name="#history"></a>
+            <a name="history"></a>
             <img src="images/CAPD.png" alt="">
             <h3>Club History</h3>
             <p>The founders of CAPD were Bill Carlon, Kevin and Sheryl Cole, Ms. Willie Gage, Jerry and Didi Garcia, Obie Greenlee, Carl Hubbell, and Gerard and Jeanette Washington.</p>
@@ -175,21 +182,41 @@
             <li class="bullet-item">10 TICKETS</li>
             <li class="bullet-item">PRIORITY SEATING</li>
             <li class="bullet-item">FEATURED LISTING ON THE SPONSOR BOARD</li>
-            <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+            <li class="cta-button">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="FNQ9HP3PVCEVA">
+              <a  href="#"><input  class="button" type="submit" border="0" name="Buy Now" value="Buy Now" alt="PayPal - The safer, easier way to pay online!"></a>
+              </form>
+            </li>
+
           </ul>
           <ul class="pricing-table">
             <li class="title">Barbara Jordan Sponsor</li>
             <li class="price">$750</li>
             <li class="bullet-item">8 TICKETS</li>
             <li class="bullet-item">FEATURED LISTING ON THE SPONSOR BOARD</li>
-            <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+            <li class="cta-button">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="MY9AEAJHRKKKJ">
+              <a  href="#"><input  class="button" type="submit" border="0" name="Buy Now" value="Buy Now" alt="PayPal - The safer, easier way to pay online!"></a>
+              </form>
+
+            </li>
           </ul>
           <ul class="pricing-table">
             <li class="title">Ann Richards Sponsor</li>
             <li class="price">$500</li>
             <li class="bullet-item">6 TICKETS</li>
             <li class="bullet-item">SPONSOR BOARD LISTING</li>
-            <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+            <li class="cta-button">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="2GSCZ6UAKUMB4">
+              <a  href="#"><input  class="button" type="submit" border="0" name="Buy Now" value="Buy Now" alt="PayPal - The safer, easier way to pay online!"></a>
+              </form>
+            </li>
           </ul>
           <ul class="pricing-table">
             <li class="title">Ralph Yarbarough Sponsor</li>
