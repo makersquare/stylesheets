@@ -50,11 +50,11 @@ body {
 
 /* line 373, ../scss/foundation/components/_global.scss */
 body {
-  background: white;
+  background: #3dd0ac;
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1342,7 +1342,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       /* line 39, ../scss/foundation/components/_accordion.scss */
       .accordion dd > a:hover {
@@ -1367,8 +1367,8 @@ select {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
   transition: opacity 300ms ease-out;
-  background-color: #008cba;
-  border-color: #0078a0;
+  background-color: #719ade;
+  border-color: #4b7fd5;
   color: white; }
   /* line 113, ../scss/foundation/components/_alert-boxes.scss */
   .alert-box .close {
@@ -1423,7 +1423,7 @@ select {
 [class*="block-grid-"] {
   display: block;
   padding: 0;
-  margin: 0 -0.625rem; }
+  margin: 0 -2.5rem; }
   /* line 176, ../scss/foundation/components/_global.scss */
   [class*="block-grid-"]:before, [class*="block-grid-"]:after {
     content: " ";
@@ -1436,7 +1436,7 @@ select {
     display: block;
     height: auto;
     float: left;
-    padding: 0 0.625rem 1.25rem; }
+    padding: 0 2.5rem 5rem; }
 
 @media only screen {
   /* line 61, ../scss/foundation/components/_block-grid.scss */
@@ -1853,13 +1853,13 @@ select {
     font-size: 0.6875rem;
     line-height: 0.6875rem;
     text-transform: uppercase;
-    color: #008cba; }
+    color: #719ade; }
     /* line 68, ../scss/foundation/components/_breadcrumbs.scss */
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
       text-decoration: underline; }
     /* line 70, ../scss/foundation/components/_breadcrumbs.scss */
     .breadcrumbs > * a {
-      color: #008cba; }
+      color: #719ade; }
     /* line 75, ../scss/foundation/components/_breadcrumbs.scss */
     .breadcrumbs > *.current {
       cursor: default;
@@ -1900,7 +1900,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1915,13 +1915,13 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008cba;
-  border-color: #007095;
+  background-color: #719ade;
+  border-color: #3b73d1;
   color: white;
   transition: background-color 300ms ease-out; }
   /* line 133, ../scss/foundation/components/_buttons.scss */
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: #3b73d1; }
   /* line 144, ../scss/foundation/components/_buttons.scss */
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
@@ -2000,21 +2000,21 @@ button, .button {
     border-radius: 1000px; }
   /* line 208, ../scss/foundation/components/_buttons.scss */
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008cba;
-    border-color: #007095;
+    background-color: #719ade;
+    border-color: #3b73d1;
     color: white;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
     /* line 133, ../scss/foundation/components/_buttons.scss */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: #3b73d1; }
     /* line 144, ../scss/foundation/components/_buttons.scss */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: white; }
     /* line 154, ../scss/foundation/components/_buttons.scss */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008cba; }
+      background-color: #719ade; }
     /* line 209, ../scss/foundation/components/_buttons.scss */
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
@@ -3399,7 +3399,7 @@ kbd {
 /* line 91, ../scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3409,7 +3409,7 @@ kbd {
   margin-bottom: inherit;
   padding: 0.25rem 0.5rem 0.375rem;
   font-size: 0.6875rem;
-  background-color: #008cba;
+  background-color: #719ade;
   color: white; }
   /* line 96, ../scss/foundation/components/_labels.scss */
   .label.radius {
@@ -3432,7 +3432,7 @@ kbd {
 
 /* line 18, ../scss/foundation/components/_magellan.scss */
 [data-magellan-expedition], [data-magellan-expedition-clone] {
-  background: white;
+  background: #464c52;
   z-index: 50;
   min-width: 100%;
   padding: 10px; }
@@ -3832,13 +3832,13 @@ ul.pagination {
       background: transparent; }
     /* line 64, ../scss/foundation/components/_pagination.scss */
     ul.pagination li.current a {
-      background: #008cba;
+      background: #719ade;
       color: white;
       font-weight: bold;
       cursor: default; }
       /* line 70, ../scss/foundation/components/_pagination.scss */
       ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-        background: #008cba; }
+        background: #719ade; }
   /* line 124, ../scss/foundation/components/_pagination.scss */
   ul.pagination li {
     float: left;
@@ -3882,10 +3882,10 @@ ul.pagination {
   .panel.callout {
     border-style: solid;
     border-width: 1px;
-    border-color: #b6edff;
+    border-color: #cad9f3;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
-    background: #ecfaff; }
+    background: #f6f9fd; }
     /* line 52, ../scss/foundation/components/_panels.scss */
     .panel.callout > :first-child {
       margin-top: 0; }
@@ -3904,7 +3904,7 @@ ul.pagination {
         line-height: 1.4; }
     /* line 78, ../scss/foundation/components/_panels.scss */
     .panel.callout a:not(.button) {
-      color: #008cba; }
+      color: #719ade; }
   /* line 83, ../scss/foundation/components/_panels.scss */
   .panel.radius {
     border-radius: 3px; }
@@ -3927,7 +3927,7 @@ ul.pagination {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   /* line 143, ../scss/foundation/components/_pricing-tables.scss */
   .pricing-table .price {
     background-color: #f6f6f6;
@@ -3936,7 +3936,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   /* line 144, ../scss/foundation/components/_pricing-tables.scss */
   .pricing-table .description {
     background-color: white;
@@ -3972,7 +3972,7 @@ ul.pagination {
   margin-bottom: 0.625rem; }
   /* line 61, ../scss/foundation/components/_progress-bars.scss */
   .progress .meter {
-    background: #008cba;
+    background: #719ade;
     height: 100%;
     display: block; }
   /* line 64, ../scss/foundation/components/_progress-bars.scss */
@@ -4044,22 +4044,22 @@ ul.pagination {
     border-radius: 3px; }
     /* line 130, ../scss/foundation/components/_range-slider.scss */
     .range-slider.radius .range-slider-handle {
-      background: #008cba;
+      background: #719ade;
       border-radius: 3px; }
       /* line 99, ../scss/foundation/components/_range-slider.scss */
       .range-slider.radius .range-slider-handle:hover {
-        background: #007ba4; }
+        background: #5083d6; }
   /* line 132, ../scss/foundation/components/_range-slider.scss */
   .range-slider.round {
     background: #fafafa;
     border-radius: 1000px; }
     /* line 134, ../scss/foundation/components/_range-slider.scss */
     .range-slider.round .range-slider-handle {
-      background: #008cba;
+      background: #719ade;
       border-radius: 1000px; }
       /* line 99, ../scss/foundation/components/_range-slider.scss */
       .range-slider.round .range-slider-handle:hover {
-        background: #007ba4; }
+        background: #5083d6; }
 
 /* line 137, ../scss/foundation/components/_range-slider.scss */
 .range-slider-active-segment {
@@ -4078,10 +4078,10 @@ ul.pagination {
   height: 1.375rem;
   border: 1px solid none;
   cursor: pointer;
-  background: #008cba; }
+  background: #719ade; }
   /* line 99, ../scss/foundation/components/_range-slider.scss */
   .range-slider-handle:hover {
-    background: #007ba4; }
+    background: #5083d6; }
 
 /* line 162, ../scss/foundation/components/_reveal.scss */
 .reveal-modal-bg {
@@ -4216,7 +4216,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   /* line 70, ../scss/foundation/components/_side-nav.scss */
   .side-nav li {
     margin: 0 0 0.4375rem 0;
@@ -4224,18 +4224,18 @@ dialog[open] {
     /* line 74, ../scss/foundation/components/_side-nav.scss */
     .side-nav li a:not(.button) {
       display: block;
-      color: #008cba;
+      color: #719ade;
       margin: 0;
       padding: 0.4375rem 0.875rem; }
       /* line 79, ../scss/foundation/components/_side-nav.scss */
       .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
         background: rgba(0, 0, 0, 0.025);
-        color: #1cc7ff; }
+        color: #9cb8e8; }
     /* line 86, ../scss/foundation/components/_side-nav.scss */
     .side-nav li.active > a:first-child:not(.button) {
-      color: #1cc7ff;
+      color: #9cb8e8;
       font-weight: normal;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
     /* line 92, ../scss/foundation/components/_side-nav.scss */
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4245,7 +4245,7 @@ dialog[open] {
       border-top-color: white; }
     /* line 100, ../scss/foundation/components/_side-nav.scss */
     .side-nav li.heading {
-      color: #008cba;
+      color: #719ade;
       font-size: 0.875rem;
       font-weight: bold;
       text-transform: uppercase; }
@@ -4373,7 +4373,7 @@ dialog[open] {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -4395,7 +4395,7 @@ dialog[open] {
     .sub-nav li.active a {
       border-radius: 3px;
       font-weight: normal;
-      background: #008cba;
+      background: #719ade;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: white; }
@@ -4403,7 +4403,7 @@ dialog[open] {
       .sub-nav dt.active a:hover,
       .sub-nav dd.active a:hover,
       .sub-nav li.active a:hover {
-        background: #0078a0; }
+        background: #4b7fd5; }
 
 /* line 269, ../scss/foundation/components/_switch.scss */
 div.switch {
@@ -4832,12 +4832,12 @@ td {
 /* Default Link Styles */
 /* line 212, ../scss/foundation/components/_type.scss */
 a {
-  color: #008cba;
+  color: #719ade;
   text-decoration: none;
   line-height: inherit; }
   /* line 217, ../scss/foundation/components/_type.scss */
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #4b7fd5; }
   /* line 225, ../scss/foundation/components/_type.scss */
   a img {
     border: none; }
@@ -4864,7 +4864,7 @@ p {
 /* Default header styles */
 /* line 247, ../scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -5214,7 +5214,7 @@ blockquote p {
       background: #efefef;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       /* line 47, ../scss/foundation/components/_tabs.scss */
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
@@ -5297,7 +5297,7 @@ blockquote p {
   transition: all 200ms ease-out; }
   /* line 50, ../scss/foundation/components/_thumbs.scss */
   .th:hover, .th:focus {
-    box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(113, 154, 222, 0.5); }
   /* line 65, ../scss/foundation/components/_thumbs.scss */
   .th.radius {
     border-radius: 3px; }
@@ -5311,8 +5311,8 @@ blockquote p {
   color: #333333; }
   /* line 43, ../scss/foundation/components/_tooltips.scss */
   .has-tip:hover, .has-tip:focus {
-    border-bottom: dotted 1px #003f54;
-    color: #008cba; }
+    border-bottom: dotted 1px #1c407a;
+    color: #719ade; }
   /* line 49, ../scss/foundation/components/_tooltips.scss */
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
@@ -5356,8 +5356,8 @@ blockquote p {
       left: 2rem; }
   /* line 93, ../scss/foundation/components/_tooltips.scss */
   .tooltip.opened {
-    color: #008cba !important;
-    border-bottom: dotted 1px #003f54 !important; }
+    color: #719ade !important;
+    border-bottom: dotted 1px #1c407a !important; }
 
 /* line 99, ../scss/foundation/components/_tooltips.scss */
 .tap-to-close {
@@ -5402,7 +5402,7 @@ meta.foundation-mq-topbar {
 /* line 109, ../scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background: #464c52; }
   /* line 113, ../scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
@@ -5436,7 +5436,7 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #333333;
+  background: #464c52;
   margin-bottom: 0; }
   /* line 152, ../scss/foundation/components/_top-bar.scss */
   .top-bar ul {
@@ -5531,7 +5531,7 @@ meta.foundation-mq-topbar {
     background: transparent; }
     /* line 258, ../scss/foundation/components/_top-bar.scss */
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #464c52; }
     /* line 261, ../scss/foundation/components/_top-bar.scss */
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
@@ -5556,7 +5556,7 @@ meta.foundation-mq-topbar {
   /* line 292, ../scss/foundation/components/_top-bar.scss */
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #1a1a1a;
+    border-top: solid 1px #232629;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -5570,7 +5570,7 @@ meta.foundation-mq-topbar {
       color: white;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -5579,12 +5579,12 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-right: 15px;
         padding-left: 15px;
-        background-color: #008cba;
-        border-color: #007095;
+        background-color: #719ade;
+        border-color: #3b73d1;
         color: white; }
         /* line 133, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-          background-color: #007095; }
+          background-color: #3b73d1; }
         /* line 144, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           color: white; }
@@ -5626,12 +5626,12 @@ meta.foundation-mq-topbar {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
-      background-color: #008cba;
-      border-color: #007095;
+      background-color: #719ade;
+      border-color: #3b73d1;
       color: white; }
       /* line 133, ../scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-        background-color: #007095; }
+        background-color: #3b73d1; }
       /* line 144, ../scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         color: white; }
@@ -5674,11 +5674,11 @@ meta.foundation-mq-topbar {
       color: white; }
     /* line 344, ../scss/foundation/components/_top-bar.scss */
     .top-bar-section ul li.active > a {
-      background: #008cba;
+      background: #719ade;
       color: white; }
       /* line 347, ../scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li.active > a:hover {
-        background: #0078a0;
+        background: #5687d8;
         color: white; }
   /* line 355, ../scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
@@ -5771,7 +5771,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 435, ../scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #333333;
+    background: #464c52;
     overflow: visible; }
     /* line 176, ../scss/foundation/components/_global.scss */
     .top-bar:before, .top-bar:after {
@@ -5798,7 +5798,7 @@ meta.foundation-mq-topbar {
       top: 7px; }
     /* line 453, ../scss/foundation/components/_top-bar.scss */
     .top-bar.expanded {
-      background: #333333; }
+      background: #464c52; }
 
   /* line 456, ../scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
@@ -5829,7 +5829,7 @@ meta.foundation-mq-topbar {
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #333333; }
+      background: #464c52; }
       /* line 489, ../scss/foundation/components/_top-bar.scss */
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background: #272727; }
@@ -5838,10 +5838,10 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #008cba; }
+      background: #719ade; }
       /* line 498, ../scss/foundation/components/_top-bar.scss */
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #0078a0; }
+        background: #5687d8; }
     /* line 507, ../scss/foundation/components/_top-bar.scss */
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
@@ -5917,13 +5917,13 @@ meta.foundation-mq-topbar {
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #4e4e4e;
+      border-right: solid 1px #5b636b;
       clear: none;
       height: 45px;
       width: 0; }
     /* line 592, ../scss/foundation/components/_top-bar.scss */
     .top-bar-section .has-form {
-      background: #333333;
+      background: #464c52;
       padding: 0 15px;
       height: 45px; }
     /* line 600, ../scss/foundation/components/_top-bar.scss */
@@ -5947,7 +5947,7 @@ meta.foundation-mq-topbar {
     color: white; }
   /* line 628, ../scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: #719ade;
     color: white; }
   /* line 636, ../scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
@@ -6671,3 +6671,49 @@ th.hide-for-touch {
   /* line 404, ../scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
+/* line 1, ../scss/header.sass */
+.build {
+  color: white; }
+
+/* line 4, ../scss/header.sass */
+.fa {
+  font-size: 50px;
+  text-align: center;
+  padding: 11px; }
+
+/* line 9, ../scss/header.sass */
+.footer {
+  height: 100px; }
+
+/* line 12, ../scss/header.sass */
+.titles {
+  text-align: center;
+  color: #ecf0f1;
+  font-size: 50px;
+  font-weight: 300; }
+
+/* line 20, ../scss/header.sass */
+.social-media {
+  text-align: center; }
+
+/* line 23, ../scss/header.sass */
+.about-text {
+  text-align: center;
+  font-size: 20px; }
+
+/* line 27, ../scss/header.sass */
+.description {
+  text-align: center;
+  color: #ecf0f1;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 100px; }
+
+/* line 34, ../scss/header.sass */
+h1.titles {
+  margin-top: 75px;
+  font-size: 80px; }
+
+/* line 1, /home/vagrant/code/mks/frontend/stylesheets/foundation-design/scss/hero.sass */
+.cats li img {
+  width: 100%; }
