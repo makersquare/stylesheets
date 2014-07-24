@@ -1,0 +1,127 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+*, *:before, *:after {
+/*  border: 1px solid red;*/
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+.cf:after, .cf:before {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+}
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('background2.jpg');
+}
+body > div {
+  background: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+/*
+header > div > h2 {
+  float: right;
+}*/
+a {
+  text-decoration: none;
+  color: purple;
+}
+p {
+  text-align: left;
+}
+i {
+  font-size: 1.5em;
+  color: white;
+  font-style: normal;
+  border-radius: 5px;
+}
+a.play{
+  color:white;
+  background: #c00;
+  display: inline-block;
+  padding: 1%;
+  width: 4%;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+
+img {
+  width: 100%;
+}
+nav {
+  width: 15%;
+}
+
+/*SUPPORTERS*/
+.supporters div a{
+  display: inline-block;
+  float: left;
+  width: 12.5%;
+  padding-right: 1%; 
+}
+.supporters div a:last-child{
+  padding-right: 0;
+}
+
+/*ALBUM DIV*/
+.album-header {
+  width: 100%;
+  display: inline-block;
+}
+.album-title {
+  width: 85%;
+}
+.album-title img {
+  width: 15%;
+  float: left;
+  display: inline-block;
+}
+.album-title h2 {
+  width: 83%;
+  margin-left: 2%; 
+  float: left;
+  display: inline-block;
+}
+
+/*TRACKS*/
+.tracks div a, .tracks div h4, .tracks div span, .tracks div button {
+  display: inline-block;
+}
+.tracks {
+  max-height: 300px;
+  overflow: auto; 
+}
+.tracks h4 {
+  width: 70%;
+}
+.tracks .time {
+  width: 8%;
+}
+.tracks .download {
+  width: 12%;
+}

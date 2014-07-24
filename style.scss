@@ -1,0 +1,67 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+*, *:before, *:after {
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+$font-stack: 'Open Sans', sans-serif;
+@mixin clearfix {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+}
+.wrapper {
+  max-width: 100%;
+  width: 960px;
+  margin: 0 auto;
+  @include clearfix;
+}
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: $font-stack;
+}
+body { 
+  > div {
+    background: white;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+  }
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+img {
+  width: 100%;
+}
+.album-header {
+  width: 85%;
+}
+nav {
+  width: 15%;
+}
+.supporters div a{
+  display: inline-block;
+  float: left;
+  width: 12.5%;
+  padding-right: 1%; 
+}
+.supporters div a:last-child{
+  padding-right: 0;
+}
