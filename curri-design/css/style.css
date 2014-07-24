@@ -1,0 +1,100 @@
+/*colors
+light-grey #f6f7f9
+purple #5d66aa*/
+
+/** {
+	border: thin solid red;
+}*/
+
+/*GENERAL LAYOUT*/
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* CLEAR FIX */
+.wrapper:after, ul:after, li:after {
+    content:"";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+
+
+
+/*HEADER*/
+
+header {
+	background: #f6f7f9
+}
+
+header img {
+	height: 75px;
+	max-width: 20%;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	width: 125px;
+	height: 75px;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding: 0 auto;
+	margin-top: 20px;
+}
+
+/*BANNER*/
+
+.banner img {
+	float: left;
+	max-height: 250px;
+	border-radius: 50%;
+	margin-top: 40px;
+}
+
+.text {
+	float: right;
+	max-width: 65%;
+	margin-bottom: 20px;
+}
+
+.more-button {
+	float: left;
+	margin-bottom: 10px;
+	padding: 0 1.5em;
+	border-radius: 5%;
+}
+
+/*COMPANIES*/
+
+.companies img {
+	max-width: 100%;
+}
+
+/*WORK*/
+.work img {
+	max-width: 100%;
+}
