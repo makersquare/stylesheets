@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Guess the Number!</title>
+  </head>
+  <body>
+    <label>Pick a Number from 1-100:</label>
+    <label id="number"></label><br />
+    <label id="warning"></label><br />
+    <label id="proximity"></label>
+    <br />
+    <input id="user-input" type="text" />
+    <input id="submit-button" type="button" value="Guess" />
+    <input id="new-game" type="button" value="Start New Game" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var secretNumber = null;
+        var landMine1 = null;
+        var landMine2 = null;
+        var landMine3 = null;
+
+        var reset_numbers = function() {
+          secretNumber = parseInt(Math.random() * 100, 10) + 1;
+          landMine1 = parseInt(Math.random() * 100, 10) + 1;
+          landMine2 = parseInt(Math.random() * 100, 10) + 1;
+          landMine3 = parseInt(Math.random() * 100, 10) + 1;
+
+        };
+
+        if (secretNumber == landMine1 || secretNumber == landMine2 || secretNumber == landMine3) {
+          reset_numbers();
+        }
+
+        $('#submit-button').on('click', function (e) {
+          var userGuess = $('#user-input').val();
+          userGuess = parseInt(userGuess)
+
+          var mineProximity = new Array();
+          mineProximity[0] = Math.abs(userGuess - landMine1);
+          mineProximity[1] = Math.abs(userGuess - landMine2);
+          mineProximity[2] = Math.abs(userGuess - landMine3);
+
+          Array.min = function( mineProximity ){
+            return Math.min.apply( Math, mineProximity );
+          };
+          var proximity = Array.min(mineProximity);
+
+          $('#user-input').val('');
+          $('#number').text(userGuess);
+
+          if (userGuess == landMine1 || userGuess == landMine2 || userGuess == landMine3) {
+            $('#warning').text("You just hit a land mine. Game over! You are dead.");
+            $('#submit-button').hide();
+            $('#proximity').text('');
+          }
+          else if (userGuess == secretNumber) {
+            $('#warning').text("Congratulations! you guessed the secret number!");
+            $('#submit-button').hide();
+            $('#proximity').text('');
+          }
+          else if (userGuess > secretNumber) {
+            $('#warning').text("Your guess was to high! Try a lower number");
+            $('#proximity').text("You are " + proximity + " numbers away from a land mine!");
+          } 
+          else if (userGuess < secretNumber) {
+            $('#warning').text("Your guess was to low! Try a higher number");
+            $('#proximity').text("You are " + proximity + " numbers away from a land mine!");
+          } 
+          else { 
+            $('#warning').text("That's not a valid entry, please enter a number between 1 and 100");
+          }
+        });
+
+        $('#new-game').on('click', function (e) {
+          reset_numbers();
+          $('#submit-button').show();
+          $('#warning').text("Starting new game! The secret number has been reset.");
+          $('#user-input').val('');
+        });
+      });
+    </script>
+
+  </body>
+</html>
