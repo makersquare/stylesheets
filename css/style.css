@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Quicksand:300,400,700);
 /* line 324, ../scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.2.3/"; }
@@ -6671,3 +6672,108 @@ th.hide-for-touch {
   /* line 404, ../scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
+/* line 11, ../scss/my_scss.scss */
+body {
+  text-align: center;
+  margin: 0; }
+
+/* line 16, ../scss/my_scss.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.03rem; }
+
+/* line 23, ../scss/my_scss.scss */
+p a {
+  font-variant: small-caps;
+  font-size: 1.65rem;
+  padding: 0;
+  margin: 0; }
+
+/* line 30, ../scss/my_scss.scss */
+.wilby, .mediums, .connect {
+  background-color: #adabbb;
+  color: white; }
+
+/* line 35, ../scss/my_scss.scss */
+.about, .contact {
+  background-color: white; }
+
+/* line 41, ../scss/my_scss.scss */
+div#cover-image {
+  background-image: url("../img/flamingo-opacity-small.png");
+  background-size: cover;
+  width: 100%;
+  padding: 1.5em 0; }
+
+/* line 51, ../scss/my_scss.scss */
+.title h1 {
+  font-weight: 500;
+  font-size: 4em;
+  padding: 1rem; }
+/* line 56, ../scss/my_scss.scss */
+.title h2 {
+  font-variant: small-caps;
+  padding: 0.4rem;
+  font-size: 2.5rem; }
+/* line 61, ../scss/my_scss.scss */
+.title h3 {
+  font-variant: small-caps;
+  padding: 0.4rem;
+  font-size: 1.55rem; }
+
+/* line 70, ../scss/my_scss.scss */
+div.navbar {
+  background-color: #2a2727; }
+  /* line 72, ../scss/my_scss.scss */
+  div.navbar ul.sub-nav li a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em; }
+
+/* line 83, ../scss/my_scss.scss */
+div.wilby h1 {
+  font-variant: small-caps;
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
+/* line 88, ../scss/my_scss.scss */
+div.wilby h4 {
+  font-variant: small-caps;
+  padding-bottom: 1rem; }
+/* line 92, ../scss/my_scss.scss */
+div.wilby p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  font-kerning: auto;
+  color: #e7e2e4;
+  font-weight: 300;
+  padding-right: 2rem;
+  padding-left: 2rem; }
+
+/* line 107, ../scss/my_scss.scss */
+.about h1 {
+  font-variant: small-caps;
+  padding: 1rem; }
+/* line 111, ../scss/my_scss.scss */
+.about img {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+/* line 115, ../scss/my_scss.scss */
+.about h3 {
+  color: #adabbb;
+  padding-bottom: 2rem; }
+/* line 119, ../scss/my_scss.scss */
+.about p {
+  text-align: left;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #2a2727;
+  letter-spacing: 0.02rem; }
+
+/* line 131, ../scss/my_scss.scss */
+.mediums h1 {
+  font-variant: small-caps;
+  padding: 1rem; }
