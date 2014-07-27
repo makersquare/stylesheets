@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Quicksand:300,400,700);
 /* line 324, ../scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.2.3/"; }
@@ -6671,3 +6672,208 @@ th.hide-for-touch {
   /* line 404, ../scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
+/* line 11, ../scss/my_scss.scss */
+body {
+  text-align: center;
+  margin: 0; }
+
+/* line 16, ../scss/my_scss.scss */
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 3.65rem;
+  letter-spacing: -0.4rem; }
+
+/* line 23, ../scss/my_scss.scss */
+h1#main-headline {
+  letter-spacing: 0.3rem; }
+
+/* line 27, ../scss/my_scss.scss */
+h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.01rem; }
+
+/* line 34, ../scss/my_scss.scss */
+p a {
+  font-variant: small-caps;
+  font-size: 1.65rem;
+  padding: 0;
+  margin: 0; }
+
+/* line 41, ../scss/my_scss.scss */
+a#link {
+  color: #adabbb; }
+  /* line 43, ../scss/my_scss.scss */
+  a#link :hover {
+    color: #8e3d6f; }
+
+/* line 48, ../scss/my_scss.scss */
+a#link:hover {
+  color: #8e3d6f; }
+
+/* line 54, ../scss/my_scss.scss */
+.navbar ul.sub-nav li a {
+  color: #adabbb; }
+
+/* line 59, ../scss/my_scss.scss */
+.wilby, .mediums {
+  background-color: #adabbb;
+  color: #e7e2e4; }
+
+/* line 64, ../scss/my_scss.scss */
+.about {
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem; }
+
+/* line 70, ../scss/my_scss.scss */
+.about p a#link:hover {
+  color: #adabbb; }
+
+/* line 76, ../scss/my_scss.scss */
+div#cover-image {
+  background-image: url("../img/flamingo-opacity-small.png");
+  background-size: cover;
+  width: 100%;
+  padding: 1.5em 0; }
+
+/* line 86, ../scss/my_scss.scss */
+.title h1 {
+  font-weight: 500;
+  padding: 1rem; }
+/* line 90, ../scss/my_scss.scss */
+.title h2 {
+  font-variant: small-caps;
+  padding: 0.4rem;
+  font-size: 2.5rem; }
+/* line 95, ../scss/my_scss.scss */
+.title h3 {
+  font-variant: small-caps;
+  padding: 0.4rem;
+  font-size: 1.55rem; }
+
+/* line 104, ../scss/my_scss.scss */
+div.navbar {
+  background-color: #2a2727; }
+  /* line 106, ../scss/my_scss.scss */
+  div.navbar ul.sub-nav li a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em; }
+
+/* line 117, ../scss/my_scss.scss */
+div.wilby h1 {
+  font-variant: small-caps;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: #2a2727; }
+/* line 123, ../scss/my_scss.scss */
+div.wilby h4 {
+  font-variant: small-caps;
+  padding-bottom: 1rem;
+  color: #2a2727; }
+/* line 128, ../scss/my_scss.scss */
+div.wilby p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  font-kerning: auto;
+  color: #e7e2e4;
+  font-weight: 300;
+  padding-right: 2rem;
+  padding-left: 2rem; }
+
+/* line 143, ../scss/my_scss.scss */
+.about h1 {
+  font-variant: small-caps;
+  padding: 1rem; }
+/* line 147, ../scss/my_scss.scss */
+.about img {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+/* line 151, ../scss/my_scss.scss */
+.about h3 {
+  color: #adabbb;
+  padding-bottom: 2rem; }
+/* line 155, ../scss/my_scss.scss */
+.about p {
+  text-align: left;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #2a2727;
+  letter-spacing: 0.02rem; }
+
+/* line 168, ../scss/my_scss.scss */
+.mediums {
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+  /* line 170, ../scss/my_scss.scss */
+  .mediums h1 {
+    font-variant: small-caps;
+    padding: 1rem;
+    color: #e7e2e4; }
+  /* line 179, ../scss/my_scss.scss */
+  .mediums img {
+    margin-bottom: 2rem;
+    opacity: 0.6;
+    background-color: white; }
+  /* line 185, ../scss/my_scss.scss */
+  .mediums img:hover {
+    opacity: 1; }
+
+/* line 192, ../scss/my_scss.scss */
+.work {
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+  /* line 196, ../scss/my_scss.scss */
+  .work h1 {
+    font-variant: small-caps;
+    padding: 1rem; }
+  /* line 201, ../scss/my_scss.scss */
+  .work p {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #2a2727;
+    letter-spacing: 0.02rem; }
+  /* line 207, ../scss/my_scss.scss */
+  .work img {
+    opacity: 0.6;
+    margin-bottom: 1rem; }
+  /* line 211, ../scss/my_scss.scss */
+  .work img:hover {
+    opacity: 1; }
+
+/* line 218, ../scss/my_scss.scss */
+.contact {
+  background-color: #2a2727;
+  color: #e7e2e4;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem; }
+  /* line 225, ../scss/my_scss.scss */
+  .contact h1 {
+    font-variant: small-caps;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #e7e2e4; }
+  /* line 232, ../scss/my_scss.scss */
+  .contact h3 {
+    color: #adabbb;
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
+  /* line 238, ../scss/my_scss.scss */
+  .contact a i {
+    margin: 1.4rem; }
+  /* line 241, ../scss/my_scss.scss */
+  .contact .icons {
+    padding-bottom: 2rem; }
+  /* line 244, ../scss/my_scss.scss */
+  .contact p {
+    font-weight: 300;
+    font-size: 0.6rem;
+    color: #A0A0A0;
+    letter-spacing: 0.2rem;
+    padding-top: 4rem; }

@@ -1,0 +1,258 @@
+// Stuff for entire DOM
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Quicksand:300,400,700);
+
+$lavendar: #ADABBB;
+$dark_grey: #332D2E;
+$purple: #8E3D6F;
+$soft_grey: #E7E2E4;
+$almost_black: #2A2727;
+
+body {
+	text-align: center;
+	margin: 0;
+}
+
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 3.65rem;
+	letter-spacing: -0.4rem;
+}
+
+h1#main-headline{
+	letter-spacing: 0.3rem;
+}
+
+h2, h3, h4, h5, h6{
+		font-family: 'Quicksand', sans-serif;
+		// font-variant: small-caps;
+		// font-kerning: auto;
+		font-weight: 500;
+		letter-spacing: -0.01rem;
+}
+p a {
+	font-variant: small-caps;
+	font-size: 1.65rem;
+	padding: 0;
+	margin: 0;
+}
+
+a#link {
+	color: $lavendar;
+	:hover {
+		color: $purple;
+	}
+}
+
+a#link:hover{
+	color: $purple;
+}
+
+// Magellan navbar font color
+.navbar {
+	ul.sub-nav li a {
+		color: $lavendar;
+	}
+}
+
+.wilby, .mediums {
+	background-color: $lavendar;
+	color: $soft_grey;
+}
+
+.about {
+	background-color: white;
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+}
+
+.about p a#link:hover{
+	color: $lavendar;
+}
+
+// Title Page
+
+div#cover-image{
+	background-image: url("../img/flamingo-opacity-small.png");
+	background-size: cover;
+	width: 100%;
+	padding: 1.5em 0;
+	// max-width: 100%;
+	// height: 1000px;
+}
+
+.title {
+	h1 {
+		font-weight: 500;
+		padding: 1rem;
+	}
+	h2 {
+		font-variant: small-caps;
+		padding: 0.4rem;
+		font-size: 2.5rem;
+	}
+	h3 {
+		font-variant: small-caps;
+		padding: 0.4rem;
+		font-size: 1.55rem;
+	}
+}
+
+// Navbar Settings
+
+div.navbar{
+	background-color: $almost_black;
+	ul.sub-nav li a {
+		font-family: 'Quicksand', sans-serif;
+		// font-kerning: auto;
+		font-weight: 500;
+		font-size: 1.4em;
+	}
+}
+
+// Words I Live BY
+
+div.wilby {
+	h1 {
+		font-variant: small-caps;
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+		color: $almost_black;
+	}
+	h4 {
+		font-variant: small-caps;
+		padding-bottom: 1rem;
+		color: $almost_black;
+	}
+	p {
+		margin-bottom: 0;
+		font-size: 1.2rem;
+		font-family: 'Lato', sans-serif;
+		font-kerning: auto;
+		color: $soft_grey;
+		font-weight: 300;
+		padding-right: 2rem;
+		padding-left: 2rem;
+	}
+}
+
+// About
+
+.about {
+	h1 {
+		font-variant: small-caps;
+		padding: 1rem;
+	}
+	img {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	h3 {
+		color: $lavendar;
+		padding-bottom: 2rem;
+	}
+	p{
+		text-align: left;
+		padding-right: 2rem;
+		padding-left: 2rem;
+		font-weight: 300;
+		font-size: 1.3rem;
+		color: $almost_black;
+		letter-spacing: 0.02rem;
+	}
+}
+
+// I like to create in multiple media
+
+.mediums {
+
+	h1{
+		font-variant: small-caps;
+		padding: 1rem;
+		color: $soft_grey;
+	}
+
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+
+	img {
+		margin-bottom: 2rem;
+		opacity: 0.6;
+		background-color: white;
+	}
+
+	img:hover{
+		opacity: 1;
+	}
+}
+
+//work
+
+.work {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+
+	h1{
+		font-variant: small-caps;
+		padding: 1rem;
+	}
+
+	p{
+		font-weight: 300;
+		font-size: 1rem;
+		color: $almost_black;
+		letter-spacing: 0.02rem;
+	}
+	img {
+		opacity: 0.6;
+		margin-bottom: 1rem;
+	}
+	img:hover{
+		opacity: 1;
+	}
+}
+
+ // contact
+
+ .contact {
+ 	 	background-color: $almost_black;
+ 	 	color: $soft_grey;
+ 	 	padding-bottom: 1rem;
+ 	 	padding-right: 1rem;
+ 	 	padding-left: 1rem;
+
+ 	 	h1{
+		font-variant: small-caps;
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+		color: $soft_grey;
+		}
+
+		h3{
+			color: $lavendar;
+			padding-bottom: 3rem;
+			padding-top: 3rem;
+
+		}
+		a i {
+			margin: 1.4rem;
+		}
+		.icons {
+			padding-bottom: 2rem;
+		}
+		p {
+			font-weight: 300;
+			font-size: 0.6rem;
+			color: #A0A0A0;
+			letter-spacing: 0.2rem;
+			padding-top: 4rem;
+		}
+ }
+
+
+
+
+
+
+

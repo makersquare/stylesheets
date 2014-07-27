@@ -1,24 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Foundation Starter | CHANGE ME CHANGE ME CHANGE ME</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./font-awesome-4.1.0 2/css/font-awesome.min.css">
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
-    </head>
-    <body>
+        <style type="text/css">
+        *, *:before, *:after {
+         /* border: 1px solid red;*/
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        </style>
 
-      <!-- PUT YOUR HTML HERE -->
-      <header class="row">
-        <div class="large-12 columns panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quidem, porro veniam facere cupiditate molestiae.</div>
-      </header>
+</head>
 
-      <!-- body goes here -->
-      <script type="text/javascript" src="./js/jquery.min.js"></script>
-      <script type="text/javascript" src="./js/foundation.min.js"></script>
-      <script type="text/javascript">$(document).foundation();</script>
+<body>
+
+<!-- PUT YOUR HTML HERE -->
+     
+
+<div id="cover-image" class="clearfix title"> <!-- Title Page -->
+  <h1 id="main-headline">ALLISON ZADROZNY</h1>
+  <h2>artist & developer</h2>
+  <h3>i am a student at makersquare</h3>
+</div> <!-- End Title Page -->
+
+<!-- Magellan Nav -->
+<div data-magellan-expedition="fixed" class="navbar">
+  <ul class="sub-nav">
+    <li data-magellan-arrival="about"><a name="about">About</a></li>
+    <li data-magellan-arrival="mediums"><a name="mediums">Work</a></li>
+    <li data-magellan-arrival="contact"><a name="contact">Contact</a></li>
+  </ul>
+</div>
+<!-- End Magellan Nav -->
+
+<div class="clearfix wilby"> <!-- Words I Live By-->
+  <h1>these are words i live by</h1>
+  <div class="quotes">
+    <div class="large-4 medium-4 columns">
+      <p>Recognizing the need is the primary condition for design.</p>
+      <h4>charles eames</h4>
+    </div>
+    <div class="large-4 medium-4 columns">
+      <p>
+        Make a radical change in your lifestyle and begin to boldly do things which you may previously never have thought of doing, or been too hesitant to attempt.
+      </p>
+      <h4>jon krakauer</h4>
+    </div>
+    <div class="large-4 medium-4 columns">
+      <p>I [want] to live deep and suck out all the marrow of life.</p>
+      <h4>thoreau</h4></div>
+  </div>
+</div> <!-- End Words I Live By-->
+
+<div class="clearfix about" data-magellan-destination="about"> <!-- Hi! (About) -->
+  <h1>my name is alli</h1>
+  <img src="./img/profile.png">
+  <h3 style="text-align: center">
+    I'm a local.
+  </h3>
+  <p>
+     I became a high school teacher straight out of college with <a href="http://www.teachforamerica.org/" target="_blank" id="link">teach for america</a>. I taught Calculus, coached volleyball, directed Shakespeare, and mixed chemicals for Chemistry labs. I loved being a teacher, but in the fall of 2013 I decided to make a career pivot. Enter <a href="http://www.makersquare.com/" target="_blank" id="link">makersquare</a> and developer bootcamp in July of 2014. I graduate in October.
+  </p>
+  <p>
+    I am so excited about so many things: about people and the creative process and how invaluable strong, honest leadership is for any company or organization. I love being a part of the developer community in Austin. I cannot believe I get to wake up every day continuing to learn about and create things that work, delight, and have a clean and beautiful design. It is a dream.
+  </p>
+  <p>
+    I am inspired by contemporary minimalist design, literary masters of Elizabethan England, and contemporary modern art. I especially love <a href="http://www.rothkochapel.org/" target="_blank" id="link">mark rothko</a>.
+  </p>
+</div> <!-- End Hi! (About) -->
+
+<div class="clearfix mediums mediums" data-magellan-destination="mediums"> <!-- I like Mediums -->
+    <h1>i create in multiple media</h1>
+    <h3 class="large-4 medium-4 columns"><img src="http://www.fillmurray.com/199/199"></h3>
+    <h3 class="large-4 medium-4 columns"><img src="http://www.fillmurray.com/199/199"></h3>
+    <h3 class="large-4 medium-4 columns"><img src="http://www.fillmurray.com/199/199"></h3>
+</div> <!-- End I like Mediums -->
+
+<div class="clearfix work" > <!-- Work -->
+  <h1>see my work</h1>
+  <div class="large-4 medium-4 columns">
+    <!-- <h2>code</h2> -->
+    <img src="http://www.fillmurray.com/199/199">
+    <!-- <p>I love data structures and text analysis.</p> -->
+  </div>
+  <div class="large-4 medium-4 columns">
+    <!-- <h2>art & design</h2> -->
+    <img src="http://www.fillmurray.com/199/199">
+    <!-- <p>Picture this.</p> -->
+  </div>
+  <div class="large-4 medium-4 columns">
+    <!-- <h2>blog</h2> -->
+    <img src="http://www.fillmurray.com/199/199">
+    <!-- <p>Cartoons of my life as a developer.</p>   -->
+  </div>
+</div> <!-- End Work -->
+
+<div class="clearfix contact" data-magellan-destination="contact"> <!-- Contact -->
+
+<h1>i would love to hear from you</h1>
+<a id="link" href="mailro:allison@zadrozny.com?Subject=Hello!" target="_top"><h3>allison@zadrozny.com</h3>
+  <!-- facebook, linkedIn, BeHance, Tumblr, pinterest, instagram, github, dribble, google-plus, skype, twitter,  -->
+  <div class="icons">
+<a id="link" href="http://twitter.com/AlliZad" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+<a id="link" href="http://github.com/allizad" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+<a id="link" href="https://www.behance.net/azaallizad" target="_blank"><i class="fa fa-behance fa-2x"></i></a>
+<a id="link" href="http://www.facebook.com/azadroz" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+<a id="link" href="https://dribbble.com/AlliZad" target="_blank"><i class="fa fa-dribbble fa-2x"></i></a>
+<a id="link" href="https://www.linkedin.com/pub/allison-zadrozny" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+<a id="link" href="http://codepen.io/allizad/" target="_blank"><i class="fa fa-codepen fa-2x"></i></a>
+<a id="link" href="http://azadroz.tumblr.com" target="_blank"><i class="fa fa-tumblr fa-2x"></i></a>
+<a id="link" href="http://instagram.com/allizad" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+
+</div>
+
+<p>Made by Alli Zadrozny in Makersquare Week 2.</p>
+</div> <!-- End Contact -->
+
+
+<!-- end of main body here, star scripts -->
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/foundation.min.js"></script>
+
+<script type="text/javascript">
+$(document).foundation();
+</script>
+
     </body>
 </html>
