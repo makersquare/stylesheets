@@ -6671,3 +6671,18 @@ th.hide-for-touch {
   /* line 404, ../scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
+/* line 52, ../scss/foundation.scss */
+.center {
+  display: inline-block;
+  text-align: center; }
+
+/* line 88, ../scss/foundation.scss */
+#navmenu img {
+  border-radius: 50%;
+  margin-bottom: 2em; }
+
+/* line 93, ../scss/foundation.scss */
+#navmenu div {
+  display: block;
+  height: 2em;
+  margin: 1em 0; }

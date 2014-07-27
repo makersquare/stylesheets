@@ -13,12 +13,65 @@
 
       <!-- PUT YOUR HTML HERE -->
       <header class="row">
-        <div class="large-12 columns panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quidem, porro veniam facere cupiditate molestiae.</div>
+        <div id="navbar" class="large-12 columns panel">
+          <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+              <li class="name">
+                <h1><a href="#">My Site</a></h1>
+              </li>
+               <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+              <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+
+            <section class="top-bar-section">
+              <!-- Right Nav Section -->
+              <ul class="right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="quotes.html">Quotations</a></li>
+              </ul>
+            </section>
+          </nav>
+        </div>
       </header>
 
+      <div class="row">
+        <div class="large-3 columns">
+          <div id="navmenu" class="panel">
+            <a href="index.html"><img src="./images/randy.jpeg" alt="Randy Headshot" title="Home"></a>
+            <nav>
+              <div class="center"><a href="http://therandydavis.wordpress.com/" target="_blank">Blog</a></div>
+              <div class="center"><a href="http://twitter.com/TheRandyD" target="_blank">@TheRandyD</a></div>
+              <div class="center"><a href="http://github.com/RandyDavis" target="_blank">Git My Work</a></div>
+              <div class="center"><a href="mailto:randy_davis@outlook.com?subject=Inquiry About Your Portfolio">Say Hi!</a></div>
+            </nav>
+          </div>
+        </div>
+        <div class="large-6 columns">
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quisquam consectetur nam itaque, aut quis numquam illum neque consequatur voluptate.</p>
+            <p>Quasi quo, harum assumenda vero iure amet at. Reprehenderit deserunt, perferendis alias optio recusandae ex necessitatibus iusto nobis numquam ab!</p>
+            <p>Odio aperiam iusto sint hic animi, eveniet, laborum assumenda deleniti deserunt saepe asperiores cumque mollitia dolore voluptas dicta a! Sunt?</p>
+            <p>Amet iusto sed minima ab sapiente delectus laudantium nemo aperiam distinctio repellendus! Aliquam voluptas perspiciatis assumenda earum tempore quasi inventore?</p>
+          </div>
+        </div>
+        <div class="large-3 columns">
+          <div class="panel">
+            <a class="twitter-timeline" href="https://twitter.com/TheRandyD" data-widget-id="490216114262003713">Tweets by @TheRandyD</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+      </div>
+
+      <!-- .row>.small-3.columns>.panel^.small-6.columns>.panel^.small-3.columns>.panel -->
+      <!-- .row>.medium-4.columns*3>.panel>p>lorem15 -->
       <!-- body goes here -->
       <script type="text/javascript" src="./js/jquery.min.js"></script>
       <script type="text/javascript" src="./js/foundation.min.js"></script>
       <script type="text/javascript">$(document).foundation();</script>
+    
     </body>
+
+
 </html>
