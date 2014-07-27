@@ -13,12 +13,23 @@ body {
 	margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 3.65rem;
+	letter-spacing: -0.4rem;
+}
+
+h1#main-headline{
+	letter-spacing: 0.3rem;
+}
+
+h2, h3, h4, h5, h6{
 		font-family: 'Quicksand', sans-serif;
 		// font-variant: small-caps;
 		// font-kerning: auto;
 		font-weight: 500;
-		letter-spacing: -0.03rem;
+		letter-spacing: -0.01rem;
 }
 p a {
 	font-variant: small-caps;
@@ -27,13 +38,37 @@ p a {
 	margin: 0;
 }
 
-.wilby, .mediums, .connect {
-	background-color: $lavendar;
-	color: white;
+a#link {
+	color: $lavendar;
+	:hover {
+		color: $purple;
+	}
 }
 
-.about, .contact {
+a#link:hover{
+	color: $purple;
+}
+
+// Magellan navbar font color
+.navbar {
+	ul.sub-nav li a {
+		color: $lavendar;
+	}
+}
+
+.wilby, .mediums {
+	background-color: $lavendar;
+	color: $soft_grey;
+}
+
+.about {
 	background-color: white;
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+}
+
+.about p a#link:hover{
+	color: $lavendar;
 }
 
 // Title Page
@@ -50,7 +85,6 @@ div#cover-image{
 .title {
 	h1 {
 		font-weight: 500;
-		font-size: 4em;
 		padding: 1rem;
 	}
 	h2 {
@@ -83,11 +117,13 @@ div.wilby {
 	h1 {
 		font-variant: small-caps;
 		padding-bottom: 1rem;
-		padding-top: 1rem;	
+		padding-top: 1rem;
+		color: $almost_black;
 	}
 	h4 {
 		font-variant: small-caps;
 		padding-bottom: 1rem;
+		color: $almost_black;
 	}
 	p {
 		margin-bottom: 0;
@@ -127,9 +163,96 @@ div.wilby {
 	}
 }
 
+// I like to create in multiple media
+
 .mediums {
+
+	h1{
+		font-variant: small-caps;
+		padding: 1rem;
+		color: $soft_grey;
+	}
+
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+
+	img {
+		margin-bottom: 2rem;
+		opacity: 0.6;
+		background-color: white;
+	}
+
+	img:hover{
+		opacity: 1;
+	}
+}
+
+//work
+
+.work {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+
 	h1{
 		font-variant: small-caps;
 		padding: 1rem;
 	}
+
+	p{
+		font-weight: 300;
+		font-size: 1rem;
+		color: $almost_black;
+		letter-spacing: 0.02rem;
+	}
+	img {
+		opacity: 0.6;
+		margin-bottom: 1rem;
+	}
+	img:hover{
+		opacity: 1;
+	}
 }
+
+ // contact
+
+ .contact {
+ 	 	background-color: $almost_black;
+ 	 	color: $soft_grey;
+ 	 	padding-bottom: 1rem;
+ 	 	padding-right: 1rem;
+ 	 	padding-left: 1rem;
+
+ 	 	h1{
+		font-variant: small-caps;
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+		color: $soft_grey;
+		}
+
+		h3{
+			color: $lavendar;
+			padding-bottom: 3rem;
+			padding-top: 3rem;
+
+		}
+		a i {
+			margin: 1.4rem;
+		}
+		.icons {
+			padding-bottom: 2rem;
+		}
+		p {
+			font-weight: 300;
+			font-size: 0.6rem;
+			color: #A0A0A0;
+			letter-spacing: 0.2rem;
+			padding-top: 4rem;
+		}
+ }
+
+
+
+
+
+
+
